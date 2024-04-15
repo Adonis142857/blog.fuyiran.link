@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/Bitwarden/">
+<title>傅说 - Bitwarden</title>
+<link>https://blog.fuyiran.link/tag/Bitwarden/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/28.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/28.html">
+<title>自部署一个优秀的密码管理器 ～ Bitwarden</title>
+<link>https://blog.fuyiran.link/Technology/28.html</link>
+<dc:date>2023-08-10T08:10:00+08:00</dc:date>
+<description>介绍：Bitwarden 是一款开源的密码管理工具，与 SafeInCloud、1Password 等类似。其官方服务器端采用 .Net 开发，浏览器插件和桌面应用使用 Javascript 编写，而移动应用则由 C# 实现。该系统的数据库采用 mssql，由于其占用内存较大，部署此系统的机器至少需要 3GB 的内存。不过好消息是，有人使用 Rust 实现了 Bitwarden 并且提供了 Docker 镜像，降低了对机器配置的要求，并且官方版本中部分收费的功能,在这个开源实现中可以免费使用。本文便使用 vaultwarden 来进行配置 Bitwarden。[...]</description>
+</item>
+</rdf:RDF>

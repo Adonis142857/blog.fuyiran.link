@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/kvm/">
+<title>傅说 - kvm</title>
+<link>https://blog.fuyiran.link/tag/kvm/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/2.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/2.html">
+<title>如何批量创建 KVM 共享 IP VPS</title>
+<link>https://blog.fuyiran.link/Technology/2.html</link>
+<dc:date>2023-07-28T16:09:00+08:00</dc:date>
+<description>介绍：当我们拥有一台高性能的服务器而自己未充分利用时，可以考虑创建共享IP VPS 进行分割并销售给他人。使用本文介绍的脚本进行创建，可以使得每个分割出的服务器相互独立，不会互相干扰，还提供了面板进行管理分割出的共享IP VPS。环境要求：系统要求：Debian 8+（建议debian11而不是debian12，因为后者是beta版本，debian11安装的才是稳定版）硬件要求：2核2G内存x86_64架构服务器，硬盘至少20G可开KVM的硬件要求：VM-X或AMD-V支持 (部分VPS和全部独服支持)如果硬件或系统需求不满足，可使用LXD批量开LXC容器[...]</description>
+</item>
+</rdf:RDF>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="zh-CN"
+xml:base="https://blog.fuyiran.link/tag/%E4%B8%8D%E8%92%9C%E5%AD%90/"
+>
+<title type="text">傅说 - 不蒜子</title>
+<subtitle type="text"></subtitle>
+<updated>2023-07-31T18:20:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/tag/%E4%B8%8D%E8%92%9C%E5%AD%90/" />
+<id>https://blog.fuyiran.link/feed/atom/tag/%E4%B8%8D%E8%92%9C%E5%AD%90/</id>
+<link rel="self" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E4%B8%8D%E8%92%9C%E5%AD%90/" />
+<entry>
+<title type="html"><![CDATA[如何在 Typecho 中引入&quot;不蒜子&quot;来统计访问次数]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/7.html" />
+<id>https://blog.fuyiran.link/Technology/7.html</id>
+<updated>2023-07-31T18:20:00+08:00</updated>
+<published>2023-07-31T18:20:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[实现效果在访问量数据未取回来之前，统计次数不进行显示在主站点只显示站点总阅读量，以及总访客数在文章处显示站点总阅读量，文章总阅读量，以及总访客数]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/7.html" xml:lang="zh-CN"><![CDATA[
+<p><strong>实现效果</strong></p><ul><li>在访问量数据未取回来之前，统计次数不进行显示</li><li>在主站点只显示站点总阅读量，以及总访客数</li><li>在文章处显示站点总阅读量，文章总阅读量，以及总访客数</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/7.html" title="如何在 Typecho 中引入&quot;不蒜子&quot;来统计访问次数">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/7.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E4%B8%8D%E8%92%9C%E5%AD%90/" thr:count="0"/>
+</entry>
+</feed>

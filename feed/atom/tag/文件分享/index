@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="zh-CN"
+xml:base="https://blog.fuyiran.link/tag/%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB/"
+>
+<title type="text">傅说 - 文件分享</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-08T18:15:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/tag/%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB/" />
+<id>https://blog.fuyiran.link/feed/atom/tag/%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB/</id>
+<link rel="self" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB/" />
+<entry>
+<title type="html"><![CDATA[FileCodeBox ~ 文件快递柜，像取快递一样取文件]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/25.html" />
+<id>https://blog.fuyiran.link/Technology/25.html</id>
+<updated>2023-08-08T18:15:00+08:00</updated>
+<published>2023-08-08T18:15:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：在之前的文章中，我写过 Pingvin Share 的部署方案，有很多小伙伴向我推荐了FileCodeBox，在进行部署使用后，感觉的确很不错，于是便写一份部署教程来帮助大家部署。对比： ...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/25.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>在之前的文章中，我写过 Pingvin Share 的部署方案，有很多小伙伴向我推荐了FileCodeBox，在进行部署使用后，感觉的确很不错，于是便写一份部署教程来帮助大家部署。</p><h3>对比：</h3><table><thead><tr><th> </th><th>FileCodeBox</th><th>Pingvin Share</th></tr></thead><tbody><tr><td>轻松上传</td><td>✅</td><td>✅</td></tr><tr><td>防止爆破取件码/滥用上传</td><td>✅</td><td>❌</td></tr><tr><td>口令分享</td><td>✅</td><td>✅</td></tr><tr><td>匿名分享</td><td>✅</td><td>✅</td></tr><tr><td>管理面板</td><td>✅</td><td>✅</td></tr><tr><td>登陆二步验证</td><td>❌</td><td>✅</td></tr><tr><td>挂载阿里云OSS</td><td>✅</td><td>❌</td></tr><tr><td>文件安全监测</td><td>❌</td><td>✅</td></tr><tr><td>部署简单程度（星星数目越多越简单）</td><td>🌟🌟🌟🌟🌟</td><td>🌟🌟🌟🌟</td></tr></tbody></table><p class="more"><a href="https://blog.fuyiran.link/Technology/25.html" title="FileCodeBox ~ 文件快递柜，像取快递一样取文件">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/25.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[cryptgeon ～ 轻量的密信密件分享平台]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/24.html" />
+<id>https://blog.fuyiran.link/Technology/24.html</id>
+<updated>2023-08-08T08:10:00+08:00</updated>
+<published>2023-08-08T08:10:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：cryptgeon 是一个安全开源到轻量密信密件分享平台，灵感来自 PrivNote。]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/24.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>cryptgeon 是一个安全开源到轻量密信密件分享平台，灵感来自 PrivNote。</p><p class="more"><a href="https://blog.fuyiran.link/Technology/24.html" title="cryptgeon ～ 轻量的密信密件分享平台">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/24.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[自建文件分享平台？你可能需要 Pingvin Share]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/21.html" />
+<id>https://blog.fuyiran.link/Technology/21.html</id>
+<updated>2023-08-06T18:13:00+08:00</updated>
+<published>2023-08-06T18:13:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：你真的放心把文件交到第三方文件平台手中吗？来试试Pingvin Share轻松自建-轻松使用私有服务器搭建文件共享平台完全隐私-你的文件只属于你！不用将它放到第三方文件平台注重保护-支持二...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/21.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>你真的放心把文件交到第三方文件平台手中吗？来试试Pingvin Share</p><ul><li>轻松自建-轻松使用私有服务器搭建文件共享平台</li><li>完全隐私-你的文件只属于你！不用将它放到第三方文件平台</li><li>注重保护-支持二步验证，你的文件独属于你</li><li>更加安全-发给小伙伴使用害怕传入木马？没关系，Pingvin Share 支持挂载 clamav，让你的存储更加安全</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/21.html" title="自建文件分享平台？你可能需要 Pingvin Share">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/21.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB/" thr:count="0"/>
+</entry>
+</feed>

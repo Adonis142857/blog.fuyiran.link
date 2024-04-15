@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="zh-CN"
+xml:base="https://blog.fuyiran.link/tag/CommaFeed/"
+>
+<title type="text">傅说 - CommaFeed</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-15T19:54:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/tag/CommaFeed/" />
+<id>https://blog.fuyiran.link/feed/atom/tag/CommaFeed/</id>
+<link rel="self" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/CommaFeed/" />
+<entry>
+<title type="html"><![CDATA[CommaFeed 在线RSS阅读器]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/39.html" />
+<id>https://blog.fuyiran.link/Technology/39.html</id>
+<updated>2023-08-15T19:54:00+08:00</updated>
+<published>2023-08-15T19:54:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：CommaFeed 是一个受 Google Reader 启发、基于 Dropwizard 和 React/TypeScript 的自托管 RSS 阅读器。特点：有4种不同的布局黑暗模式完...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/39.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>CommaFeed 是一个受 Google Reader 启发、基于 Dropwizard 和 React/TypeScript 的自托管 RSS 阅读器。</p><h2>特点：</h2><ul><li>有4种不同的布局</li><li>黑暗模式</li><li>完全响应式</li><li>几乎所有操作都有键盘快捷键</li><li>支持从右到左的feeds</li><li>已翻译为25+种语言</li><li>支持数千名用户和数百万feeds</li><li>OPML导入/导出</li><li>REST API</li><li>浏览器扩展</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/39.html" title="CommaFeed 在线RSS阅读器">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/39.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/CommaFeed/" thr:count="0"/>
+</entry>
+</feed>

@@ -1,0 +1,470 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>如何使用镜像站来创造多语言支持的 Typecho 站点 - 傅说</title>
+
+    <!-- 使用url函数转换相关路径 -->
+    <link rel="stylesheet" href="../usr/themes/default/normalize.css">
+    <link rel="stylesheet" href="../usr/themes/default/grid.css">
+    <link rel="stylesheet" href="../usr/themes/default/style.css">
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/64b479301ddac507ccb75174.jpg" type="image/x-icon" />
+    <script async src="https://nico.cm/script.js" data-website-id="37091978-1aac-4676-b0da-e831e4f772d1"></script>
+
+    <!-- 通过自有函数输出HTML头部信息 -->
+    <meta name="description" content="在尝试使用Typecho创作双语博客的过程中，我遇到了一个问题，我希望博客可以支持中英文切换，在一番查找后没有找到能直接实现这个功能的办法，于是现学PHP，尝试使用了镜像站模式，blog站点为中..." />
+<meta name="keywords" content="Typecho,多语言支持,镜像站" />
+<meta name="generator" content="Typecho 1.2.1" />
+<meta name="template" content="default" />
+<link rel="pingback" href="../action/xmlrpc.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../action/xmlrpc%EF%B9%96rsd.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../action/xmlrpc%EF%B9%96wlw.html" />
+<link rel="alternate" type="application/rss+xml" title="如何使用镜像站来创造多语言支持的 Typecho 站点 &raquo; 傅说 &raquo; RSS 2.0" href="../feed/Technology/5.html.rss" />
+<link rel="alternate" type="application/rdf+xml" title="如何使用镜像站来创造多语言支持的 Typecho 站点 &raquo; 傅说 &raquo; RSS 1.0" href="../feed/rss/Technology/5.html.xmp" />
+<link rel="alternate" type="application/atom+xml" title="如何使用镜像站来创造多语言支持的 Typecho 站点 &raquo; 傅说 &raquo; ATOM 1.0" href="../feed/atom/Technology/5.html" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-5'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-5'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-5'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _5u9Vq = 'b6e'//'q'
++//'t0M'
+'t0M'+'f'//'Fc'
++'9'//'FD'
++'4b'//'B'
++'8a'//'WO'
++'399'//'m'
++//'cYv'
+'006'+//'wH'
+'825'+''///*'uf'*/'uf'
++'bc'//'xK'
++'683'//'fU'
++//'H'
+'005'+/* 'z5W'//'z5W' */''+//'r2'
+'3c'+//'mr'
+'0'+//'DBm'
+'6'+'86'//'H'
+, _Ebzc = [[3,6]];
+    
+    for (var i = 0; i < _Ebzc.length; i ++) {
+        _5u9Vq = _5u9Vq.substring(0, _Ebzc[i][0]) + _5u9Vq.substring(_Ebzc[i][1]);
+    }
+
+    return _5u9Vq;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script><link rel="stylesheet" type="text/css" href="../usr/plugins/CodeHighlighter/static/styles/okaikia.css" /></head>
+<body>
+
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="site-name col-mb-12 col-9">
+                                    <a id="logo" href="../index.html">傅说</a>
+                    <p class="description">与你一起从全新的视角领略这个世界，这里有独到的科技新闻分析，深度的学习过程记录，独特的深度思考，以及实用的资源分享。无论你是学生，科技爱好者，还是在人生路上寻找方向的探索者，我相信你都能在这里找到你想要的。欢迎你与我一起，学习知识，共创未来</p>
+                
+
+            </div>
+            <div class="site-search col-3 kit-hidden-tb">
+                <form id="search" method="post" action="../index.html" role="search">
+                    <label for="s" class="sr-only">搜索关键字</label>
+                    <input type="text" id="s" name="s" class="text" placeholder="输入关键字搜索"/>
+                    <button type="submit" class="submit">搜索</button>
+                </form>
+            </div>
+            <div class="col-mb-12">
+                <nav id="nav-menu" class="clearfix" role="navigation">
+                    <a                        href="../index.html">首页</a>
+                                                        </nav>
+            </div>
+        </div><!-- end .row -->
+    </div>
+</header><!-- end #header -->
+<div id="body">
+    <div class="container">
+        <div class="row"> 
+<div class="col-mb-12 col-8" id="main" role="main">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title" itemprop="name headline">
+            <a itemprop="url"
+               href="5.html">如何使用镜像站来创造多语言支持的 Typecho 站点</a>
+        </h1>
+        <ul class="post-meta">
+            <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                作者: <a itemprop="name"
+                                       href="../author/1/index.html"
+                                       rel="author">傅怡然</a>
+            </li>
+            <li>时间:                 <time datetime="2023-07-30T08:14:00+08:00" itemprop="datePublished">2023-07-30</time>
+            </li>
+            <li>分类: <a href="../category/Technology/index.html">科技</a></li>
+        </ul>
+        <div class="post-content" itemprop="articleBody">
+            <p>在尝试使用Typecho创作双语博客的过程中，我遇到了一个问题，我希望博客可以支持中英文切换，在一番查找后没有找到能直接实现这个功能的办法，于是现学PHP，尝试使用了镜像站模式，blog站点为中文站点，enblog站点为英文站点，用户可以在侧边栏进行切换，这是一个笨办法，但对于像我这种技术力不够强的人来说，是个简便办法，也在这里分享下我的代码，希望能起到抛砖引玉的功能，期待后续能有人进行进一步优化</p><!--more--><p>这是原先的Sidebar.php，使用于Default模版</p><pre><code class="lang-PHP">&lt;?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?&gt;
+&lt;div class=&quot;col-mb-12 col-offset-1 col-3 kit-hidden-tb&quot; id=&quot;secondary&quot; role=&quot;complementary&quot;&gt;
+    &lt;?php if (!empty($this-&gt;options-&gt;sidebarBlock) &amp;&amp; in_array('ShowRecentPosts', $this-&gt;options-&gt;sidebarBlock)): ?&gt;
+        &lt;section class=&quot;widget&quot;&gt;
+            &lt;h3 class=&quot;widget-title&quot;&gt;&lt;?php _e('最新文章'); ?&gt;&lt;/h3&gt;
+            &lt;ul class=&quot;widget-list&quot;&gt;
+                &lt;?php \Widget\Contents\Post\Recent::alloc()
+                    -&gt;parse('&lt;li&gt;&lt;a href=&quot;{permalink}&quot;&gt;{title}&lt;/a&gt;&lt;/li&gt;'); ?&gt;
+            &lt;/ul&gt;
+        &lt;/section&gt;
+    &lt;?php endif; ?&gt;
+
+    &lt;?php if (!empty($this-&gt;options-&gt;sidebarBlock) &amp;&amp; in_array('ShowRecentComments', $this-&gt;options-&gt;sidebarBlock)): ?&gt;
+        &lt;section class=&quot;widget&quot;&gt;
+            &lt;h3 class=&quot;widget-title&quot;&gt;&lt;?php _e('最近回复'); ?&gt;&lt;/h3&gt;
+            &lt;ul class=&quot;widget-list&quot;&gt;
+                &lt;?php \Widget\Comments\Recent::alloc()-&gt;to($comments); ?&gt;
+                &lt;?php while ($comments-&gt;next()): ?&gt;
+                    &lt;li&gt;
+                        &lt;a href=&quot;&lt;?php $comments-&gt;permalink(); ?&gt;&quot;&gt;&lt;?php $comments-&gt;author(false); ?&gt;&lt;/a&gt;: &lt;?php $comments-&gt;excerpt(35, '...'); ?&gt;
+                    &lt;/li&gt;
+                &lt;?php endwhile; ?&gt;
+            &lt;/ul&gt;
+        &lt;/section&gt;
+    &lt;?php endif; ?&gt;
+
+    &lt;?php if (!empty($this-&gt;options-&gt;sidebarBlock) &amp;&amp; in_array('ShowCategory', $this-&gt;options-&gt;sidebarBlock)): ?&gt;
+        &lt;section class=&quot;widget&quot;&gt;
+            &lt;h3 class=&quot;widget-title&quot;&gt;&lt;?php _e('分类'); ?&gt;&lt;/h3&gt;
+            &lt;?php \Widget\Metas\Category\Rows::alloc()-&gt;listCategories('wrapClass=widget-list'); ?&gt;
+        &lt;/section&gt;
+    &lt;?php endif; ?&gt;
+
+    &lt;?php if (!empty($this-&gt;options-&gt;sidebarBlock) &amp;&amp; in_array('ShowArchive', $this-&gt;options-&gt;sidebarBlock)): ?&gt;
+        &lt;section class=&quot;widget&quot;&gt;
+            &lt;h3 class=&quot;widget-title&quot;&gt;&lt;?php _e('归档'); ?&gt;&lt;/h3&gt;
+            &lt;ul class=&quot;widget-list&quot;&gt;
+                &lt;?php \Widget\Contents\Post\Date::alloc('type=month&amp;format=F Y')
+                    -&gt;parse('&lt;li&gt;&lt;a href=&quot;{permalink}&quot;&gt;{date}&lt;/a&gt;&lt;/li&gt;'); ?&gt;
+            &lt;/ul&gt;
+        &lt;/section&gt;
+    &lt;?php endif; ?&gt;
+
+    &lt;?php if (!empty($this-&gt;options-&gt;sidebarBlock) &amp;&amp; in_array('ShowOther', $this-&gt;options-&gt;sidebarBlock)): ?&gt;
+        &lt;section class=&quot;widget&quot;&gt;
+            &lt;h3 class=&quot;widget-title&quot;&gt;&lt;?php _e('其它'); ?&gt;&lt;/h3&gt;
+            &lt;ul class=&quot;widget-list&quot;&gt;
+                &lt;?php if ($this-&gt;user-&gt;hasLogin()): ?&gt;
+                    &lt;li class=&quot;last&quot;&gt;&lt;a href=&quot;&lt;?php $this-&gt;options-&gt;adminUrl(); ?&gt;&quot;&gt;&lt;?php _e('进入后台'); ?&gt;
+                            (&lt;?php $this-&gt;user-&gt;screenName(); ?&gt;)&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;&lt;?php $this-&gt;options-&gt;logoutUrl(); ?&gt;&quot;&gt;&lt;?php _e('退出'); ?&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;?php else: ?&gt;
+                    &lt;li class=&quot;last&quot;&gt;&lt;a href=&quot;&lt;?php $this-&gt;options-&gt;adminUrl('login.php'); ?&gt;&quot;&gt;&lt;?php _e('登录'); ?&gt;&lt;/a&gt;
+                    &lt;/li&gt;
+                &lt;?php endif; ?&gt;
+                &lt;li&gt;&lt;a href=&quot;&lt;?php $this-&gt;options-&gt;feedUrl(); ?&gt;&quot;&gt;&lt;?php _e('文章 RSS'); ?&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/section&gt;
+    &lt;?php endif; ?&gt;
+
+&lt;/div&gt;&lt;!-- end #sidebar --&gt;
+</code></pre><p>这是现在的Sidebar.php</p><pre><code class="lang-PHP">&lt;?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?&gt;
+&lt;div class=&quot;col-mb-12 col-offset-1 col-3 kit-hidden-tb&quot; id=&quot;secondary&quot; role=&quot;complementary&quot;&gt;
+    &lt;?php if (!empty($this-&gt;options-&gt;sidebarBlock) &amp;&amp; in_array('ShowRecentPosts', $this-&gt;options-&gt;sidebarBlock)): ?&gt;
+        &lt;section class=&quot;widget&quot;&gt;
+            &lt;h3 class=&quot;widget-title&quot;&gt;&lt;?php _e('最新文章'); ?&gt;&lt;/h3&gt;
+            &lt;ul class=&quot;widget-list&quot;&gt;
+                &lt;?php \Widget\Contents\Post\Recent::alloc()
+                    -&gt;parse('&lt;li&gt;&lt;a href=&quot;{permalink}&quot;&gt;{title}&lt;/a&gt;&lt;/li&gt;'); ?&gt;
+            &lt;/ul&gt;
+        &lt;/section&gt;
+    &lt;?php endif; ?&gt;
+
+    &lt;?php if (!empty($this-&gt;options-&gt;sidebarBlock) &amp;&amp; in_array('ShowRecentComments', $this-&gt;options-&gt;sidebarBlock)): ?&gt;
+        &lt;section class=&quot;widget&quot;&gt;
+            &lt;h3 class=&quot;widget-title&quot;&gt;&lt;?php _e('最近回复'); ?&gt;&lt;/h3&gt;
+            &lt;ul class=&quot;widget-list&quot;&gt;
+                &lt;?php \Widget\Comments\Recent::alloc()-&gt;to($comments); ?&gt;
+                &lt;?php while ($comments-&gt;next()): ?&gt;
+                    &lt;li&gt;
+                        &lt;a href=&quot;&lt;?php $comments-&gt;permalink(); ?&gt;&quot;&gt;&lt;?php $comments-&gt;author(false); ?&gt;&lt;/a&gt;: &lt;?php $comments-&gt;excerpt(35, '...'); ?&gt;
+                    &lt;/li&gt;
+                &lt;?php endwhile; ?&gt;
+            &lt;/ul&gt;
+        &lt;/section&gt;
+    &lt;?php endif; ?&gt;
+
+    &lt;?php if (!empty($this-&gt;options-&gt;sidebarBlock) &amp;&amp; in_array('ShowCategory', $this-&gt;options-&gt;sidebarBlock)): ?&gt;
+        &lt;section class=&quot;widget&quot;&gt;
+            &lt;h3 class=&quot;widget-title&quot;&gt;&lt;?php _e('分类'); ?&gt;&lt;/h3&gt;
+            &lt;?php \Widget\Metas\Category\Rows::alloc()-&gt;listCategories('wrapClass=widget-list'); ?&gt;
+        &lt;/section&gt;
+    &lt;?php endif; ?&gt;
+
+    &lt;?php if (!empty($this-&gt;options-&gt;sidebarBlock) &amp;&amp; in_array('ShowArchive', $this-&gt;options-&gt;sidebarBlock)): ?&gt;
+        &lt;section class=&quot;widget&quot;&gt;
+            &lt;h3 class=&quot;widget-title&quot;&gt;&lt;?php _e('归档'); ?&gt;&lt;/h3&gt;
+            &lt;ul class=&quot;widget-list&quot;&gt;
+                &lt;?php \Widget\Contents\Post\Date::alloc('type=month&amp;format=F Y')
+                    -&gt;parse('&lt;li&gt;&lt;a href=&quot;{permalink}&quot;&gt;{date}&lt;/a&gt;&lt;/li&gt;'); ?&gt;
+            &lt;/ul&gt;
+        &lt;/section&gt;
+    &lt;?php endif; ?&gt;
+
+    &lt;?php if (!empty($this-&gt;options-&gt;sidebarBlock) &amp;&amp; in_array('ShowOther', $this-&gt;options-&gt;sidebarBlock)): ?&gt;
+        &lt;section class=&quot;widget&quot;&gt;
+            &lt;h3 class=&quot;widget-title&quot;&gt;&lt;?php _e('其它'); ?&gt;&lt;/h3&gt;
+            &lt;ul class=&quot;widget-list&quot;&gt;
+                &lt;li&gt;
+                    &lt;a href=&quot;&lt;?php echo str_replace('blog.', 'enblog.', $this-&gt;request-&gt;getRequestUrl()); ?&gt;&quot;&gt;&lt;?php _e('English'); ?&gt;&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;?php if ($this-&gt;user-&gt;hasLogin()): ?&gt;
+                    &lt;li class=&quot;last&quot;&gt;&lt;a href=&quot;&lt;?php $this-&gt;options-&gt;adminUrl(); ?&gt;&quot;&gt;&lt;?php _e('进入后台'); ?&gt;
+                            (&lt;?php $this-&gt;user-&gt;screenName(); ?&gt;)&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;&lt;?php $this-&gt;options-&gt;logoutUrl(); ?&gt;&quot;&gt;&lt;?php _e('退出'); ?&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;?php else: ?&gt;
+                    &lt;li class=&quot;last&quot;&gt;&lt;a href=&quot;&lt;?php $this-&gt;options-&gt;adminUrl('login.php'); ?&gt;&quot;&gt;&lt;?php _e('登录'); ?&gt;&lt;/a&gt;
+                    &lt;/li&gt;
+                &lt;?php endif; ?&gt;
+                &lt;li&gt;&lt;a href=&quot;&lt;?php $this-&gt;options-&gt;feedUrl(); ?&gt;&quot;&gt;&lt;?php _e('文章 RSS'); ?&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/section&gt;
+    &lt;?php endif; ?&gt;
+
+&lt;/div&gt;&lt;!-- end #sidebar --&gt;</code></pre>        </div>
+        
+        <!-- 添加的引用内容 -->
+        <blockquote>
+            <p itemprop="keywords" class="tags">标签: <a href="../tag/Typecho/index.html">Typecho</a>, <a href="../tag/%E5%A4%9A%E8%AF%AD%E8%A8%80%E6%94%AF%E6%8C%81/index.html">多语言支持</a>, <a href="../tag/%E9%95%9C%E5%83%8F%E7%AB%99/index.html">镜像站</a></p>
+            <p>原文链接：https://blog.fuyiran.link/Technology/5.html</p>
+            <p>版权声明：本博客所有文章除特別声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 傅说 (<a href="../index.html" target="_blank">blog.fuyiran.link</a>) </p>
+        </blockquote>
+    </article>
+
+    <div id="comments">
+        
+            <div id="respond-post-5" class="respond">
+            <div class="cancel-comment-reply">
+                <a id="cancel-comment-reply-link" href="#respond-post-5" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>            </div>
+
+            <h3 id="response">添加新评论</h3>
+            <form method="post" action="5.html" id="comment-form" role="form">
+                                    <p>
+                        <label for="author" class="required">称呼</label>
+                        <input type="text" name="author" id="author" class="text"
+                               value="" required/>
+                    </p>
+                    <p>
+                        <label
+                            for="mail" class="required">Email</label>
+                        <input type="email" name="mail" id="mail" class="text"
+                               value="" required />
+                    </p>
+                    <p>
+                        <label
+                            for="url">网站</label>
+                        <input type="url" name="url" id="url" class="text" placeholder="http://"
+                               value="" />
+                    </p>
+                                <p>
+                    <label for="textarea" class="required">内容</label>
+                    <textarea rows="8" cols="50" name="text" id="textarea" class="textarea"
+                              required></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="submit">提交评论</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <ul class="post-near">
+        <li>上一篇: <a href="4.html" title="如何配置 Fail2Ban 来阻止恶意登录">如何配置 Fail2Ban 来阻止恶意登录</a></li>
+        <li>下一篇: <a href="6.html" title="如何使用 Hestia 面板来创建网络邮局">如何使用 Hestia 面板来创建网络邮局</a></li>
+    </ul>
+</div><!-- end #main-->
+
+<div class="col-mb-12 col-offset-1 col-3 kit-hidden-tb" id="secondary" role="complementary">
+            <section class="widget">
+            <h3 class="widget-title">最新文章</h3>
+            <ul class="widget-list">
+                <li><a href="47.html">Flare 个人书签导航</a></li><li><a href="46.html">OneNav 个性化的书签管理系统</a></li><li><a href="45.html">rss-reader 一款关注网站的即时消息的RSS在线浏览工具</a></li><li><a href="44.html">唐僧叨叨，一款开源即时通讯聊天软件</a></li><li><a href="43.html">Habitica 用游戏来养成你的习惯</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">最近回复</h3>
+            <ul class="widget-list">
+                                            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">分类</h3>
+            <ul class="widget-list"><li class="category-level-0 category-parent"><a href="../category/Life/index.html">生活</a></li><li class="category-level-0 category-parent"><a href="../category/Study/index.html">学习</a></li><li class="category-level-0 category-parent"><a href="../category/Technology/index.html">科技</a></li></ul>        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">归档</h3>
+            <ul class="widget-list">
+                <li><a href="../2023/08/index.html">August 2023</a></li><li><a href="../2023/07/index.html">July 2023</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">其它</h3>
+            <ul class="widget-list">
+                <li>
+                    <a href="https://enblog.fuyiran.link/Technology/5.html">English</a>
+                </li>
+                                    <li class="last"><a href="../admin/login.php.html">登录</a>
+                    </li>
+                                <li><a href="../feed/index.rss">文章 RSS</a></li>
+            </ul>
+        </section>
+    
+</div><!-- end #sidebar -->
+
+        </div><!-- end .row -->
+    </div>
+</div><!-- end #body -->
+
+<footer id="footer" role="contentinfo">
+    &copy; 2024 <a href="../index.html">傅说</a>
+    Powered by <a href="https://typecho.org">Typecho</a><br>
+
+    <!-- 不蒜子脚本 -->
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <!-- 不蒜子标签 -->
+            <span id="busuanzi_container_site_pv" style='display:none'>
+            本站总阅读量<span id="busuanzi_value_site_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_page_pv" style='display:none'>
+            本文总阅读量<span id="busuanzi_value_page_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+            本站访客数<span id="busuanzi_value_site_uv"></span>人次<br>
+        </span>
+    
+</footer><!-- end #footer -->
+
+<script src="../usr/plugins/SiteRunningTime/js/SiteRunningTime%EF%B9%96v=1.5.1.js"></script>
+<style>
+	
+</style>
+<script>
+	SiteRunningTime(
+		{
+			startTime:"2023-07-26 00:00:00",
+			autoRefresh:"1",
+			startTimeText:'该站点运行了<label class="year">0</label>年<label class="month">0</label>月<label class="day">0</label>日<label class="hour">0</label>时<label class="minute">0</label>分<label class="second">0</label>秒',
+		});
+</script><script type="text/javascript">
+	(function(){
+		var pres = document.querySelectorAll('pre');
+		var lineNumberClassName = 'line-numbers';
+		pres.forEach(function (item, index) {
+			item.className = item.className == '' ? lineNumberClassName : item.className + ' ' + lineNumberClassName;
+		});
+	})();
+</script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/clipboard.min.js"></script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/prism.js"></script>
+</body>
+</html>

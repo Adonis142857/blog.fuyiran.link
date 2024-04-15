@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/FileCodeBox/">
+<title>傅说 - FileCodeBox</title>
+<link>https://blog.fuyiran.link/tag/FileCodeBox/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/25.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/25.html">
+<title>FileCodeBox ~ 文件快递柜，像取快递一样取文件</title>
+<link>https://blog.fuyiran.link/Technology/25.html</link>
+<dc:date>2023-08-08T18:15:00+08:00</dc:date>
+<description>介绍：在之前的文章中，我写过 Pingvin Share 的部署方案，有很多小伙伴向我推荐了FileCodeBox，在进行部署使用后，感觉的确很不错，于是便写一份部署教程来帮助大家部署。对比： FileCodeBoxPingvin Share轻松上传✅✅防止爆破取件码/滥用上传✅❌口令分享✅✅匿名分享✅✅管理面板✅✅登陆二步验证❌✅挂载阿里云OSS✅❌文件安全监测❌✅部署简单程度（星星数目越多越简单）🌟🌟🌟🌟🌟🌟🌟🌟🌟[...]</description>
+</item>
+</rdf:RDF>

@@ -1,0 +1,482 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>唐僧叨叨，一款开源即时通讯聊天软件 - 傅说</title>
+
+    <!-- 使用url函数转换相关路径 -->
+    <link rel="stylesheet" href="../usr/themes/default/normalize.css">
+    <link rel="stylesheet" href="../usr/themes/default/grid.css">
+    <link rel="stylesheet" href="../usr/themes/default/style.css">
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/64b479301ddac507ccb75174.jpg" type="image/x-icon" />
+    <script async src="https://nico.cm/script.js" data-website-id="37091978-1aac-4676-b0da-e831e4f772d1"></script>
+
+    <!-- 通过自有函数输出HTML头部信息 -->
+    <meta name="description" content="介绍：唐僧叨叨是一款轻量级，高性能，重安全，专注于私有化部署的开源即时通讯系统。特点：🆓 开源免费：服务端源码，APP源码，Web/PC端源码全部开源，Apache2.0开源协议（可商用），没人..." />
+<meta name="keywords" content="配置,即时聊天应用,唐僧叨叨" />
+<meta name="generator" content="Typecho 1.2.1" />
+<meta name="template" content="default" />
+<link rel="pingback" href="../action/xmlrpc.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../action/xmlrpc%EF%B9%96rsd.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../action/xmlrpc%EF%B9%96wlw.html" />
+<link rel="alternate" type="application/rss+xml" title="唐僧叨叨，一款开源即时通讯聊天软件 &raquo; 傅说 &raquo; RSS 2.0" href="../feed/Technology/44.html.rss" />
+<link rel="alternate" type="application/rdf+xml" title="唐僧叨叨，一款开源即时通讯聊天软件 &raquo; 傅说 &raquo; RSS 1.0" href="../feed/rss/Technology/44.html.xmp" />
+<link rel="alternate" type="application/atom+xml" title="唐僧叨叨，一款开源即时通讯聊天软件 &raquo; 傅说 &raquo; ATOM 1.0" href="../feed/atom/Technology/44.html" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-44'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-44'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-44'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _buMU = '3'//'6'
++'67'//'PM'
++//'NXF'
+'NXF'+//'q0E'
+'30'+'d12'//'2'
++'950'//'K'
++'8ac'//'q'
++'c'//'GI'
++'1ea'//'frr'
++'c'//'c'
++'d4a'//'kQ'
++//'I'
+'9'+//'tGT'
+'8'+'2f4'//'0l'
++'a'//'dw'
++'5d'//'P30'
++'70'//'p7'
++//'c'
+'5', _9WPUho = [[3,6],[18,19]];
+    
+    for (var i = 0; i < _9WPUho.length; i ++) {
+        _buMU = _buMU.substring(0, _9WPUho[i][0]) + _buMU.substring(_9WPUho[i][1]);
+    }
+
+    return _buMU;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script><link rel="stylesheet" type="text/css" href="../usr/plugins/CodeHighlighter/static/styles/okaikia.css" /></head>
+<body>
+
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="site-name col-mb-12 col-9">
+                                    <a id="logo" href="../index.html">傅说</a>
+                    <p class="description">与你一起从全新的视角领略这个世界，这里有独到的科技新闻分析，深度的学习过程记录，独特的深度思考，以及实用的资源分享。无论你是学生，科技爱好者，还是在人生路上寻找方向的探索者，我相信你都能在这里找到你想要的。欢迎你与我一起，学习知识，共创未来</p>
+                
+
+            </div>
+            <div class="site-search col-3 kit-hidden-tb">
+                <form id="search" method="post" action="../index.html" role="search">
+                    <label for="s" class="sr-only">搜索关键字</label>
+                    <input type="text" id="s" name="s" class="text" placeholder="输入关键字搜索"/>
+                    <button type="submit" class="submit">搜索</button>
+                </form>
+            </div>
+            <div class="col-mb-12">
+                <nav id="nav-menu" class="clearfix" role="navigation">
+                    <a                        href="../index.html">首页</a>
+                                                        </nav>
+            </div>
+        </div><!-- end .row -->
+    </div>
+</header><!-- end #header -->
+<div id="body">
+    <div class="container">
+        <div class="row"> 
+<div class="col-mb-12 col-8" id="main" role="main">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title" itemprop="name headline">
+            <a itemprop="url"
+               href="44.html">唐僧叨叨，一款开源即时通讯聊天软件</a>
+        </h1>
+        <ul class="post-meta">
+            <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                作者: <a itemprop="name"
+                                       href="../author/1/index.html"
+                                       rel="author">傅怡然</a>
+            </li>
+            <li>时间:                 <time datetime="2023-08-18T08:08:00+08:00" itemprop="datePublished">2023-08-18</time>
+            </li>
+            <li>分类: <a href="../category/Technology/index.html">科技</a></li>
+        </ul>
+        <div class="post-content" itemprop="articleBody">
+            <h2>介绍：</h2><p>唐僧叨叨是一款轻量级，高性能，重安全，专注于私有化部署的开源即时通讯系统。</p><h2>特点：</h2><ul><li>🆓 开源免费：服务端源码，APP源码，Web/PC端源码全部开源，Apache2.0开源协议（可商用），没人能拿捏你</li><li>🔏 私有化部署：所有程序和数据都在自己的服务器上，不用担心数据泄露，不用担心数据被用于其他用途</li><li>🆚 消息必达：采用 tcp + ack机制，保证消息必达，支持离线消息，支持消息漫游。</li><li>🔐 内容安全：消息传输采用私有二进制加密协议、DH+流式加密，防止消息内容泄露</li><li>💽 消息永久存储：消息支持永久存储，得益于WuKongIM的自研消息db，永久存储不影响性能，只浪费点磁盘空间</li><li>📱 多设备消息同步：支持 1 个移动端、多个 Web/PC 端同时在线，并且支持多端之间的消息实时同步。</li><li>📟 全平台支持：iOS，Android，Windows，MAC，Ubuntu，Web</li></ul><h2>提示：</h2><p>在自部署客户端中，新用户注册必须使用iOS/Android应用，且无法进行密码找回<br>开源版有很多功能无法使用，更推荐使用Tailchat<br>部署教程：<a href="13.html">https://blog.fuyiran.link/Technology/13.html</a><br><img src="https://pic.imgdb.cn/item/64df967d661c6c8e54bb738f.jpg" alt="" title=""></p><!--more--><h2>环境要求：</h2><p>配置&gt;=2H8G</p><h2>部署方法：</h2><h3>第一步：更新源</h3><p><strong>Ubuntu/Debian：</strong></p><pre><code class="lang-bash">apt update -y &amp;&amp; apt upgrade -y    </code></pre><p><strong>Centos：</strong></p><pre><code class="lang-bash">yum update -y &amp;&amp; yum upgrade -y   </code></pre><h3>第二步：安装并配置Docker</h3><p>安装Docker：</p><pre><code class="lang-bash">curl -fsSL https://get.docker.com -o get-docker.sh &amp;&amp; sudo sh ./get-docker.sh</code></pre><p>启动Docker：</p><pre><code class="lang-bash">sudo systemctl start docker</code></pre><p>设置Docker在开机时自动启动：</p><pre><code class="lang-bash">sudo systemctl enable docker</code></pre><h3>第三步：创建安装目录</h3><pre><code class="lang-bash">sudo mkdir -p ~/tsdd &amp;&amp; cd ~/tsdd</code></pre><h3>第四步：配置参数</h3><ol><li><p>配置<code>docker-compose.yaml</code> 文件</p><pre><code class="lang-bash">nano docker-compose.yaml</code></pre><p>填入以下内容：</p><pre><code class="lang-bash">version: '3.1'
+services:
+  wukongim:  # 唐僧叨叨通讯服务（悟空IM）
+ image: registry.cn-shanghai.aliyuncs.com/wukongim/wukongim:latest
+ restart: always
+ ports:
+   # - &quot;5001:5001&quot; # http api端口（业务端调用，仅限内网开放） 
+   - &quot;5100:5100&quot;  # tcp长连接端口（外网开放）
+   - &quot;5200:5200&quot; # websocket端口（外网开放）
+   - &quot;5300:5300&quot; # 监控端口
+ volumes:
+   - ./wukongim:/root/wukongim
+ environment:
+   - WK_MODE=${WK_MODE}
+   - WK_EXTERNAL_IP=${EXTERNAL_IP}
+   - WK_CONVERSATION_ON=true
+   - WK_WEBHOOK_GRPCADDR=tangsengdaodaoserver:6979
+   - WK_DATASOURCE_ADDR=http://tangsengdaodaoserver:8090/v1/datasource
+   - WK_DATASOURCE_CHANNELINFOON=true
+   - WK_TOKENAUTHON=true  
+  tangsengdaodaoserver:  # 唐僧叨叨的业务服务
+ image: registry.cn-shanghai.aliyuncs.com/wukongim/tangsengdaodaoserver:latest
+ restart: always
+ command: &quot;api&quot;
+ healthcheck:
+   test: &quot;wget -q -Y off -O /dev/null http://localhost:8090/v1/ping &gt; /dev/null 2&gt;&amp;1&quot;
+   interval: 10s
+   timeout: 10s
+   retries: 3
+ depends_on:
+    - redis
+    - mysql
+    - wukongim
+ ports:
+   - &quot;8090:8090&quot;
+ volumes:
+   - ./tsdd:/home/tsdddata
+   # - ./tsdd/configs/tsdd.yaml:/home/configs/tsdd.yaml
+ environment:
+   - TS_MODE=${TS_MODE}
+   - TS_WUKONGIM_APIURL=http://wukongim:5001
+   - TS_DB_MYSQLADDR=root:${MYSQL_ROOT_PASSWORD}@tcp(mysql)/${MYSQL_DATABASE}?charset=utf8mb4&amp;parseTime=true&amp;loc=Local
+   - TS_DB_REDISADDR=redis:6379
+   - TS_EXTERNAL_IP=${EXTERNAL_IP}
+   - TS_SMSCODE=${TS_SMSCODE}
+   - TS_FILESERVICE=${TS_FILESERVICE}
+   - TS_MINIO_ACCESSKEYID=${MINIO_ROOT_USER}
+   - TS_MINIO_SECRETACCESSKEY=${MINIO_ROOT_PASSWORD}
+   - TS_AVATAR_DEFAULTBASEURL=https://api.multiavatar.com/{avatar}.png
+  tangsengdaodaoweb:  # 唐僧叨叨的web服务
+ image: registry.cn-shanghai.aliyuncs.com/wukongim/tangsengdaodaoweb:latest
+ restart: always
+ environment:
+   - API_URL=http://${EXTERNAL_IP}:8090/
+ ports:
+   - &quot;82:80&quot; 
+  tangsengdaodaomanager:  # 唐僧叨叨的后台管理系统
+ image: registry.cn-shanghai.aliyuncs.com/wukongim/tangsengdaodaomanager:latest
+ restart: always
+ environment:
+   - API_URL=http://${EXTERNAL_IP}:8090/
+ ports:
+   - &quot;83:80&quot;    
+  minio: # minio文件管理服务
+ image: minio/minio:latest # use a remote image
+ expose:
+   - &quot;9000&quot;
+   - &quot;9001&quot;
+ command: &quot;server /data --console-address ':9001'&quot;
+ ports:
+   - &quot;9000:9000&quot;
+   - &quot;9001:9001&quot;
+ environment:
+   - MINIO_ROOT_USER=${MINIO_ROOT_USER}
+   - MINIO_ROOT_PASSWORD=${MINIO_ROOT_PASSWORD}
+ healthcheck:
+   test: [&quot;CMD&quot;, &quot;curl&quot;, &quot;-f&quot;, &quot;http://localhost:9000/minio/health/live&quot;]
+   interval: 30s
+   timeout: 20s
+   retries: 3
+ volumes:
+   - ./miniodata:/data    
+  mysql:  # mysql数据库
+ image: mysql:latest
+ command: --default-authentication-plugin=mysql_native_password
+ healthcheck:
+   test: [&quot;CMD&quot;, &quot;mysqladmin&quot; ,&quot;ping&quot;, &quot;-h&quot;, &quot;localhost&quot;]
+ environment:
+   - TZ=Asia/Shanghai
+   - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+   - MYSQL_DATABASE=${MYSQL_DATABASE}
+ volumes:
+   - ./mysqldata:/var/lib/mysql                    
+  redis:  # redis
+ image: redis
+ restart: always
+ healthcheck:
+   test: [&quot;CMD&quot;, &quot;redis-cli&quot;, &quot;ping&quot;]
+   interval: 1s
+   timeout: 3s
+   retries: 30
+  adminer:  # mysql web管理工具 调试用，为了安全生产不要打开
+image: adminer:latest
+ports:
+  - 8306:8080</code></pre></li><li><p>配置<code>.env</code> 文件</p><pre><code class="lang-bash">nano .env</code></pre><p>填入以下内容：</p><pre><code class="lang-bash"># Common config
+
+# The IP address of the server.
+EXTERNAL_IP=
+
+# MYSQL Config
+
+ # The password of the root user of the mysql database
+MYSQL_ROOT_PASSWORD=
+# The name of the mysql database
+MYSQL_DATABASE=im
+
+# Minio Config
+
+# The access key ID of the minio file service
+MINIO_ROOT_USER=minio
+# The secret access key of the minio file service
+MINIO_ROOT_PASSWORD=
+
+# WuKongIM Config
+
+# debug or release
+WK_MODE=debug
+
+# TangSengDaoDao Config
+
+# File service type, default is minio
+TS_FILESERVICE=minio
+# debug or release
+TS_MODE=debug
+# The SMS code for testing, if it is not empty, the SMS code will be this value (If you need to configure real SMS, please refer to the SMS configuration in the complete configuration)
+TS_SMSCODE=123456</code></pre><p>需要修改如下参数：</p></li><li>EXTERNAL_IP：服务器的对外IP地址</li></ol><ul><li>MYSQL_ROOT_PASSWORD：mysql数据库的root用户密码，随机填写</li><li>MINIO_ROOT_PASSWORD：minio 文件服务的密码，随机填写(至少8位)</li><li><p>TS_SMSCODE：手机注册默认的短信验证码</p><h3>第五步：启动 Docker 容器</h3><pre><code class="lang-bash">docker compose up -d</code></pre><p>并对如下端口进行开放：</p><table><thead><tr><th align="left">端口</th><th align="left">说明</th></tr></thead><tbody><tr><td align="left">8090</td><td align="left">API端口</td></tr><tr><td align="left">82</td><td align="left">Web IM 端口</td></tr><tr><td align="left">5100</td><td align="left">TCP长连接端口</td></tr><tr><td align="left">5200</td><td align="left">Websocket端口</td></tr><tr><td align="left">9000</td><td align="left">minio文件服务端口</td></tr><tr><td align="left">9001</td><td align="left">minio文件管理端口 (非必须)</td></tr><tr><td align="left">8306</td><td align="left">mysql web管理端端口 （非必须）</td></tr></tbody></table><p>部署完成后可以访问 <code>https://&lt;your-ip&gt;:82</code> 来访问唐僧叨叨</p><h3>第六步：注册新用户</h3></li></ul><p>登录手机端，点击右上角的设置</p><p><img src="https://pic.imgdb.cn/item/64df8d22661c6c8e5498f0b8.jpg" alt="" title=""></p><p>在服务器配置中服务器地址为服务器IP地址，端口为8090，配置完成后点击<code>提交</code>按钮</p><p><img src="https://pic.imgdb.cn/item/64df8d4c661c6c8e54997540.jpg" alt="" title=""></p><p>返回登录界面，长按<code>欢迎登录唐僧叨叨</code>按钮进入隐藏登录界面</p><p><img src="https://pic.imgdb.cn/item/64df8d9c661c6c8e549a77b0.jpg" alt="" title=""></p><p>在此页面中短信验证码输入刚才设置的<code>TS_SMSCODE</code>即可进行注册，无须实际发码验证</p><p><img src="https://pic.imgdb.cn/item/64df8e5f661c6c8e549d0bd8.jpg" alt="" title=""></p><p>注册成功后即可在Web端使用账号密码登录或使用手机号进行登录</p><h2>相关地址：</h2><p>官方地址：<a href="https://tangsengdaodao.com">https://tangsengdaodao.com</a></p><p>GitHub地址：<a href="https://github.com/TangSengDaoDao/TangSengDaoDaoServer">https://github.com/TangSengDaoDao/TangSengDaoDaoServer</a></p>        </div>
+        
+        <!-- 添加的引用内容 -->
+        <blockquote>
+            <p itemprop="keywords" class="tags">标签: <a href="../tag/%E9%85%8D%E7%BD%AE/index.html">配置</a>, <a href="../tag/%E5%8D%B3%E6%97%B6%E8%81%8A%E5%A4%A9%E5%BA%94%E7%94%A8/index.html">即时聊天应用</a>, <a href="../tag/%E5%94%90%E5%83%A7%E5%8F%A8%E5%8F%A8/index.html">唐僧叨叨</a></p>
+            <p>原文链接：https://blog.fuyiran.link/Technology/44.html</p>
+            <p>版权声明：本博客所有文章除特別声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 傅说 (<a href="../index.html" target="_blank">blog.fuyiran.link</a>) </p>
+        </blockquote>
+    </article>
+
+    <div id="comments">
+        
+            <div id="respond-post-44" class="respond">
+            <div class="cancel-comment-reply">
+                <a id="cancel-comment-reply-link" href="#respond-post-44" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>            </div>
+
+            <h3 id="response">添加新评论</h3>
+            <form method="post" action="44.html" id="comment-form" role="form">
+                                    <p>
+                        <label for="author" class="required">称呼</label>
+                        <input type="text" name="author" id="author" class="text"
+                               value="" required/>
+                    </p>
+                    <p>
+                        <label
+                            for="mail" class="required">Email</label>
+                        <input type="email" name="mail" id="mail" class="text"
+                               value="" required />
+                    </p>
+                    <p>
+                        <label
+                            for="url">网站</label>
+                        <input type="url" name="url" id="url" class="text" placeholder="http://"
+                               value="" />
+                    </p>
+                                <p>
+                    <label for="textarea" class="required">内容</label>
+                    <textarea rows="8" cols="50" name="text" id="textarea" class="textarea"
+                              required></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="submit">提交评论</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <ul class="post-near">
+        <li>上一篇: <a href="43.html" title="Habitica 用游戏来养成你的习惯">Habitica 用游戏来养成你的习惯</a></li>
+        <li>下一篇: <a href="45.html" title="rss-reader 一款关注网站的即时消息的RSS在线浏览工具">rss-reader 一款关注网站的即时消息的RSS在线浏览工具</a></li>
+    </ul>
+</div><!-- end #main-->
+
+<div class="col-mb-12 col-offset-1 col-3 kit-hidden-tb" id="secondary" role="complementary">
+            <section class="widget">
+            <h3 class="widget-title">最新文章</h3>
+            <ul class="widget-list">
+                <li><a href="47.html">Flare 个人书签导航</a></li><li><a href="46.html">OneNav 个性化的书签管理系统</a></li><li><a href="45.html">rss-reader 一款关注网站的即时消息的RSS在线浏览工具</a></li><li><a href="44.html">唐僧叨叨，一款开源即时通讯聊天软件</a></li><li><a href="43.html">Habitica 用游戏来养成你的习惯</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">最近回复</h3>
+            <ul class="widget-list">
+                                            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">分类</h3>
+            <ul class="widget-list"><li class="category-level-0 category-parent"><a href="../category/Life/index.html">生活</a></li><li class="category-level-0 category-parent"><a href="../category/Study/index.html">学习</a></li><li class="category-level-0 category-parent"><a href="../category/Technology/index.html">科技</a></li></ul>        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">归档</h3>
+            <ul class="widget-list">
+                <li><a href="../2023/08/index.html">August 2023</a></li><li><a href="../2023/07/index.html">July 2023</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">其它</h3>
+            <ul class="widget-list">
+                <li>
+                    <a href="https://enblog.fuyiran.link/Technology/44.html">English</a>
+                </li>
+                                    <li class="last"><a href="../admin/login.php.html">登录</a>
+                    </li>
+                                <li><a href="../feed/index.rss">文章 RSS</a></li>
+            </ul>
+        </section>
+    
+</div><!-- end #sidebar -->
+
+        </div><!-- end .row -->
+    </div>
+</div><!-- end #body -->
+
+<footer id="footer" role="contentinfo">
+    &copy; 2024 <a href="../index.html">傅说</a>
+    Powered by <a href="https://typecho.org">Typecho</a><br>
+
+    <!-- 不蒜子脚本 -->
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <!-- 不蒜子标签 -->
+            <span id="busuanzi_container_site_pv" style='display:none'>
+            本站总阅读量<span id="busuanzi_value_site_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_page_pv" style='display:none'>
+            本文总阅读量<span id="busuanzi_value_page_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+            本站访客数<span id="busuanzi_value_site_uv"></span>人次<br>
+        </span>
+    
+</footer><!-- end #footer -->
+
+<script src="../usr/plugins/SiteRunningTime/js/SiteRunningTime%EF%B9%96v=1.5.1.js"></script>
+<style>
+	
+</style>
+<script>
+	SiteRunningTime(
+		{
+			startTime:"2023-07-26 00:00:00",
+			autoRefresh:"1",
+			startTimeText:'该站点运行了<label class="year">0</label>年<label class="month">0</label>月<label class="day">0</label>日<label class="hour">0</label>时<label class="minute">0</label>分<label class="second">0</label>秒',
+		});
+</script><script type="text/javascript">
+	(function(){
+		var pres = document.querySelectorAll('pre');
+		var lineNumberClassName = 'line-numbers';
+		pres.forEach(function (item, index) {
+			item.className = item.className == '' ? lineNumberClassName : item.className + ' ' + lineNumberClassName;
+		});
+	})();
+</script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/clipboard.min.js"></script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/prism.js"></script>
+</body>
+</html>

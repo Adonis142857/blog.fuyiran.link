@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - 调查问卷系统</title>
+<link>https://blog.fuyiran.link/tag/%E8%B0%83%E6%9F%A5%E9%97%AE%E5%8D%B7%E7%B3%BB%E7%BB%9F/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/%E8%B0%83%E6%9F%A5%E9%97%AE%E5%8D%B7%E7%B3%BB%E7%BB%9F/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Mon, 07 Aug 2023 08:30:00 +0800</lastBuildDate>
+<pubDate>Mon, 07 Aug 2023 08:30:00 +0800</pubDate>
+<item>
+<title>自部署个调查问卷系统/考试系统？那我推荐&amp;quot;卷王&amp;quot;</title>
+<link>https://blog.fuyiran.link/Technology/22.html</link>
+<guid>https://blog.fuyiran.link/Technology/22.html</guid>
+<pubDate>Mon, 07 Aug 2023 08:30:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍卷王，功能强大的调查问卷系统和考试系统]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍</h2><p>卷王，功能强大的调查问卷系统和考试系统</p><p class="more"><a href="https://blog.fuyiran.link/Technology/22.html" title="自部署个调查问卷系统/考试系统？那我推荐&quot;卷王&quot;">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/22.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E8%B0%83%E6%9F%A5%E9%97%AE%E5%8D%B7%E7%B3%BB%E7%BB%9F/</wfw:commentRss>
+</item>
+</channel>
+</rss>

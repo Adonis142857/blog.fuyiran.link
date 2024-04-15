@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - Forsaken-Mail</title>
+<link>https://blog.fuyiran.link/tag/Forsaken-Mail/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/Forsaken-Mail/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Fri, 04 Aug 2023 16:01:00 +0800</lastBuildDate>
+<pubDate>Fri, 04 Aug 2023 16:01:00 +0800</pubDate>
+<item>
+<title>超简单 ～ 用 Forsaken-Mail 来部署自己的临时邮箱</title>
+<link>https://blog.fuyiran.link/Technology/17.html</link>
+<guid>https://blog.fuyiran.link/Technology/17.html</guid>
+<pubDate>Fri, 04 Aug 2023 16:01:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：Forsaken-Mail，超简单的临时邮箱部署工具，在我之前的文章中，介绍过两种办法，一种是使用Cloudflare的邮件转发功能，转发到自己邮箱，只能投送到一个邮箱，功能受限，一种是使...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Forsaken-Mail，超简单的临时邮箱部署工具，在我之前的文章中，介绍过两种办法，一种是使用Cloudflare的邮件转发功能，转发到自己邮箱，只能投送到一个邮箱，功能受限，一种是使用 Hestia 面板，不仅有独立邮箱，还能够使用这个邮箱发送邮件。<br>但是有的小伙伴希望只使用临时邮箱服务，不需要发送邮件，只需要接收就可以，那有没有更简单的方案呢？来啦，今天就介绍下 Forsaken-Mail 的部署方案，真的超级简单，跟着步骤走就可以了</p><p class="more"><a href="https://blog.fuyiran.link/Technology/17.html" title="超简单 ～ 用 Forsaken-Mail 来部署自己的临时邮箱">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/17.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/Forsaken-Mail/</wfw:commentRss>
+</item>
+</channel>
+</rss>

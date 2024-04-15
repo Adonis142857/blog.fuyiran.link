@@ -1,0 +1,360 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>如何配置一个易拓展的即时聊天应用 —Tailchat - 傅说</title>
+
+    <!-- 使用url函数转换相关路径 -->
+    <link rel="stylesheet" href="../usr/themes/default/normalize.css">
+    <link rel="stylesheet" href="../usr/themes/default/grid.css">
+    <link rel="stylesheet" href="../usr/themes/default/style.css">
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/64b479301ddac507ccb75174.jpg" type="image/x-icon" />
+    <script async src="https://nico.cm/script.js" data-website-id="37091978-1aac-4676-b0da-e831e4f772d1"></script>
+
+    <!-- 通过自有函数输出HTML头部信息 -->
+    <meta name="description" content="介绍：Tailchat—一个开源易拓展的及时聊天应用，让沟通变得更加自由、灵活和有趣" />
+<meta name="keywords" content="配置,易拓展,即时聊天应用,Tailchat" />
+<meta name="generator" content="Typecho 1.2.1" />
+<meta name="template" content="default" />
+<link rel="pingback" href="../action/xmlrpc.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../action/xmlrpc%EF%B9%96rsd.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../action/xmlrpc%EF%B9%96wlw.html" />
+<link rel="alternate" type="application/rss+xml" title="如何配置一个易拓展的即时聊天应用 —Tailchat &raquo; 傅说 &raquo; RSS 2.0" href="../feed/Technology/13.html.rss" />
+<link rel="alternate" type="application/rdf+xml" title="如何配置一个易拓展的即时聊天应用 —Tailchat &raquo; 傅说 &raquo; RSS 1.0" href="../feed/rss/Technology/13.html.xmp" />
+<link rel="alternate" type="application/atom+xml" title="如何配置一个易拓展的即时聊天应用 —Tailchat &raquo; 傅说 &raquo; ATOM 1.0" href="../feed/atom/Technology/13.html" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-13'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-13'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-13'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _Wy1Hl = '6'//'kB'
++'3b'//'9a'
++//'D'
+'D'+//'7vh'
+'b6c'+//'y'
+'6'+'1'//'8'
++'05'//'f'
++//'NN'
+'4'+'c'//'id'
++//'F'
+'1'+'e'//'Q'
++'d'//'EF'
++//'oe'
+'oe'+'d0'//'Xp'
++'f'//'tGE'
++''///*'uy'*/'uy'
++//'5'
+'6a4'+'5'//'xs8'
++//'J'
+'d82'+'73'//'E'
++//'e'
+'0ba'+''///*'P'*/'P'
++'64'//'gsG'
+, _jJroJ = [[3,4],[15,17]];
+    
+    for (var i = 0; i < _jJroJ.length; i ++) {
+        _Wy1Hl = _Wy1Hl.substring(0, _jJroJ[i][0]) + _Wy1Hl.substring(_jJroJ[i][1]);
+    }
+
+    return _Wy1Hl;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script><link rel="stylesheet" type="text/css" href="../usr/plugins/CodeHighlighter/static/styles/okaikia.css" /></head>
+<body>
+
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="site-name col-mb-12 col-9">
+                                    <a id="logo" href="../index.html">傅说</a>
+                    <p class="description">与你一起从全新的视角领略这个世界，这里有独到的科技新闻分析，深度的学习过程记录，独特的深度思考，以及实用的资源分享。无论你是学生，科技爱好者，还是在人生路上寻找方向的探索者，我相信你都能在这里找到你想要的。欢迎你与我一起，学习知识，共创未来</p>
+                
+
+            </div>
+            <div class="site-search col-3 kit-hidden-tb">
+                <form id="search" method="post" action="../index.html" role="search">
+                    <label for="s" class="sr-only">搜索关键字</label>
+                    <input type="text" id="s" name="s" class="text" placeholder="输入关键字搜索"/>
+                    <button type="submit" class="submit">搜索</button>
+                </form>
+            </div>
+            <div class="col-mb-12">
+                <nav id="nav-menu" class="clearfix" role="navigation">
+                    <a                        href="../index.html">首页</a>
+                                                        </nav>
+            </div>
+        </div><!-- end .row -->
+    </div>
+</header><!-- end #header -->
+<div id="body">
+    <div class="container">
+        <div class="row"> 
+<div class="col-mb-12 col-8" id="main" role="main">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title" itemprop="name headline">
+            <a itemprop="url"
+               href="13.html">如何配置一个易拓展的即时聊天应用 —Tailchat</a>
+        </h1>
+        <ul class="post-meta">
+            <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                作者: <a itemprop="name"
+                                       href="../author/1/index.html"
+                                       rel="author">傅怡然</a>
+            </li>
+            <li>时间:                 <time datetime="2023-08-02T18:46:00+08:00" itemprop="datePublished">2023-08-02</time>
+            </li>
+            <li>分类: <a href="../category/Technology/index.html">科技</a></li>
+        </ul>
+        <div class="post-content" itemprop="articleBody">
+            <h2>介绍：</h2><p><strong>Tailchat—一个开源易拓展的及时聊天应用，让沟通变得更加自由、灵活和有趣</strong></p><!--more--><p>对于个人用户，Tailchat完美适配了如下应用场景：</p><ol><li><strong>和朋友一起玩</strong>：只需创建一个群组，并通过多个频道分割不同的话题，还可以使用网页面板来分享您喜欢的网页。</li><li><strong>建立自己的粉丝圈</strong>：使用机器人来订阅并转发信息到聊天面板，让粉丝集中在一起，避免创建无数个QQ群/微信群，多个频道更能让多个话题一起产生。</li><li><strong>隐私掌握在手中</strong>：如果您非常看重隐私，Tailchat允许您自行部署，一切都能掌控在您的手中。</li></ol><p>对于企业用户，Tailchat同样具备丰富特性：</p><ol><li><strong>面板化设计</strong>：完全满足企业自定义化设计需求。</li><li><strong>插件化架构</strong>：基于核心进行二次开发变得无比方便。</li><li><strong>自部署实现</strong>：保护企业价值，让您使用更加安心。</li><li><strong>开源代码</strong>：代码的透明让审查变得简单。</li></ol><p><img src="https://pic.imgdb.cn/item/64ca427c1ddac507cc851463.jpg" alt="" title=""></p><h3>第一步：更新源</h3><pre><code class="lang-bash">#Ubuntu/Debian
+apt update -y &amp;&amp; apt upgrade -y    
+#Centos
+yum update -y &amp;&amp; yum upgrade -y    </code></pre><h3>第二步：安装Docker</h3><pre><code class="lang-bash">curl -fsSL https://get.docker.com -o get-docker.sh &amp;&amp; sh ./get-docker.sh</code></pre><h3>第三步：拉取镜像</h3><pre><code class="lang-bash">docker pull moonrailgun/tailchat # 从公共镜像库拉取 tailchat镜像
+docker tag moonrailgun/tailchat tailchat # 将下载的镜像改名为tailchat(和源码编译保持一致，如果不改的话会走源码编译流程)</code></pre><h3>第四步：下载必要文件</h3><pre><code class="lang-bash">mkdir tailchat &amp;&amp; cd tailchat
+wget https://raw.githubusercontent.com/msgbyte/tailchat/master/docker-compose.yml
+wget https://raw.githubusercontent.com/msgbyte/tailchat/master/docker-compose.env
+wget https://raw.githubusercontent.com/msgbyte/tailchat/master/docker/admin.yml </code></pre><p>修改 <code>docker-compose.env</code> 文件的配置，建议修改以下内容：</p><ol><li><code>API_URL</code> 对外可访问的url地址，用于文件服务访问, 可以是域名也可以是ip <strong>如果出现发送图片不能正常显示就是这个变量没有设置</strong></li><li><code>SECRET</code> 服务端加密秘钥，用于生成Token. 默认为 <code>tailchat</code></li><li><code>SMTP_SENDER  </code> 发送邮箱验证信息, 格式为 <code>xxx@example.com</code> 或 <code>&quot;YourName&quot; xxx@example.com</code></li><li><code>SMTP_URI </code> SMTP 邮件服务地址, 格式为: <code>&lt;protocol&gt;://&lt;username&gt;:&lt;password&gt;@&lt;host&gt;:&lt;port&gt;/&lt;other-info&gt;</code></li><li><code>ADMIN_USER</code> 管理员账户名称</li><li><code>ADMIN_PASS</code> 管理员账户密码</li></ol><h3>第五步：启动应用</h3><pre><code class="lang-bash">docker compose -f docker-compose.yml -f admin.yml up -d</code></pre><p>访问: <code>http://&lt;server ip&gt;:11000</code> 即可打开Tailchat</p><p>访问: <code>http://&lt;server ip&gt;:11000/admin</code> 即可打开Tailchat管理面板</p><h2>注意：</h2><p>以下是目前所有的环境变量，可以直接在 <code>docker-compose.env</code>中新增或进行修改，修改完后运行如下指令清空缓存并重启容器</p><table><thead><tr><th>变量名</th><th>默认值</th><th>描述</th></tr></thead><tbody><tr><td>PORT</td><td>11000</td><td>网关服务端口号</td></tr><tr><td>SECRET</td><td>tailchat</td><td>加密秘钥, 用于JWT</td></tr><tr><td>STATIC_HOST</td><td>"{BACKEND}"</td><td>对外可访问的静态服务主机，用于文件服务访问, 默认为动态根据前端请求推断出的服务端地址，如果期望存储在第三方OSS中需要进行修改</td></tr><tr><td>STATIC_URL</td><td>"{BACKEND}/static/"</td><td>对外可访问的静态服务完整地址前缀，用于文件服务访问, 默认为动态根据前端请求推断出的服务端地址，如果期望存储在第三方OSS中需要进行修改, 如果设置了本变量则上面的 <code>STATIC_HOST</code> 值无效</td></tr><tr><td>API_URL</td><td><a href="http://127.0.0.1:11000">http://127.0.0.1:11000</a></td><td>对外可访问的url地址，用于开放平台的issuer签发或者作为文件服务的fallback</td></tr><tr><td>MONGO_URL</td><td>-</td><td>数据库服务地址</td></tr><tr><td>REDIS_URL</td><td>-</td><td>Redis服务地址</td></tr><tr><td>MINIO_URL</td><td>-</td><td>文件服务地址(minio)</td></tr><tr><td>MINIO_USER</td><td>-</td><td>文件服务用户名</td></tr><tr><td>MINIO_PASS</td><td>-</td><td>文件服务密码</td></tr><tr><td>MINIO_BUCKET_NAME</td><td>tailchat</td><td>文件服务存储桶名</td></tr><tr><td>MINIO_PATH_STYLE</td><td>"Path"</td><td>是否使用路径形式的s3通信格式, <code>Path</code> 为 <code>Path Style</code>, <code>VirtualHosted</code> 为 <code>Virtual hosted style</code></td></tr><tr><td>SMTP_SENDER</td><td>-</td><td>邮件服务发件人(示例: <code>&quot;Tailchat&quot; example@163.com</code>)</td></tr><tr><td>SMTP_URI</td><td>-</td><td>邮件服务连接地址(示例: <code>smtp://username:password@smtp.example.com/?pool=true</code>)</td></tr><tr><td>FILE_LIMIT</td><td>1048576</td><td>文件/图片上传的大小限制，默认为1m，请输入数字，（单位: 字节）</td></tr><tr><td>EMAIL_VERIFY</td><td>-</td><td>是否开启邮箱校验, 如果为 "1" 或者 "true" 则在注册时增加邮箱校验控制</td></tr><tr><td>DISABLE_LOGGER</td><td>-</td><td>是否禁用日志输出, 如果为 "1" 或者 "true" 则在运行中关闭日志</td></tr><tr><td>DISABLE_USER_REGISTER</td><td>-</td><td>是否关闭用户注册功能, 如果为 "1" 或者 "true" 则关闭该功能</td></tr><tr><td>DISABLE_GUEST_LOGIN</td><td>-</td><td>是否关闭用户游客登录功能, 如果为 "1" 或者 "true" 则关闭该功能</td></tr><tr><td>DISABLE_CREATE_GROUP</td><td>-</td><td>是否关闭用户创建群组功能, 如果为 "1" 或者 "true" 则关闭该功能</td></tr><tr><td>DISABLE_PLUGIN_STORE</td><td>-</td><td>是否隐藏用户插件中心功能, 如果为 "1" 或者 "true" 则关闭该功能</td></tr><tr><td>DISABLE_ADD_FRIEND</td><td>-</td><td>是否隐藏用户添加好友功能, 如果为 "1" 或者 "true" 则关闭该功能</td></tr></tbody></table><pre><code class="lang-bash">docker-compose down --rmi all
+docker compose -f docker-compose.yml -f admin.yml up -d</code></pre>        </div>
+        
+        <!-- 添加的引用内容 -->
+        <blockquote>
+            <p itemprop="keywords" class="tags">标签: <a href="../tag/%E9%85%8D%E7%BD%AE/index.html">配置</a>, <a href="../tag/%E6%98%93%E6%8B%93%E5%B1%95/index.html">易拓展</a>, <a href="../tag/%E5%8D%B3%E6%97%B6%E8%81%8A%E5%A4%A9%E5%BA%94%E7%94%A8/index.html">即时聊天应用</a>, <a href="../tag/Tailchat/index.html">Tailchat</a></p>
+            <p>原文链接：https://blog.fuyiran.link/Technology/13.html</p>
+            <p>版权声明：本博客所有文章除特別声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 傅说 (<a href="../index.html" target="_blank">blog.fuyiran.link</a>) </p>
+        </blockquote>
+    </article>
+
+    <div id="comments">
+        
+            <div id="respond-post-13" class="respond">
+            <div class="cancel-comment-reply">
+                <a id="cancel-comment-reply-link" href="#respond-post-13" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>            </div>
+
+            <h3 id="response">添加新评论</h3>
+            <form method="post" action="13.html" id="comment-form" role="form">
+                                    <p>
+                        <label for="author" class="required">称呼</label>
+                        <input type="text" name="author" id="author" class="text"
+                               value="" required/>
+                    </p>
+                    <p>
+                        <label
+                            for="mail" class="required">Email</label>
+                        <input type="email" name="mail" id="mail" class="text"
+                               value="" required />
+                    </p>
+                    <p>
+                        <label
+                            for="url">网站</label>
+                        <input type="url" name="url" id="url" class="text" placeholder="http://"
+                               value="" />
+                    </p>
+                                <p>
+                    <label for="textarea" class="required">内容</label>
+                    <textarea rows="8" cols="50" name="text" id="textarea" class="textarea"
+                              required></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="submit">提交评论</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <ul class="post-near">
+        <li>上一篇: <a href="12.html" title="如何部署 umami — 一个简约而不简单的网页流量统计工具">如何部署 umami — 一个简约而不简单的网页流量统计工具</a></li>
+        <li>下一篇: <a href="14.html" title="如何部署一个 Web 版的复古 DOS 游戏库—畅玩1898款游戏">如何部署一个 Web 版的复古 DOS 游戏库—畅玩1898款游戏</a></li>
+    </ul>
+</div><!-- end #main-->
+
+<div class="col-mb-12 col-offset-1 col-3 kit-hidden-tb" id="secondary" role="complementary">
+            <section class="widget">
+            <h3 class="widget-title">最新文章</h3>
+            <ul class="widget-list">
+                <li><a href="47.html">Flare 个人书签导航</a></li><li><a href="46.html">OneNav 个性化的书签管理系统</a></li><li><a href="45.html">rss-reader 一款关注网站的即时消息的RSS在线浏览工具</a></li><li><a href="44.html">唐僧叨叨，一款开源即时通讯聊天软件</a></li><li><a href="43.html">Habitica 用游戏来养成你的习惯</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">最近回复</h3>
+            <ul class="widget-list">
+                                            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">分类</h3>
+            <ul class="widget-list"><li class="category-level-0 category-parent"><a href="../category/Life/index.html">生活</a></li><li class="category-level-0 category-parent"><a href="../category/Study/index.html">学习</a></li><li class="category-level-0 category-parent"><a href="../category/Technology/index.html">科技</a></li></ul>        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">归档</h3>
+            <ul class="widget-list">
+                <li><a href="../2023/08/index.html">August 2023</a></li><li><a href="../2023/07/index.html">July 2023</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">其它</h3>
+            <ul class="widget-list">
+                <li>
+                    <a href="https://enblog.fuyiran.link/Technology/13.html">English</a>
+                </li>
+                                    <li class="last"><a href="../admin/login.php.html">登录</a>
+                    </li>
+                                <li><a href="../feed/index.rss">文章 RSS</a></li>
+            </ul>
+        </section>
+    
+</div><!-- end #sidebar -->
+
+        </div><!-- end .row -->
+    </div>
+</div><!-- end #body -->
+
+<footer id="footer" role="contentinfo">
+    &copy; 2024 <a href="../index.html">傅说</a>
+    Powered by <a href="https://typecho.org">Typecho</a><br>
+
+    <!-- 不蒜子脚本 -->
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <!-- 不蒜子标签 -->
+            <span id="busuanzi_container_site_pv" style='display:none'>
+            本站总阅读量<span id="busuanzi_value_site_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_page_pv" style='display:none'>
+            本文总阅读量<span id="busuanzi_value_page_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+            本站访客数<span id="busuanzi_value_site_uv"></span>人次<br>
+        </span>
+    
+</footer><!-- end #footer -->
+
+<script src="../usr/plugins/SiteRunningTime/js/SiteRunningTime%EF%B9%96v=1.5.1.js"></script>
+<style>
+	
+</style>
+<script>
+	SiteRunningTime(
+		{
+			startTime:"2023-07-26 00:00:00",
+			autoRefresh:"1",
+			startTimeText:'该站点运行了<label class="year">0</label>年<label class="month">0</label>月<label class="day">0</label>日<label class="hour">0</label>时<label class="minute">0</label>分<label class="second">0</label>秒',
+		});
+</script><script type="text/javascript">
+	(function(){
+		var pres = document.querySelectorAll('pre');
+		var lineNumberClassName = 'line-numbers';
+		pres.forEach(function (item, index) {
+			item.className = item.className == '' ? lineNumberClassName : item.className + ' ' + lineNumberClassName;
+		});
+	})();
+</script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/clipboard.min.js"></script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/prism.js"></script>
+</body>
+</html>

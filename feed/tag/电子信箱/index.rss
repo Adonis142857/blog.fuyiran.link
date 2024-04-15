@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - 电子信箱</title>
+<link>https://blog.fuyiran.link/tag/%E7%94%B5%E5%AD%90%E4%BF%A1%E7%AE%B1/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/%E7%94%B5%E5%AD%90%E4%BF%A1%E7%AE%B1/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Mon, 31 Jul 2023 08:17:00 +0800</lastBuildDate>
+<pubDate>Mon, 31 Jul 2023 08:17:00 +0800</pubDate>
+<item>
+<title>如何使用 Hestia 面板来创建网络邮局</title>
+<link>https://blog.fuyiran.link/Technology/6.html</link>
+<guid>https://blog.fuyiran.link/Technology/6.html</guid>
+<pubDate>Mon, 31 Jul 2023 08:17:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[请注意：Hestia Control Panel需要安装在全新的操作系统上才能保证正常运行。支持的平台和操作系统：Debian：12，11或10Ubuntu：22.04 LTS，20.04 LT...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<p>请注意：Hestia Control Panel需要安装在全新的操作系统上才能保证正常运行。</p><p>支持的平台和操作系统：</p><ul><li>Debian：12，11或10</li><li>Ubuntu：22.04 LTS，20.04 LTS<br>注意：Hestia Control Panel并不支持32位操作系统！</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/6.html" title="如何使用 Hestia 面板来创建网络邮局">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/6.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E7%94%B5%E5%AD%90%E4%BF%A1%E7%AE%B1/</wfw:commentRss>
+</item>
+</channel>
+</rss>

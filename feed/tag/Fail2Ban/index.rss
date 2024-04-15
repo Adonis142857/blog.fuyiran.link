@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - Fail2Ban</title>
+<link>https://blog.fuyiran.link/tag/Fail2Ban/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/Fail2Ban/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Sat, 29 Jul 2023 16:13:00 +0800</lastBuildDate>
+<pubDate>Sat, 29 Jul 2023 16:13:00 +0800</pubDate>
+<item>
+<title>如何配置 Fail2Ban 来阻止恶意登录</title>
+<link>https://blog.fuyiran.link/Technology/4.html</link>
+<guid>https://blog.fuyiran.link/Technology/4.html</guid>
+<pubDate>Sat, 29 Jul 2023 16:13:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：Fail2Ban 是一个用于禁止多次认证错误的恶意登录的工具。通过扫描日志文件（例如 /var/log/auth.log），该工具可以识别并禁止过多失败登录尝试的 IP 地址。它通过更新系...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Fail2Ban 是一个用于禁止多次认证错误的恶意登录的工具。通过扫描日志文件（例如 <code>/var/log/auth.log</code>），该工具可以识别并禁止过多失败登录尝试的 IP 地址。它通过更新系统的防火墙规则来实现这一功能，拒绝来自这些 IP 地址的新连接，尽管 Fail2Ban 可以降低错误认证尝试的频率，但它不能完全消除由弱认证带来的风险，建议设置仅使用两因素或公钥/私钥认证机制来更进一步保障安全。</p><p class="more"><a href="https://blog.fuyiran.link/Technology/4.html" title="如何配置 Fail2Ban 来阻止恶意登录">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/4.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/Fail2Ban/</wfw:commentRss>
+</item>
+</channel>
+</rss>

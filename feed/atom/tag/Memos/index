@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="zh-CN"
+xml:base="https://blog.fuyiran.link/tag/Memos/"
+>
+<title type="text">傅说 - Memos</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-13T08:39:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/tag/Memos/" />
+<id>https://blog.fuyiran.link/feed/atom/tag/Memos/</id>
+<link rel="self" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/Memos/" />
+<entry>
+<title type="html"><![CDATA[随时记录灵感,任何地方都能写笔记!Memos — 一款实用便捷的在线记事本工具，同样还是一个小型社区]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/34.html" />
+<id>https://blog.fuyiran.link/Technology/34.html</id>
+<updated>2023-08-13T08:39:00+08:00</updated>
+<published>2023-08-13T08:39:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：Memos是一款很实用的在线记事本应用，让你可以随时随地记录自己的思路、灵感和笔记，不用再担心记事本随手丢失，同时还是一个轻量的社区，可以跟大家分享你的生活。 PaoPaoMemos管理系...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/34.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Memos是一款很实用的在线记事本应用，让你可以随时随地记录自己的思路、灵感和笔记，不用再担心记事本随手丢失，同时还是一个轻量的社区，可以跟大家分享你的生活。</p><table><thead><tr><th> </th><th><a href="https://blog.fuyiran.link/Technology/27.html">PaoPao</a></th><th><a href="https://blog.fuyiran.link/Technology/34.html">Memos</a></th></tr></thead><tbody><tr><td>管理系统</td><td>❌</td><td>✅</td></tr><tr><td>好友系统</td><td>✅</td><td>❌</td></tr><tr><td>关注系统</td><td>✅</td><td>❌</td></tr><tr><td>用户注册验证</td><td>✅</td><td>❌</td></tr><tr><td>发布文章时记录地理位置</td><td>✅</td><td>❌</td></tr><tr><td>SSO单点登录</td><td>❌</td><td>✅</td></tr><tr><td>上传附件</td><td>仅照片/视频</td><td>不限制</td></tr><tr><td>界面美观度</td><td>🌟🌟🌟🌟🌟</td><td>🌟🌟🌟🌟</td></tr><tr><td>部署难度</td><td>😈😈😈😈😈</td><td>😈😈😈</td></tr></tbody></table><p class="more"><a href="https://blog.fuyiran.link/Technology/34.html" title="随时记录灵感,任何地方都能写笔记!Memos — 一款实用便捷的在线记事本工具，同样还是一个小型社区">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/34.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/Memos/" thr:count="0"/>
+</entry>
+</feed>

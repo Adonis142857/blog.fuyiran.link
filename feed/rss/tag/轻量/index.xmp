@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/%E8%BD%BB%E9%87%8F/">
+<title>傅说 - 轻量</title>
+<link>https://blog.fuyiran.link/tag/%E8%BD%BB%E9%87%8F/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/42.html"/>
+<rdf:li resource="https://blog.fuyiran.link/Technology/34.html"/>
+<rdf:li resource="https://blog.fuyiran.link/Technology/32.html"/>
+<rdf:li resource="https://blog.fuyiran.link/Technology/31.html"/>
+<rdf:li resource="https://blog.fuyiran.link/Technology/29.html"/>
+<rdf:li resource="https://blog.fuyiran.link/Technology/28.html"/>
+<rdf:li resource="https://blog.fuyiran.link/Technology/24.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/42.html">
+<title>WeekToDo 一款极简主义待办事项列表</title>
+<link>https://blog.fuyiran.link/Technology/42.html</link>
+<dc:date>2023-08-17T08:25:00+08:00</dc:date>
+<description>介绍：WeekToDo 是一个注重隐私的待办事项清单。用户可以通过待办事项列表和日历来安排任务和项目。提供了在 Windows、Mac、Linux 操作系统上的客户端，也可以直接在线使用。特点：支持跨平台使用支持明暗模式切换自定义待办事项列表拖放功能多语言支持子任务功能Markdown 支持可定制的用户界面本地存储任务颜色标记任务时间设置周期性任务通知和提醒功能[...]</description>
+</item>
+<item rdf:about="https://blog.fuyiran.link/Technology/34.html">
+<title>随时记录灵感,任何地方都能写笔记!Memos — 一款实用便捷的在线记事本工具，同样还是一个小型社区</title>
+<link>https://blog.fuyiran.link/Technology/34.html</link>
+<dc:date>2023-08-13T08:39:00+08:00</dc:date>
+<description>介绍：Memos是一款很实用的在线记事本应用，让你可以随时随地记录自己的思路、灵感和笔记，不用再担心记事本随手丢失，同时还是一个轻量的社区，可以跟大家分享你的生活。 PaoPaoMemos管理系统❌✅好友系统✅❌关注系统✅❌用户注册验证✅❌发布文章时记录地理位置✅❌SSO单点登录❌✅上传附件仅照片/视频不限制界面美观度🌟🌟🌟🌟🌟🌟🌟🌟🌟部署难度😈😈😈😈😈😈😈😈[...]</description>
+</item>
+<item rdf:about="https://blog.fuyiran.link/Technology/32.html">
+<title>更进一步，不用服务器也能配置的个人导航页</title>
+<link>https://blog.fuyiran.link/Technology/32.html</link>
+<dc:date>2023-08-12T08:00:00+08:00</dc:date>
+<description>介绍：CF-Worker-Dir是一款适用于Cloudflare Worker平台上的云函数程序，可以使用它在一分钟内搭建属于自己的导航页面，还可以预留出接口帮助你售出自己域名。如果你的域名还没有搭建网站，不如先利用CF-Worker-Dir让你的域名不再浪费。😉 CF-Worker-DirLinkStack自定义化程度🌟🌟🌟🌟🌟🌟🌟🌟部署难度😈😈😈😈😈😈[...]</description>
+</item>
+<item rdf:about="https://blog.fuyiran.link/Technology/31.html">
+<title>部署一个美观又轻量的链接聚合页，LinkStack 是一个很棒的选择</title>
+<link>https://blog.fuyiran.link/Technology/31.html</link>
+<dc:date>2023-08-11T18:26:00+08:00</dc:date>
+<description>介绍：LinkStack，一个开源的链接聚合页，终极链接管理解决方案，可以有效的进行在线管理和链接共享，允许用户克服社交媒体平台上只能添加一个链接的限制，用户可以通过主题自定义LinkStack实例的外观，高度可自定义化是它的优势。 CF-Worker-DirLinkStack自定义化程度🌟🌟🌟🌟🌟🌟🌟🌟部署难度😈😈😈😈😈😈[...]</description>
+</item>
+<item rdf:about="https://blog.fuyiran.link/Technology/29.html">
+<title>更进一步，不用服务器也能配置的短域名</title>
+<link>https://blog.fuyiran.link/Technology/29.html</link>
+<dc:date>2023-08-10T18:27:00+08:00</dc:date>
+<description>介绍：020短链，利用Cloudflare Worker实现的简单免费的短链接平台[...]</description>
+</item>
+<item rdf:about="https://blog.fuyiran.link/Technology/28.html">
+<title>自部署一个优秀的密码管理器 ～ Bitwarden</title>
+<link>https://blog.fuyiran.link/Technology/28.html</link>
+<dc:date>2023-08-10T08:10:00+08:00</dc:date>
+<description>介绍：Bitwarden 是一款开源的密码管理工具，与 SafeInCloud、1Password 等类似。其官方服务器端采用 .Net 开发，浏览器插件和桌面应用使用 Javascript 编写，而移动应用则由 C# 实现。该系统的数据库采用 mssql，由于其占用内存较大，部署此系统的机器至少需要 3GB 的内存。不过好消息是，有人使用 Rust 实现了 Bitwarden 并且提供了 Docker 镜像，降低了对机器配置的要求，并且官方版本中部分收费的功能,在这个开源实现中可以免费使用。本文便使用 vaultwarden 来进行配置 Bitwarden。[...]</description>
+</item>
+<item rdf:about="https://blog.fuyiran.link/Technology/24.html">
+<title>cryptgeon ～ 轻量的密信密件分享平台</title>
+<link>https://blog.fuyiran.link/Technology/24.html</link>
+<dc:date>2023-08-08T08:10:00+08:00</dc:date>
+<description>介绍：cryptgeon 是一个安全开源到轻量密信密件分享平台，灵感来自 PrivNote。[...]</description>
+</item>
+</rdf:RDF>

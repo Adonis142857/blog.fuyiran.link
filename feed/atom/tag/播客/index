@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="zh-CN"
+xml:base="https://blog.fuyiran.link/tag/%E6%92%AD%E5%AE%A2/"
+>
+<title type="text">傅说 - 播客</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-13T19:58:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/tag/%E6%92%AD%E5%AE%A2/" />
+<id>https://blog.fuyiran.link/feed/atom/tag/%E6%92%AD%E5%AE%A2/</id>
+<link rel="self" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E6%92%AD%E5%AE%A2/" />
+<entry>
+<title type="html"><![CDATA[自托管有声读物和播客？欢迎尝试 Audiobookshelf]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/35.html" />
+<id>https://blog.fuyiran.link/Technology/35.html</id>
+<updated>2023-08-13T19:58:00+08:00</updated>
+<published>2023-08-13T19:58:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：Audiobookshelf 是一款自托管有声读物和播客服务器，专为音频爱好者量身打造。完全开源，包括正处于测试阶段的安卓和 iOS 应用，可以即时流式传输所有音频格式，支持搜索并添加播客...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/35.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Audiobookshelf 是一款自托管有声读物和播客服务器，专为音频爱好者量身打造。完全开源，包括正处于测试阶段的安卓和 iOS 应用，可以即时流式传输所有音频格式，支持搜索并添加播客。</p><p>Audiobookshelf 的独特之处在于其自动检测图书馆更新和批量上传的功能，可以备份元数据并自动进行每日备份，从多个来源获取元数据和封面，并配备了章节编辑器和章节查找功能，它允许用户将音频文件合并为单一 m4b 格式，并将元数据和封面图像嵌入音频文件中。同时，它还可以充当一款电子书阅读器，支持 Epub、pdf、cbr 和 cbz 格式。用户甚至可以将电子书发送到设备（如 Kindle）上，并为播客和有声读物打开 RSS 源。</p><p class="more"><a href="https://blog.fuyiran.link/Technology/35.html" title="自托管有声读物和播客？欢迎尝试 Audiobookshelf">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/35.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E6%92%AD%E5%AE%A2/" thr:count="0"/>
+</entry>
+</feed>

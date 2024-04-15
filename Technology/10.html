@@ -1,0 +1,353 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>如何搭建Zbook（自己的电子书下载网站） - 傅说</title>
+
+    <!-- 使用url函数转换相关路径 -->
+    <link rel="stylesheet" href="../usr/themes/default/normalize.css">
+    <link rel="stylesheet" href="../usr/themes/default/grid.css">
+    <link rel="stylesheet" href="../usr/themes/default/style.css">
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/64b479301ddac507ccb75174.jpg" type="image/x-icon" />
+    <script async src="https://nico.cm/script.js" data-website-id="37091978-1aac-4676-b0da-e831e4f772d1"></script>
+
+    <!-- 通过自有函数输出HTML头部信息 -->
+    <meta name="description" content="介绍：Zbook，一个电子书下载网站，官方提供了可直接下载安装的电子书文件包，大大简化部署流程，数据查找迅速，界面美观。 TalebookZbook用户系统❌✅在线阅读✅❌推送书籍至Kindle..." />
+<meta name="keywords" content="配置,Zbook,电子书下载网站" />
+<meta name="generator" content="Typecho 1.2.1" />
+<meta name="template" content="default" />
+<link rel="pingback" href="../action/xmlrpc.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../action/xmlrpc%EF%B9%96rsd.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../action/xmlrpc%EF%B9%96wlw.html" />
+<link rel="alternate" type="application/rss+xml" title="如何搭建Zbook（自己的电子书下载网站） &raquo; 傅说 &raquo; RSS 2.0" href="../feed/Technology/10.html.rss" />
+<link rel="alternate" type="application/rdf+xml" title="如何搭建Zbook（自己的电子书下载网站） &raquo; 傅说 &raquo; RSS 1.0" href="../feed/rss/Technology/10.html.xmp" />
+<link rel="alternate" type="application/atom+xml" title="如何搭建Zbook（自己的电子书下载网站） &raquo; 傅说 &raquo; ATOM 1.0" href="../feed/atom/Technology/10.html" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-10'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-10'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-10'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _yWhNr7 = //'DS'
+'7'+//'5g1'
+'f52'+//'h'
+'h'+//'FM'
+'df'+'d'//'d'
++//'1'
+'b3d'+'3f'//'pa9'
++//'4'
+'f'+//'2P'
+'9d'+//'Ead'
+'d'+//'cDd'
+'8'+//'wkM'
+'3b8'+//'vxQ'
+'46'+'a'//'XLj'
++//'ns'
+'a'+'z'//'z'
++//'UIE'
+'UIE'+//'Yu'
+'6cf'+'3'//'xF'
++//'E6q'
+'122'+'5'//'Bg'
+, _jw0vv = [[4,5],[24,25],[24,27]];
+    
+    for (var i = 0; i < _jw0vv.length; i ++) {
+        _yWhNr7 = _yWhNr7.substring(0, _jw0vv[i][0]) + _yWhNr7.substring(_jw0vv[i][1]);
+    }
+
+    return _yWhNr7;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script><link rel="stylesheet" type="text/css" href="../usr/plugins/CodeHighlighter/static/styles/okaikia.css" /></head>
+<body>
+
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="site-name col-mb-12 col-9">
+                                    <a id="logo" href="../index.html">傅说</a>
+                    <p class="description">与你一起从全新的视角领略这个世界，这里有独到的科技新闻分析，深度的学习过程记录，独特的深度思考，以及实用的资源分享。无论你是学生，科技爱好者，还是在人生路上寻找方向的探索者，我相信你都能在这里找到你想要的。欢迎你与我一起，学习知识，共创未来</p>
+                
+
+            </div>
+            <div class="site-search col-3 kit-hidden-tb">
+                <form id="search" method="post" action="../index.html" role="search">
+                    <label for="s" class="sr-only">搜索关键字</label>
+                    <input type="text" id="s" name="s" class="text" placeholder="输入关键字搜索"/>
+                    <button type="submit" class="submit">搜索</button>
+                </form>
+            </div>
+            <div class="col-mb-12">
+                <nav id="nav-menu" class="clearfix" role="navigation">
+                    <a                        href="../index.html">首页</a>
+                                                        </nav>
+            </div>
+        </div><!-- end .row -->
+    </div>
+</header><!-- end #header -->
+<div id="body">
+    <div class="container">
+        <div class="row"> 
+<div class="col-mb-12 col-8" id="main" role="main">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title" itemprop="name headline">
+            <a itemprop="url"
+               href="10.html">如何搭建Zbook（自己的电子书下载网站）</a>
+        </h1>
+        <ul class="post-meta">
+            <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                作者: <a itemprop="name"
+                                       href="../author/1/index.html"
+                                       rel="author">傅怡然</a>
+            </li>
+            <li>时间:                 <time datetime="2023-08-01T08:25:00+08:00" itemprop="datePublished">2023-08-01</time>
+            </li>
+            <li>分类: <a href="../category/Technology/index.html">科技</a></li>
+        </ul>
+        <div class="post-content" itemprop="articleBody">
+            <h2>介绍：</h2><p>Zbook，一个电子书下载网站，官方提供了可直接下载安装的电子书文件包，大大简化部署流程，数据查找迅速，界面美观。</p><table><thead><tr><th> </th><th><a href="33.html">Talebook</a></th><th><a href="10.html">Zbook</a></th></tr></thead><tbody><tr><td>用户系统</td><td>❌</td><td>✅</td></tr><tr><td>在线阅读</td><td>✅</td><td>❌</td></tr><tr><td>推送书籍至Kindle</td><td>❌</td><td>✅</td></tr><tr><td>私人模式</td><td>✅</td><td>❌</td></tr><tr><td>从百度百科、豆瓣中导入书籍信息</td><td>✅</td><td>❌</td></tr><tr><td>上传书籍</td><td>✅</td><td>❌（官方收录上传书籍后更新电子书文件包）</td></tr><tr><td>查找书籍速度</td><td>🌟🌟🌟</td><td>🌟🌟🌟🌟🌟</td></tr><tr><td>界面美观度</td><td>🌟🌟🌟🌟</td><td>🌟🌟🌟🌟🌟</td></tr><tr><td>部署难易度</td><td>😈😈😈</td><td>😈😈😈</td></tr></tbody></table><!--more--><h2>安装流程：</h2><h3>第一步：更新源</h3><pre><code class="lang-bash">#Ubuntu/Debian
+apt update -y &amp;&amp; apt upgrade -y        
+#Centos
+yum update -y &amp;&amp; yum upgrade -y        </code></pre><h3>第二步：配置Docker</h3><ol><li>安装Docker</li></ol><pre><code class="lang-bash">curl -fsSL https://get.docker.com -o get-docker.sh &amp;&amp; sh ./get-docker.sh</code></pre><ol start="2"><li>启动 Docker</li></ol><pre><code class="lang-bash">sudo systemctl start docker</code></pre><ol start="3"><li>设置 Docker 在开机时自动启动</li></ol><pre><code class="lang-bash">sudo systemctl enable docker</code></pre><h3>第三步：下载 zbook.tar.gz 文件：</h3><pre><code class="lang-bash">wget https://index.zbook.lol/zbook.tar.gz</code></pre><h3>第四步：解压 zbook.tar.gz 文件：</h3><pre><code class="lang-bash">tar -xf zbook.tar.gz -C /path/to/your/folder</code></pre><p>替换 <code>/path/to/your/folder</code> 为实际想要解压到的文件夹路径。</p><h3>第五步：删除 zbook.tar.gz 文件以释放储存空间</h3><pre><code class="lang-bash">rm zbook.tar.gz</code></pre><h3>第六步：运行 Docker：</h3><pre><code class="lang-bash">docker run -d -p 8080:80 -v /path/to/your/folder/index:/index zbook/zbook:latest</code></pre><p>替换 <code>/path/to/your/folder</code> 为你在第四步中解压文件的实际文件夹路径。</p><h2>配置完成，可以访问网站啦，访问"IP：8080"即可</h2><p><img src="https://pic.imgdb.cn/item/64c8f3971ddac507cc37136c.jpg" alt="" title=""></p><h2>上传自己的书籍：</h2><p>上传书籍至 <a href="https://libgen.is">https://libgen.is</a> ，官方会在收录书籍后进行更新</p>        </div>
+        
+        <!-- 添加的引用内容 -->
+        <blockquote>
+            <p itemprop="keywords" class="tags">标签: <a href="../tag/%E9%85%8D%E7%BD%AE/index.html">配置</a>, <a href="../tag/Zbook/index.html">Zbook</a>, <a href="../tag/%E7%94%B5%E5%AD%90%E4%B9%A6%E4%B8%8B%E8%BD%BD%E7%BD%91%E7%AB%99/index.html">电子书下载网站</a></p>
+            <p>原文链接：https://blog.fuyiran.link/Technology/10.html</p>
+            <p>版权声明：本博客所有文章除特別声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 傅说 (<a href="../index.html" target="_blank">blog.fuyiran.link</a>) </p>
+        </blockquote>
+    </article>
+
+    <div id="comments">
+        
+            <div id="respond-post-10" class="respond">
+            <div class="cancel-comment-reply">
+                <a id="cancel-comment-reply-link" href="#respond-post-10" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>            </div>
+
+            <h3 id="response">添加新评论</h3>
+            <form method="post" action="10.html" id="comment-form" role="form">
+                                    <p>
+                        <label for="author" class="required">称呼</label>
+                        <input type="text" name="author" id="author" class="text"
+                               value="" required/>
+                    </p>
+                    <p>
+                        <label
+                            for="mail" class="required">Email</label>
+                        <input type="email" name="mail" id="mail" class="text"
+                               value="" required />
+                    </p>
+                    <p>
+                        <label
+                            for="url">网站</label>
+                        <input type="url" name="url" id="url" class="text" placeholder="http://"
+                               value="" />
+                    </p>
+                                <p>
+                    <label for="textarea" class="required">内容</label>
+                    <textarea rows="8" cols="50" name="text" id="textarea" class="textarea"
+                              required></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="submit">提交评论</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <ul class="post-near">
+        <li>上一篇: <a href="7.html" title="如何在 Typecho 中引入&quot;不蒜子&quot;来统计访问次数">如何在 Typecho 中引入&quot;不蒜子&quot;来统计访问次数</a></li>
+        <li>下一篇: <a href="11.html" title="如何使用Docker搭建NginxWebUI">如何使用Docker搭建NginxWebUI</a></li>
+    </ul>
+</div><!-- end #main-->
+
+<div class="col-mb-12 col-offset-1 col-3 kit-hidden-tb" id="secondary" role="complementary">
+            <section class="widget">
+            <h3 class="widget-title">最新文章</h3>
+            <ul class="widget-list">
+                <li><a href="47.html">Flare 个人书签导航</a></li><li><a href="46.html">OneNav 个性化的书签管理系统</a></li><li><a href="45.html">rss-reader 一款关注网站的即时消息的RSS在线浏览工具</a></li><li><a href="44.html">唐僧叨叨，一款开源即时通讯聊天软件</a></li><li><a href="43.html">Habitica 用游戏来养成你的习惯</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">最近回复</h3>
+            <ul class="widget-list">
+                                            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">分类</h3>
+            <ul class="widget-list"><li class="category-level-0 category-parent"><a href="../category/Life/index.html">生活</a></li><li class="category-level-0 category-parent"><a href="../category/Study/index.html">学习</a></li><li class="category-level-0 category-parent"><a href="../category/Technology/index.html">科技</a></li></ul>        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">归档</h3>
+            <ul class="widget-list">
+                <li><a href="../2023/08/index.html">August 2023</a></li><li><a href="../2023/07/index.html">July 2023</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">其它</h3>
+            <ul class="widget-list">
+                <li>
+                    <a href="https://enblog.fuyiran.link/Technology/10.html">English</a>
+                </li>
+                                    <li class="last"><a href="../admin/login.php.html">登录</a>
+                    </li>
+                                <li><a href="../feed/index.rss">文章 RSS</a></li>
+            </ul>
+        </section>
+    
+</div><!-- end #sidebar -->
+
+        </div><!-- end .row -->
+    </div>
+</div><!-- end #body -->
+
+<footer id="footer" role="contentinfo">
+    &copy; 2024 <a href="../index.html">傅说</a>
+    Powered by <a href="https://typecho.org">Typecho</a><br>
+
+    <!-- 不蒜子脚本 -->
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <!-- 不蒜子标签 -->
+            <span id="busuanzi_container_site_pv" style='display:none'>
+            本站总阅读量<span id="busuanzi_value_site_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_page_pv" style='display:none'>
+            本文总阅读量<span id="busuanzi_value_page_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+            本站访客数<span id="busuanzi_value_site_uv"></span>人次<br>
+        </span>
+    
+</footer><!-- end #footer -->
+
+<script src="../usr/plugins/SiteRunningTime/js/SiteRunningTime%EF%B9%96v=1.5.1.js"></script>
+<style>
+	
+</style>
+<script>
+	SiteRunningTime(
+		{
+			startTime:"2023-07-26 00:00:00",
+			autoRefresh:"1",
+			startTimeText:'该站点运行了<label class="year">0</label>年<label class="month">0</label>月<label class="day">0</label>日<label class="hour">0</label>时<label class="minute">0</label>分<label class="second">0</label>秒',
+		});
+</script><script type="text/javascript">
+	(function(){
+		var pres = document.querySelectorAll('pre');
+		var lineNumberClassName = 'line-numbers';
+		pres.forEach(function (item, index) {
+			item.className = item.className == '' ? lineNumberClassName : item.className + ' ' + lineNumberClassName;
+		});
+	})();
+</script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/clipboard.min.js"></script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/prism.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - 社区</title>
+<link>https://blog.fuyiran.link/tag/%E7%A4%BE%E5%8C%BA/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/%E7%A4%BE%E5%8C%BA/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Sun, 13 Aug 2023 08:39:00 +0800</lastBuildDate>
+<pubDate>Sun, 13 Aug 2023 08:39:00 +0800</pubDate>
+<item>
+<title>随时记录灵感,任何地方都能写笔记!Memos — 一款实用便捷的在线记事本工具，同样还是一个小型社区</title>
+<link>https://blog.fuyiran.link/Technology/34.html</link>
+<guid>https://blog.fuyiran.link/Technology/34.html</guid>
+<pubDate>Sun, 13 Aug 2023 08:39:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：Memos是一款很实用的在线记事本应用，让你可以随时随地记录自己的思路、灵感和笔记，不用再担心记事本随手丢失，同时还是一个轻量的社区，可以跟大家分享你的生活。 PaoPaoMemos管理系...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Memos是一款很实用的在线记事本应用，让你可以随时随地记录自己的思路、灵感和笔记，不用再担心记事本随手丢失，同时还是一个轻量的社区，可以跟大家分享你的生活。</p><table><thead><tr><th> </th><th><a href="https://blog.fuyiran.link/Technology/27.html">PaoPao</a></th><th><a href="https://blog.fuyiran.link/Technology/34.html">Memos</a></th></tr></thead><tbody><tr><td>管理系统</td><td>❌</td><td>✅</td></tr><tr><td>好友系统</td><td>✅</td><td>❌</td></tr><tr><td>关注系统</td><td>✅</td><td>❌</td></tr><tr><td>用户注册验证</td><td>✅</td><td>❌</td></tr><tr><td>发布文章时记录地理位置</td><td>✅</td><td>❌</td></tr><tr><td>SSO单点登录</td><td>❌</td><td>✅</td></tr><tr><td>上传附件</td><td>仅照片/视频</td><td>不限制</td></tr><tr><td>界面美观度</td><td>🌟🌟🌟🌟🌟</td><td>🌟🌟🌟🌟</td></tr><tr><td>部署难度</td><td>😈😈😈😈😈</td><td>😈😈😈</td></tr></tbody></table><p class="more"><a href="https://blog.fuyiran.link/Technology/34.html" title="随时记录灵感,任何地方都能写笔记!Memos — 一款实用便捷的在线记事本工具，同样还是一个小型社区">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/34.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E7%A4%BE%E5%8C%BA/</wfw:commentRss>
+</item>
+</channel>
+</rss>

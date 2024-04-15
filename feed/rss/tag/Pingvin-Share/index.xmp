@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/Pingvin-Share/">
+<title>傅说 - Pingvin Share</title>
+<link>https://blog.fuyiran.link/tag/Pingvin-Share/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/21.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/21.html">
+<title>自建文件分享平台？你可能需要 Pingvin Share</title>
+<link>https://blog.fuyiran.link/Technology/21.html</link>
+<dc:date>2023-08-06T18:13:00+08:00</dc:date>
+<description>介绍：你真的放心把文件交到第三方文件平台手中吗？来试试Pingvin Share轻松自建-轻松使用私有服务器搭建文件共享平台完全隐私-你的文件只属于你！不用将它放到第三方文件平台注重保护-支持二步验证，你的文件独属于你更加安全-发给小伙伴使用害怕传入木马？没关系，Pingvin Share 支持挂载 clamav，让你的存储更加安全[...]</description>
+</item>
+</rdf:RDF>

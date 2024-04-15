@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/Technology/11.html">
+<title>傅说 - 如何使用Docker搭建NginxWebUI 的评论</title>
+<link>https://blog.fuyiran.link/Technology/11.html</link>
+<description>介绍：NginxWebUI 是一款用于配置Nginx负载均衡和反向代理可视化管理工具。你可以使用这个工具来轻松管理和配置 Nginx，以及查看 Nginx 的运行状态和日志。</description>
+<items>
+<rdf:Seq>
+</rdf:Seq>
+</items>
+</channel>
+</rdf:RDF>

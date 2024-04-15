@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/%E8%87%AA%E5%8A%A8%E8%A7%A3%E9%94%81-Apple-ID/">
+<title>傅说 - 自动解锁 Apple ID</title>
+<link>https://blog.fuyiran.link/tag/%E8%87%AA%E5%8A%A8%E8%A7%A3%E9%94%81-Apple-ID/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/30.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/30.html">
+<title>手把手教你搭建检测并解锁 Apple ID 的自动化程序，发卡网站引流必备</title>
+<link>https://blog.fuyiran.link/Technology/30.html</link>
+<dc:date>2023-08-11T08:15:00+08:00</dc:date>
+<description>介绍appleid_auto，一款基于密保问题的自动化 Apple ID 检测&解锁程序。前端用于管理账号，支持添加多个账号，并提供展示账号页面。支持创建包含多个账号的分享页面，并可以为分享页面设置密码。后端定时检测账号是否被锁定，若被锁定或开启二步验证则自动解锁，修改密码并向API回报密码。登录Apple ID并自动删除Apple ID中的设备。启用代理池和Selenium集群，提高解锁成功率，防止风控。发卡网站可以使用它来搭建账户分享界面进行引流。[...]</description>
+</item>
+</rdf:RDF>

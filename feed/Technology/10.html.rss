@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - 如何搭建Zbook（自己的电子书下载网站） 的评论</title>
+<link>https://blog.fuyiran.link/Technology/10.html</link>
+<atom:link href="https://blog.fuyiran.link/feed/Technology/10.html" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description>介绍：Zbook，一个电子书下载网站，官方提供了可直接下载安装的电子书文件包，大大简化部署流程，数据查找迅速，界面美观。 TalebookZbook用户系统❌✅在线阅读✅❌推送书籍至Kindle...</description>
+<lastBuildDate>Thu, 01 Jan 1970 08:00:00 +0800</lastBuildDate>
+<pubDate>Thu, 01 Jan 1970 08:00:00 +0800</pubDate>
+</channel>
+</rss>

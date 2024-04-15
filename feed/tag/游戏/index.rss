@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - 游戏</title>
+<link>https://blog.fuyiran.link/tag/%E6%B8%B8%E6%88%8F/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/%E6%B8%B8%E6%88%8F/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Thu, 17 Aug 2023 19:30:00 +0800</lastBuildDate>
+<pubDate>Thu, 17 Aug 2023 19:30:00 +0800</pubDate>
+<item>
+<title>Habitica 用游戏来养成你的习惯</title>
+<link>https://blog.fuyiran.link/Technology/43.html</link>
+<guid>https://blog.fuyiran.link/Technology/43.html</guid>
+<pubDate>Thu, 17 Aug 2023 19:30:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：Habitica是一个开源的习惯构建程序，它将你的生活视为一个角色扮演游戏。当你成功完成你设定的目标时，你的角色将升级；当你失败时，你的角色将失去这个游戏中的HP；你还可以通过养成计划来赚...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Habitica是一个开源的习惯构建程序，它将你的生活视为一个角色扮演游戏。当你成功完成你设定的目标时，你的角色将升级；当你失败时，你的角色将失去这个游戏中的HP；你还可以通过养成计划来赚取金钱购买武器和盔甲。这款程序不仅帮助你构建和坚持习惯，同时也为你带来了游戏的乐趣和成就感。</p><h2>提示：</h2><p>不推荐个人进行部署，官方提供了 Android 和IOS 应用，自行部署无法进行联动（可以网页端互通）</p><p class="more"><a href="https://blog.fuyiran.link/Technology/43.html" title="Habitica 用游戏来养成你的习惯">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/43.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E6%B8%B8%E6%88%8F/</wfw:commentRss>
+</item>
+<item>
+<title>如何部署一个 Web 版的复古 DOS 游戏库—畅玩1898款游戏</title>
+<link>https://blog.fuyiran.link/Technology/14.html</link>
+<guid>https://blog.fuyiran.link/Technology/14.html</guid>
+<pubDate>Thu, 03 Aug 2023 08:04:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[效果图：]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>效果图：</h2><p><img src="https://pic.imgdb.cn/item/64cb19741ddac507ccec9320.jpg" alt="" title=""></p><p class="more"><a href="https://blog.fuyiran.link/Technology/14.html" title="如何部署一个 Web 版的复古 DOS 游戏库—畅玩1898款游戏">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/14.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E6%B8%B8%E6%88%8F/</wfw:commentRss>
+</item>
+</channel>
+</rss>

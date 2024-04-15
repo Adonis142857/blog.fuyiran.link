@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="zh-CN"
+xml:base="https://blog.fuyiran.link/tag/%E9%83%A8%E7%BD%B2/"
+>
+<title type="text">傅说 - 部署</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-17T08:25:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/tag/%E9%83%A8%E7%BD%B2/" />
+<id>https://blog.fuyiran.link/feed/atom/tag/%E9%83%A8%E7%BD%B2/</id>
+<link rel="self" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E9%83%A8%E7%BD%B2/" />
+<entry>
+<title type="html"><![CDATA[WeekToDo 一款极简主义待办事项列表]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/42.html" />
+<id>https://blog.fuyiran.link/Technology/42.html</id>
+<updated>2023-08-17T08:25:00+08:00</updated>
+<published>2023-08-17T08:25:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：WeekToDo 是一个注重隐私的待办事项清单。用户可以通过待办事项列表和日历来安排任务和项目。提供了在 Windows、Mac、Linux 操作系统上的客户端，也可以直接在线使用。特点：...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/42.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>WeekToDo 是一个注重隐私的待办事项清单。用户可以通过待办事项列表和日历来安排任务和项目。提供了在 Windows、Mac、Linux 操作系统上的客户端，也可以直接在线使用。</p><h2>特点：</h2><ul><li>支持跨平台使用</li><li>支持明暗模式切换</li><li>自定义待办事项列表</li><li>拖放功能</li><li>多语言支持</li><li>子任务功能</li><li>Markdown 支持</li><li>可定制的用户界面</li><li>本地存储</li><li>任务颜色标记</li><li>任务时间设置</li><li>周期性任务</li><li>通知和提醒功能</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/42.html" title="WeekToDo 一款极简主义待办事项列表">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/42.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E9%83%A8%E7%BD%B2/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[部署一个美观又轻量的链接聚合页，LinkStack 是一个很棒的选择]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/31.html" />
+<id>https://blog.fuyiran.link/Technology/31.html</id>
+<updated>2023-08-11T18:26:00+08:00</updated>
+<published>2023-08-11T18:26:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：LinkStack，一个开源的链接聚合页，终极链接管理解决方案，可以有效的进行在线管理和链接共享，允许用户克服社交媒体平台上只能添加一个链接的限制，用户可以通过主题自定义LinkStack...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/31.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>LinkStack，一个开源的链接聚合页，终极链接管理解决方案，可以有效的进行在线管理和链接共享，允许用户克服社交媒体平台上只能添加一个链接的限制，用户可以通过主题自定义LinkStack实例的外观，高度可自定义化是它的优势。</p><table><thead><tr><th> </th><th><a href="https://blog.fuyiran.link/Technology/32.html">CF-Worker-Dir</a></th><th><a href="https://blog.fuyiran.link/Technology/31.html">LinkStack</a></th></tr></thead><tbody><tr><td>自定义化程度</td><td>🌟🌟🌟</td><td>🌟🌟🌟🌟🌟</td></tr><tr><td>部署难度</td><td>😈😈</td><td>😈😈😈😈</td></tr></tbody></table><p class="more"><a href="https://blog.fuyiran.link/Technology/31.html" title="部署一个美观又轻量的链接聚合页，LinkStack 是一个很棒的选择">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/31.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E9%83%A8%E7%BD%B2/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[用 Myurls 轻松部署个短链接网站]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/26.html" />
+<id>https://blog.fuyiran.link/Technology/26.html</id>
+<updated>2023-08-09T07:56:00+08:00</updated>
+<published>2023-08-09T07:56:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：Myurls 是一个开源的短链接项目，基于 Go 1.20 与 Redis 实现，轻松部署。]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/26.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Myurls 是一个开源的短链接项目，基于 Go 1.20 与 Redis 实现，轻松部署。</p><p class="more"><a href="https://blog.fuyiran.link/Technology/26.html" title="用 Myurls 轻松部署个短链接网站">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/26.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E9%83%A8%E7%BD%B2/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[FileCodeBox ~ 文件快递柜，像取快递一样取文件]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/25.html" />
+<id>https://blog.fuyiran.link/Technology/25.html</id>
+<updated>2023-08-08T18:15:00+08:00</updated>
+<published>2023-08-08T18:15:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：在之前的文章中，我写过 Pingvin Share 的部署方案，有很多小伙伴向我推荐了FileCodeBox，在进行部署使用后，感觉的确很不错，于是便写一份部署教程来帮助大家部署。对比： ...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/25.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>在之前的文章中，我写过 Pingvin Share 的部署方案，有很多小伙伴向我推荐了FileCodeBox，在进行部署使用后，感觉的确很不错，于是便写一份部署教程来帮助大家部署。</p><h3>对比：</h3><table><thead><tr><th> </th><th>FileCodeBox</th><th>Pingvin Share</th></tr></thead><tbody><tr><td>轻松上传</td><td>✅</td><td>✅</td></tr><tr><td>防止爆破取件码/滥用上传</td><td>✅</td><td>❌</td></tr><tr><td>口令分享</td><td>✅</td><td>✅</td></tr><tr><td>匿名分享</td><td>✅</td><td>✅</td></tr><tr><td>管理面板</td><td>✅</td><td>✅</td></tr><tr><td>登陆二步验证</td><td>❌</td><td>✅</td></tr><tr><td>挂载阿里云OSS</td><td>✅</td><td>❌</td></tr><tr><td>文件安全监测</td><td>❌</td><td>✅</td></tr><tr><td>部署简单程度（星星数目越多越简单）</td><td>🌟🌟🌟🌟🌟</td><td>🌟🌟🌟🌟</td></tr></tbody></table><p class="more"><a href="https://blog.fuyiran.link/Technology/25.html" title="FileCodeBox ~ 文件快递柜，像取快递一样取文件">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/25.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E9%83%A8%E7%BD%B2/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[cryptgeon ～ 轻量的密信密件分享平台]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/24.html" />
+<id>https://blog.fuyiran.link/Technology/24.html</id>
+<updated>2023-08-08T08:10:00+08:00</updated>
+<published>2023-08-08T08:10:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：cryptgeon 是一个安全开源到轻量密信密件分享平台，灵感来自 PrivNote。]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/24.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>cryptgeon 是一个安全开源到轻量密信密件分享平台，灵感来自 PrivNote。</p><p class="more"><a href="https://blog.fuyiran.link/Technology/24.html" title="cryptgeon ～ 轻量的密信密件分享平台">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/24.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E9%83%A8%E7%BD%B2/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[自部署个调查问卷系统/考试系统？那我推荐&quot;卷王&quot;]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/22.html" />
+<id>https://blog.fuyiran.link/Technology/22.html</id>
+<updated>2023-08-07T08:30:00+08:00</updated>
+<published>2023-08-07T08:30:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍卷王，功能强大的调查问卷系统和考试系统]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/22.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍</h2><p>卷王，功能强大的调查问卷系统和考试系统</p><p class="more"><a href="https://blog.fuyiran.link/Technology/22.html" title="自部署个调查问卷系统/考试系统？那我推荐&quot;卷王&quot;">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/22.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E9%83%A8%E7%BD%B2/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[自建文件分享平台？你可能需要 Pingvin Share]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/21.html" />
+<id>https://blog.fuyiran.link/Technology/21.html</id>
+<updated>2023-08-06T18:13:00+08:00</updated>
+<published>2023-08-06T18:13:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：你真的放心把文件交到第三方文件平台手中吗？来试试Pingvin Share轻松自建-轻松使用私有服务器搭建文件共享平台完全隐私-你的文件只属于你！不用将它放到第三方文件平台注重保护-支持二...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/21.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>你真的放心把文件交到第三方文件平台手中吗？来试试Pingvin Share</p><ul><li>轻松自建-轻松使用私有服务器搭建文件共享平台</li><li>完全隐私-你的文件只属于你！不用将它放到第三方文件平台</li><li>注重保护-支持二步验证，你的文件独属于你</li><li>更加安全-发给小伙伴使用害怕传入木马？没关系，Pingvin Share 支持挂载 clamav，让你的存储更加安全</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/21.html" title="自建文件分享平台？你可能需要 Pingvin Share">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/21.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E9%83%A8%E7%BD%B2/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[QD ～ 不仅限于自动签到的定时任务自动执行框架]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/20.html" />
+<id>https://blog.fuyiran.link/Technology/20.html</id>
+<updated>2023-08-06T08:08:00+08:00</updated>
+<published>2023-08-06T08:08:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：QD，一个定时任务自动执行框架，可以帮助进行自动签到，自动评论，自动抽奖，自动领取礼品，只有你想不到，没有它做不到（甚至能通过抓框架对应ip的ck和ua，来过网站开启的CF五秒盾）]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/20.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>QD，一个定时任务自动执行框架，可以帮助进行自动签到，自动评论，自动抽奖，自动领取礼品，只有你想不到，没有它做不到（甚至能通过抓框架对应ip的ck和ua，来过网站开启的CF五秒盾）</p><p class="more"><a href="https://blog.fuyiran.link/Technology/20.html" title="QD ～ 不仅限于自动签到的定时任务自动执行框架">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/20.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E9%83%A8%E7%BD%B2/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[自建云盘？试试 Cloudreve]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/19.html" />
+<id>https://blog.fuyiran.link/Technology/19.html</id>
+<updated>2023-08-05T18:21:00+08:00</updated>
+<published>2023-08-05T18:21:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：Cloudreve 一款自用公用都合适的网盘系统，支持多种云存储平台，例如七牛，OSS，COS，又拍云，OneDrive，S3。用户在实际使用时无须关心物理存储方式。既可以使用 Cloud...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/19.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Cloudreve 一款自用公用都合适的网盘系统，支持多种云存储平台，例如七牛，OSS，COS，又拍云，OneDrive，S3。<br>用户在实际使用时无须关心物理存储方式。既可以使用 Cloudreve 搭建起个人用网盘、文件分享系统，也可以搭建针对大小团体的公有云系统。</p><p class="more"><a href="https://blog.fuyiran.link/Technology/19.html" title="自建云盘？试试 Cloudreve">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/19.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E9%83%A8%E7%BD%B2/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[想自建邮件服务器？来试试 Maddy ]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/18.html" />
+<id>https://blog.fuyiran.link/Technology/18.html</id>
+<updated>2023-08-05T08:16:00+08:00</updated>
+<published>2023-08-05T08:16:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：Maddy 是一款用 Go 语言开发的邮件服务器，部署方便，资源占用少，是一款适合个人使用的邮箱服务器。]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/18.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Maddy 是一款用 Go 语言开发的邮件服务器，部署方便，资源占用少，是一款适合个人使用的邮箱服务器。</p><p class="more"><a href="https://blog.fuyiran.link/Technology/18.html" title="想自建邮件服务器？来试试 Maddy ">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/18.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E9%83%A8%E7%BD%B2/" thr:count="0"/>
+</entry>
+</feed>

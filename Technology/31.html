@@ -1,0 +1,370 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>部署一个美观又轻量的链接聚合页，LinkStack 是一个很棒的选择 - 傅说</title>
+
+    <!-- 使用url函数转换相关路径 -->
+    <link rel="stylesheet" href="../usr/themes/default/normalize.css">
+    <link rel="stylesheet" href="../usr/themes/default/grid.css">
+    <link rel="stylesheet" href="../usr/themes/default/style.css">
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/64b479301ddac507ccb75174.jpg" type="image/x-icon" />
+    <script async src="https://nico.cm/script.js" data-website-id="37091978-1aac-4676-b0da-e831e4f772d1"></script>
+
+    <!-- 通过自有函数输出HTML头部信息 -->
+    <meta name="description" content="介绍：LinkStack，一个开源的链接聚合页，终极链接管理解决方案，可以有效的进行在线管理和链接共享，允许用户克服社交媒体平台上只能添加一个链接的限制，用户可以通过主题自定义LinkStack..." />
+<meta name="keywords" content="部署,轻量,链接聚合页,LinkStack" />
+<meta name="generator" content="Typecho 1.2.1" />
+<meta name="template" content="default" />
+<link rel="pingback" href="../action/xmlrpc.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../action/xmlrpc%EF%B9%96rsd.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../action/xmlrpc%EF%B9%96wlw.html" />
+<link rel="alternate" type="application/rss+xml" title="部署一个美观又轻量的链接聚合页，LinkStack 是一个很棒的选择 &raquo; 傅说 &raquo; RSS 2.0" href="../feed/Technology/31.html.rss" />
+<link rel="alternate" type="application/rdf+xml" title="部署一个美观又轻量的链接聚合页，LinkStack 是一个很棒的选择 &raquo; 傅说 &raquo; RSS 1.0" href="../feed/rss/Technology/31.html.xmp" />
+<link rel="alternate" type="application/atom+xml" title="部署一个美观又轻量的链接聚合页，LinkStack 是一个很棒的选择 &raquo; 傅说 &raquo; ATOM 1.0" href="../feed/atom/Technology/31.html" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-31'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-31'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-31'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _PRHW = ''///*'I'*/'I'
++'b'//'sf'
++'yXI'//'yXI'
++'7fb'//'D2f'
++/* 'f'//'f' */''+//'LxP'
+'3'+//'uv'
+'06c'+'x6w'//'x6w'
++//'i0B'
+'c'+'b'//'t'
++'b'//'Oc2'
++//'M'
+'79'+''///*'DWL'*/'DWL'
++'db'//'o8'
++'d'//'U'
++//'7'
+'7'+//'RX'
+'b64'+'T0J'//'T0J'
++'9d3'//'s'
++//'gio'
+'gio'+//'YG'
+'7'+'5a'//'6y'
++//'q'
+'q'+'R'//'R'
++'ybh'//'ybh'
++//'X'
+'X'+//'b'
+'6c'+'411'//'rT'
++//'xWq'
+'c0', _4krU = [[1,4],[8,11],[16,17],[19,22],[22,25],[25,26],[25,26],[25,28],[25,26]];
+    
+    for (var i = 0; i < _4krU.length; i ++) {
+        _PRHW = _PRHW.substring(0, _4krU[i][0]) + _PRHW.substring(_4krU[i][1]);
+    }
+
+    return _PRHW;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script><link rel="stylesheet" type="text/css" href="../usr/plugins/CodeHighlighter/static/styles/okaikia.css" /></head>
+<body>
+
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="site-name col-mb-12 col-9">
+                                    <a id="logo" href="../index.html">傅说</a>
+                    <p class="description">与你一起从全新的视角领略这个世界，这里有独到的科技新闻分析，深度的学习过程记录，独特的深度思考，以及实用的资源分享。无论你是学生，科技爱好者，还是在人生路上寻找方向的探索者，我相信你都能在这里找到你想要的。欢迎你与我一起，学习知识，共创未来</p>
+                
+
+            </div>
+            <div class="site-search col-3 kit-hidden-tb">
+                <form id="search" method="post" action="../index.html" role="search">
+                    <label for="s" class="sr-only">搜索关键字</label>
+                    <input type="text" id="s" name="s" class="text" placeholder="输入关键字搜索"/>
+                    <button type="submit" class="submit">搜索</button>
+                </form>
+            </div>
+            <div class="col-mb-12">
+                <nav id="nav-menu" class="clearfix" role="navigation">
+                    <a                        href="../index.html">首页</a>
+                                                        </nav>
+            </div>
+        </div><!-- end .row -->
+    </div>
+</header><!-- end #header -->
+<div id="body">
+    <div class="container">
+        <div class="row"> 
+<div class="col-mb-12 col-8" id="main" role="main">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title" itemprop="name headline">
+            <a itemprop="url"
+               href="31.html">部署一个美观又轻量的链接聚合页，LinkStack 是一个很棒的选择</a>
+        </h1>
+        <ul class="post-meta">
+            <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                作者: <a itemprop="name"
+                                       href="../author/1/index.html"
+                                       rel="author">傅怡然</a>
+            </li>
+            <li>时间:                 <time datetime="2023-08-11T18:26:00+08:00" itemprop="datePublished">2023-08-11</time>
+            </li>
+            <li>分类: <a href="../category/Technology/index.html">科技</a></li>
+        </ul>
+        <div class="post-content" itemprop="articleBody">
+            <h2>介绍：</h2><p>LinkStack，一个开源的链接聚合页，终极链接管理解决方案，可以有效的进行在线管理和链接共享，允许用户克服社交媒体平台上只能添加一个链接的限制，用户可以通过主题自定义LinkStack实例的外观，高度可自定义化是它的优势。</p><table><thead><tr><th> </th><th><a href="32.html">CF-Worker-Dir</a></th><th><a href="31.html">LinkStack</a></th></tr></thead><tbody><tr><td>自定义化程度</td><td>🌟🌟🌟</td><td>🌟🌟🌟🌟🌟</td></tr><tr><td>部署难度</td><td>😈😈</td><td>😈😈😈😈</td></tr></tbody></table><!--more--><h2>部署方法：</h2><h3>第一步：更新源</h3><p><strong>Ubuntu/Debian：</strong></p><pre><code class="lang-bash">apt update -y &amp;&amp; apt upgrade -y    </code></pre><p><strong>Centos：</strong></p><pre><code class="lang-bash">yum update -y &amp;&amp; yum upgrade -y   </code></pre><h3>第二步：安装并配置Docker</h3><p>安装Docker：</p><pre><code class="lang-bash">curl -fsSL https://get.docker.com -o get-docker.sh &amp;&amp; sudo sh ./get-docker.sh</code></pre><p>启动Docker：</p><pre><code class="lang-bash">sudo systemctl start docker</code></pre><p>设置Docker在开机时自动启动：</p><pre><code class="lang-bash">sudo systemctl enable docker</code></pre><h3>第三步：拉取 LinkStack 镜像</h3><pre><code class="lang-bash">docker pull linkstackorg/linkstack</code></pre><h3>第四步：启动 LinkStack 容器</h3><pre><code class="lang-bash">docker run --detach \
+    --name linkstack \
+    --hostname linkstack \
+    --env HTTP_SERVER_NAME=&quot;www.example.xyz&quot; \   # 修改为自己的域名
+    --env HTTPS_SERVER_NAME=&quot;www.example.xyz&quot; \  # 修改为自己的域名
+    --env SERVER_ADMIN=&quot;admin@example.xyz&quot; \     # 修改为自己的邮箱
+    --env TZ=&quot;Europe/Berlin&quot; \
+    --env PHP_MEMORY_LIMIT=&quot;512M&quot; \
+    --env UPLOAD_MAX_FILESIZE=&quot;16M&quot; \
+    --publish 80:80 \     # 可以修改左侧端口为未被占用的端口
+    --publish 443:443 \   # 可以修改左侧端口为未被占用的端口
+    --restart unless-stopped \
+    --mount source=linkstack,target=/htdocs \
+    linkstackorg/linkstack</code></pre><h3>第五步：反向代理到域名</h3><p>此处使用一种非常简单的方式：Cloud flare 提供的 Origin Rules<br>配置如下：<br><img src="https://pic.imgdb.cn/item/64d257d91ddac507ccc556f4.jpg" alt="" title=""><br>修改Field为Hostname，Value为选择的完整域名，Rewrite to 刚才在左侧填写的端口<br><img src="https://pic.imgdb.cn/item/64d2582e1ddac507ccc6419d.jpg" alt="" title=""><br>记得解析自己的子域名到服务器IP：<br>使用A记录，Name为域名前缀，Content为服务器地址</p><h3>第六步：登录域名开始安装</h3><p><img src="https://pic.imgdb.cn/item/64d2585d1ddac507ccc6c0c5.jpg" alt="" title=""></p><p><img src="https://pic.imgdb.cn/item/64d64cc41ddac507cce14f7b.jpg" alt="" title=""></p><p><img src="https://pic.imgdb.cn/item/64d64d711ddac507cce37366.jpg" alt="" title=""></p><h3>第七步：进行进一步配置</h3><p>安装完成后的默认界面：<br><img src="https://pic.imgdb.cn/item/64d64de01ddac507cce528ef.jpg" alt="" title=""><br>可以登录<code>https://domain name/login</code>进行登录并进一步配置</p><p><img src="https://pic.imgdb.cn/item/64d65cec1ddac507cc1a93b6.jpg" alt="" title=""><br><img src="https://pic.imgdb.cn/item/64d650191ddac507ccece807.jpg" alt="" title=""></p><h2>相关地址：</h2><p>官网地址：<a href="https://littlelink-custom.com/">https://littlelink-custom.com/</a><br>Demo：<a href="https://littlelink-custom.llc.ovh/">https://littlelink-custom.llc.ovh/</a><br>GitHub 地址：<a href="https://github.com/JulianPrieber/littlelink-custom">https://github.com/JulianPrieber/littlelink-custom</a></p>        </div>
+        
+        <!-- 添加的引用内容 -->
+        <blockquote>
+            <p itemprop="keywords" class="tags">标签: <a href="../tag/%E9%83%A8%E7%BD%B2/index.html">部署</a>, <a href="../tag/%E8%BD%BB%E9%87%8F/index.html">轻量</a>, <a href="../tag/%E9%93%BE%E6%8E%A5%E8%81%9A%E5%90%88%E9%A1%B5/index.html">链接聚合页</a>, <a href="../tag/LinkStack/index.html">LinkStack</a></p>
+            <p>原文链接：https://blog.fuyiran.link/Technology/31.html</p>
+            <p>版权声明：本博客所有文章除特別声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 傅说 (<a href="../index.html" target="_blank">blog.fuyiran.link</a>) </p>
+        </blockquote>
+    </article>
+
+    <div id="comments">
+        
+            <div id="respond-post-31" class="respond">
+            <div class="cancel-comment-reply">
+                <a id="cancel-comment-reply-link" href="#respond-post-31" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>            </div>
+
+            <h3 id="response">添加新评论</h3>
+            <form method="post" action="31.html" id="comment-form" role="form">
+                                    <p>
+                        <label for="author" class="required">称呼</label>
+                        <input type="text" name="author" id="author" class="text"
+                               value="" required/>
+                    </p>
+                    <p>
+                        <label
+                            for="mail" class="required">Email</label>
+                        <input type="email" name="mail" id="mail" class="text"
+                               value="" required />
+                    </p>
+                    <p>
+                        <label
+                            for="url">网站</label>
+                        <input type="url" name="url" id="url" class="text" placeholder="http://"
+                               value="" />
+                    </p>
+                                <p>
+                    <label for="textarea" class="required">内容</label>
+                    <textarea rows="8" cols="50" name="text" id="textarea" class="textarea"
+                              required></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="submit">提交评论</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <ul class="post-near">
+        <li>上一篇: <a href="30.html" title="手把手教你搭建检测并解锁 Apple ID 的自动化程序，发卡网站引流必备">手把手教你搭建检测并解锁 Apple ID 的自动化程序，发卡网站引流必备</a></li>
+        <li>下一篇: <a href="32.html" title="更进一步，不用服务器也能配置的个人导航页">更进一步，不用服务器也能配置的个人导航页</a></li>
+    </ul>
+</div><!-- end #main-->
+
+<div class="col-mb-12 col-offset-1 col-3 kit-hidden-tb" id="secondary" role="complementary">
+            <section class="widget">
+            <h3 class="widget-title">最新文章</h3>
+            <ul class="widget-list">
+                <li><a href="47.html">Flare 个人书签导航</a></li><li><a href="46.html">OneNav 个性化的书签管理系统</a></li><li><a href="45.html">rss-reader 一款关注网站的即时消息的RSS在线浏览工具</a></li><li><a href="44.html">唐僧叨叨，一款开源即时通讯聊天软件</a></li><li><a href="43.html">Habitica 用游戏来养成你的习惯</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">最近回复</h3>
+            <ul class="widget-list">
+                                            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">分类</h3>
+            <ul class="widget-list"><li class="category-level-0 category-parent"><a href="../category/Life/index.html">生活</a></li><li class="category-level-0 category-parent"><a href="../category/Study/index.html">学习</a></li><li class="category-level-0 category-parent"><a href="../category/Technology/index.html">科技</a></li></ul>        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">归档</h3>
+            <ul class="widget-list">
+                <li><a href="../2023/08/index.html">August 2023</a></li><li><a href="../2023/07/index.html">July 2023</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">其它</h3>
+            <ul class="widget-list">
+                <li>
+                    <a href="https://enblog.fuyiran.link/Technology/31.html">English</a>
+                </li>
+                                    <li class="last"><a href="../admin/login.php.html">登录</a>
+                    </li>
+                                <li><a href="../feed/index.rss">文章 RSS</a></li>
+            </ul>
+        </section>
+    
+</div><!-- end #sidebar -->
+
+        </div><!-- end .row -->
+    </div>
+</div><!-- end #body -->
+
+<footer id="footer" role="contentinfo">
+    &copy; 2024 <a href="../index.html">傅说</a>
+    Powered by <a href="https://typecho.org">Typecho</a><br>
+
+    <!-- 不蒜子脚本 -->
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <!-- 不蒜子标签 -->
+            <span id="busuanzi_container_site_pv" style='display:none'>
+            本站总阅读量<span id="busuanzi_value_site_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_page_pv" style='display:none'>
+            本文总阅读量<span id="busuanzi_value_page_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+            本站访客数<span id="busuanzi_value_site_uv"></span>人次<br>
+        </span>
+    
+</footer><!-- end #footer -->
+
+<script src="../usr/plugins/SiteRunningTime/js/SiteRunningTime%EF%B9%96v=1.5.1.js"></script>
+<style>
+	
+</style>
+<script>
+	SiteRunningTime(
+		{
+			startTime:"2023-07-26 00:00:00",
+			autoRefresh:"1",
+			startTimeText:'该站点运行了<label class="year">0</label>年<label class="month">0</label>月<label class="day">0</label>日<label class="hour">0</label>时<label class="minute">0</label>分<label class="second">0</label>秒',
+		});
+</script><script type="text/javascript">
+	(function(){
+		var pres = document.querySelectorAll('pre');
+		var lineNumberClassName = 'line-numbers';
+		pres.forEach(function (item, index) {
+			item.className = item.className == '' ? lineNumberClassName : item.className + ' ' + lineNumberClassName;
+		});
+	})();
+</script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/clipboard.min.js"></script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/prism.js"></script>
+</body>
+</html>

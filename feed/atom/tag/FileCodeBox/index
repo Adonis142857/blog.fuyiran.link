@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="zh-CN"
+xml:base="https://blog.fuyiran.link/tag/FileCodeBox/"
+>
+<title type="text">傅说 - FileCodeBox</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-08T18:15:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/tag/FileCodeBox/" />
+<id>https://blog.fuyiran.link/feed/atom/tag/FileCodeBox/</id>
+<link rel="self" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/FileCodeBox/" />
+<entry>
+<title type="html"><![CDATA[FileCodeBox ~ 文件快递柜，像取快递一样取文件]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/25.html" />
+<id>https://blog.fuyiran.link/Technology/25.html</id>
+<updated>2023-08-08T18:15:00+08:00</updated>
+<published>2023-08-08T18:15:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：在之前的文章中，我写过 Pingvin Share 的部署方案，有很多小伙伴向我推荐了FileCodeBox，在进行部署使用后，感觉的确很不错，于是便写一份部署教程来帮助大家部署。对比： ...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/25.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>在之前的文章中，我写过 Pingvin Share 的部署方案，有很多小伙伴向我推荐了FileCodeBox，在进行部署使用后，感觉的确很不错，于是便写一份部署教程来帮助大家部署。</p><h3>对比：</h3><table><thead><tr><th> </th><th>FileCodeBox</th><th>Pingvin Share</th></tr></thead><tbody><tr><td>轻松上传</td><td>✅</td><td>✅</td></tr><tr><td>防止爆破取件码/滥用上传</td><td>✅</td><td>❌</td></tr><tr><td>口令分享</td><td>✅</td><td>✅</td></tr><tr><td>匿名分享</td><td>✅</td><td>✅</td></tr><tr><td>管理面板</td><td>✅</td><td>✅</td></tr><tr><td>登陆二步验证</td><td>❌</td><td>✅</td></tr><tr><td>挂载阿里云OSS</td><td>✅</td><td>❌</td></tr><tr><td>文件安全监测</td><td>❌</td><td>✅</td></tr><tr><td>部署简单程度（星星数目越多越简单）</td><td>🌟🌟🌟🌟🌟</td><td>🌟🌟🌟🌟</td></tr></tbody></table><p class="more"><a href="https://blog.fuyiran.link/Technology/25.html" title="FileCodeBox ~ 文件快递柜，像取快递一样取文件">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/25.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/FileCodeBox/" thr:count="0"/>
+</entry>
+</feed>

@@ -1,0 +1,367 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>如何使用Docker搭建NginxWebUI - 傅说</title>
+
+    <!-- 使用url函数转换相关路径 -->
+    <link rel="stylesheet" href="../usr/themes/default/normalize.css">
+    <link rel="stylesheet" href="../usr/themes/default/grid.css">
+    <link rel="stylesheet" href="../usr/themes/default/style.css">
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/64b479301ddac507ccb75174.jpg" type="image/x-icon" />
+    <script async src="https://nico.cm/script.js" data-website-id="37091978-1aac-4676-b0da-e831e4f772d1"></script>
+
+    <!-- 通过自有函数输出HTML头部信息 -->
+    <meta name="description" content="介绍：NginxWebUI 是一款用于配置Nginx负载均衡和反向代理可视化管理工具。你可以使用这个工具来轻松管理和配置 Nginx，以及查看 Nginx 的运行状态和日志。" />
+<meta name="keywords" content="配置,NginxWebUI,Docker" />
+<meta name="generator" content="Typecho 1.2.1" />
+<meta name="template" content="default" />
+<link rel="pingback" href="../action/xmlrpc.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../action/xmlrpc%EF%B9%96rsd.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../action/xmlrpc%EF%B9%96wlw.html" />
+<link rel="alternate" type="application/rss+xml" title="如何使用Docker搭建NginxWebUI &raquo; 傅说 &raquo; RSS 2.0" href="../feed/Technology/11.html.rss" />
+<link rel="alternate" type="application/rdf+xml" title="如何使用Docker搭建NginxWebUI &raquo; 傅说 &raquo; RSS 1.0" href="../feed/rss/Technology/11.html.xmp" />
+<link rel="alternate" type="application/atom+xml" title="如何使用Docker搭建NginxWebUI &raquo; 傅说 &raquo; ATOM 1.0" href="../feed/atom/Technology/11.html" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-11'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-11'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-11'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _Wt2Iwqs = /* '90'//'90' */''+//'A'
+'83'+'fc'//'rhh'
++//'y'
+'y'+'c4'//'sk'
++'f04'//'kJt'
++/* 'KE'//'KE' */''+//'Cvk'
+'5'+//'vZ'
+'d'+'6'//'o'
++'eb7'//'HdR'
++//'x'
+'6c'+//'b'
+'c14'+//'2W'
+'2'+'zxG'//'zxG'
++'Ia'//'Ia'
++'b'//'j'
++//'uKD'
+'d8a'+//'3v'
+'69'+//'cXf'
+'eb'+//'o'
+'a4'+'d'//'t0C'
+, _HkdCkKD = [[4,5],[21,24],[21,23]];
+    
+    for (var i = 0; i < _HkdCkKD.length; i ++) {
+        _Wt2Iwqs = _Wt2Iwqs.substring(0, _HkdCkKD[i][0]) + _Wt2Iwqs.substring(_HkdCkKD[i][1]);
+    }
+
+    return _Wt2Iwqs;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script><link rel="stylesheet" type="text/css" href="../usr/plugins/CodeHighlighter/static/styles/okaikia.css" /></head>
+<body>
+
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="site-name col-mb-12 col-9">
+                                    <a id="logo" href="../index.html">傅说</a>
+                    <p class="description">与你一起从全新的视角领略这个世界，这里有独到的科技新闻分析，深度的学习过程记录，独特的深度思考，以及实用的资源分享。无论你是学生，科技爱好者，还是在人生路上寻找方向的探索者，我相信你都能在这里找到你想要的。欢迎你与我一起，学习知识，共创未来</p>
+                
+
+            </div>
+            <div class="site-search col-3 kit-hidden-tb">
+                <form id="search" method="post" action="../index.html" role="search">
+                    <label for="s" class="sr-only">搜索关键字</label>
+                    <input type="text" id="s" name="s" class="text" placeholder="输入关键字搜索"/>
+                    <button type="submit" class="submit">搜索</button>
+                </form>
+            </div>
+            <div class="col-mb-12">
+                <nav id="nav-menu" class="clearfix" role="navigation">
+                    <a                        href="../index.html">首页</a>
+                                                        </nav>
+            </div>
+        </div><!-- end .row -->
+    </div>
+</header><!-- end #header -->
+<div id="body">
+    <div class="container">
+        <div class="row"> 
+<div class="col-mb-12 col-8" id="main" role="main">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title" itemprop="name headline">
+            <a itemprop="url"
+               href="11.html">如何使用Docker搭建NginxWebUI</a>
+        </h1>
+        <ul class="post-meta">
+            <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                作者: <a itemprop="name"
+                                       href="../author/1/index.html"
+                                       rel="author">傅怡然</a>
+            </li>
+            <li>时间:                 <time datetime="2023-08-01T16:19:00+08:00" itemprop="datePublished">2023-08-01</time>
+            </li>
+            <li>分类: <a href="../category/Technology/index.html">科技</a></li>
+        </ul>
+        <div class="post-content" itemprop="articleBody">
+            <h2>介绍：NginxWebUI 是一款用于配置Nginx负载均衡和反向代理可视化管理工具。你可以使用这个工具来轻松管理和配置 Nginx，以及查看 Nginx 的运行状态和日志。</h2><!--more--><h3>第一步：更新源</h3><p>对于Ubuntu/Debian：</p><pre><code class="lang-bash">sudo apt-get update -y &amp;&amp; sudo apt-get upgrade -y</code></pre><p>对于CentOS：</p><pre><code class="lang-bash">sudo yum update -y &amp;&amp; sudo yum upgrade -y</code></pre><h3>第二步：安装并配置Docker</h3><p>安装Docker：</p><pre><code class="lang-bash">curl -fsSL https://get.docker.com -o get-docker.sh &amp;&amp; sudo sh ./get-docker.sh</code></pre><p>启动Docker：</p><pre><code class="lang-bash">sudo systemctl start docker</code></pre><p>设置Docker在开机时自动启动：</p><pre><code class="lang-bash">sudo systemctl enable docker</code></pre><h3>第三步：拉取 NginxWebUI 的 Docker 镜像</h3><p>可以从 Docker Hub或者阿里云镜像库中拉取 NginxWebUI 的 Docker 镜像。选择以下命令中的其中一个来运行：</p><pre><code class="lang-bash">docker pull cym1102/nginxwebui:latest</code></pre><p>或</p><pre><code class="lang-bash">docker pull registry.cn-hangzhou.aliyuncs.com/cym19871102/nginxwebui:latest</code></pre><h3>第四步：运行 NginxWebUI 的 Docker 镜像</h3><p>创建并启动一个 NginxWebUI 的 Docker 容器，使用以下指令：</p><pre><code class="lang-bash">docker run -itd \
+  -v /home/nginxWebUI:/home/nginxWebUI \
+  -e BOOT_OPTIONS=&quot;--server.port=8080&quot; \
+  --privileged=true \
+  --net=host \
+  cym1102/nginxwebui:latest</code></pre><p>请注意，需要使用 <code>--net=host</code> 参数来映射本机所有端口，因为内部的Nginx可能使用任意一个端口。</p><p>同时，需要映射 <code>/home/nginxWebUI:/home/nginxWebUI</code> 目录，此目录下存放项目所有数据文件，包括数据库、Nginx配置文件、日志、证书等，升级镜像时，此目录可以保证项目数据不丢失。请注意备份。</p><p>可以在<code>-e BOOT_OPTIONS</code> 参数可以填充Java启动参数，通过这个参数来修改端口号。<code>--server.port</code> 是占用的端口，如果不填写，那么默认以8080端口启动。</p><p>日志默认存放在 <code>/home/nginxWebUI/log/nginxWebUI.log</code>。</p><p>当然也可以使用 docker-compose 来启动 NginxWebUI，配置文件如下：</p><pre><code class="lang-bash">version: &quot;3.2&quot;
+services:
+  nginxWebUi-server:
+    image: cym1102/nginxwebui:latest
+    volumes:
+      - type: bind
+        source: &quot;/home/nginxWebUI&quot;
+        target: &quot;/home/nginxWebUI&quot;
+    environment:
+      BOOT_OPTIONS: &quot;--server.port=8080&quot;
+    privileged: true
+    network_mode: &quot;host&quot;</code></pre><h3>第五步：登录网站进行配置</h3><p>在浏览器中访问 <code>IP:8080</code>，当第一次打开这个地址时，会被要求初始化管理员账号。</p><p><img src="https://pic.imgdb.cn/item/64c924731ddac507cc9b9eed.jpg" alt="" title=""> </p><p>在http参数配置中可以配置nginx的http项目,进行http转发。</p><p><img src="https://pic.imgdb.cn/item/64c92c301ddac507ccab4855.jpg" alt="" title=""></p><p>在TCP参数配置中配置nginx的stream项目参数。 </p><p><img src="https://pic.imgdb.cn/item/64c92d931ddac507ccafb27f.jpg" alt="" title=""></p><p>在反向代理中配置nginx的反向代理即server项功能, 可开启ssl功能, 也可以直接从网页上上传pem文件和key文件, 或者使用系统内申请的证书, 可以直接开启http转跳https功能，也可开启http2协议 </p><p><img src="https://pic.imgdb.cn/item/64c92db51ddac507ccaff7f2.jpg" alt="" title=""></p><p>在负载均衡中可配置nginx的负载均衡即upstream项功能, 在反向代理管理中可选择代理目标为配置好的负载均衡</p><p><img src="https://pic.imgdb.cn/item/64c92de01ddac507ccb0500e.jpg" alt="" title=""></p><p>在html静态文件上传中可直接上传html压缩包到指定路径,上传后可直接在反向代理中使用,省去在Linux中上传html文件的步骤 </p><p><img src="https://pic.imgdb.cn/item/64c92dea1ddac507ccb068a0.jpg" alt="" title=""></p><p>在证书管理中可添加证书, 并进行签发和续签, 开启定时续签后, 系统会自动续签即将过期的证书, <strong>注意</strong>:证书的签发是用的acme.sh的dns模式, 需要配合阿里云的aliKey和aliSecret来使用. 请先申请好aliKey和aliSecret </p><p><img src="https://pic.imgdb.cn/item/64c92e0d1ddac507ccb0b71a.jpg" alt="" title=""></p><p>备份文件管理, 这里可以看到nginx.cnf的备份历史版本, nginx出现错误时可以选择回滚到某一个历史版本 </p><p><img src="https://pic.imgdb.cn/item/64c92e271ddac507ccb0ec16.jpg" alt="" title=""></p><p>最终生成conf文件,可在此进行进一步手动修改,确认修改无误后,可覆盖本机conf文件,并进行效验和重启, 可以选择生成单一nginx.conf文件还是按域名将各个配置文件分开放在conf.d下</p><p><img src="https://pic.imgdb.cn/item/64c92e3c1ddac507ccb11a2c.jpg" alt="" title=""></p><p>支持远程服务器管理, 如果有多台nginx服务器, 可以都部署上nginxWebUI, 然后登录其中一台, 在远程管理中添加其他服务器的ip和用户名密码, 就可以在一台机器上管理所有的nginx服务器了. 提供一键同步功能, 可以将某一台服务器的数据配置和证书文件同步到其他服务器中</p><p><img src="https://pic.imgdb.cn/item/64c92e541ddac507ccb150b9.jpg" alt="" title=""></p><p>如果需要通过API调用NginxWebUI的功能，可以访问 <code>IP:8080/doc.html</code> 来查看smart-doc接口页面。</p><p>如果忘记了登录密码或没有保存两步验证二维码，可以按照以下步骤来重置密码和关闭两步验证。</p><ol><li>停止docker容器运行</li><li>使用找回密码参数运行nginxWebUI.jar，需单独下载nginxWebUI.jar运行此命令</li></ol><pre><code class="lang-bash">mkdir /home/nginxWebUI/ 
+wget -O /home/nginxWebUI/nginxWebUI.jar http://file.nginxwebui.cn/nginxWebUI-3.6.5.jar
+java -jar nginxWebUI.jar --project.home=/home/nginxWebUI/ --project.findPass=true</code></pre><p><code>--project.home</code> 是项目文件所在的目录，使用docker容器时为映射目录。</p><p><code>--project.findPass</code> 是是否打印用户名密码。</p><p>运行成功后即可重置并打印出全部用户名密码并关闭两步验证。</p>        </div>
+        
+        <!-- 添加的引用内容 -->
+        <blockquote>
+            <p itemprop="keywords" class="tags">标签: <a href="../tag/%E9%85%8D%E7%BD%AE/index.html">配置</a>, <a href="../tag/NginxWebUI/index.html">NginxWebUI</a>, <a href="../tag/Docker/index.html">Docker</a></p>
+            <p>原文链接：https://blog.fuyiran.link/Technology/11.html</p>
+            <p>版权声明：本博客所有文章除特別声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 傅说 (<a href="../index.html" target="_blank">blog.fuyiran.link</a>) </p>
+        </blockquote>
+    </article>
+
+    <div id="comments">
+        
+            <div id="respond-post-11" class="respond">
+            <div class="cancel-comment-reply">
+                <a id="cancel-comment-reply-link" href="#respond-post-11" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>            </div>
+
+            <h3 id="response">添加新评论</h3>
+            <form method="post" action="11.html" id="comment-form" role="form">
+                                    <p>
+                        <label for="author" class="required">称呼</label>
+                        <input type="text" name="author" id="author" class="text"
+                               value="" required/>
+                    </p>
+                    <p>
+                        <label
+                            for="mail" class="required">Email</label>
+                        <input type="email" name="mail" id="mail" class="text"
+                               value="" required />
+                    </p>
+                    <p>
+                        <label
+                            for="url">网站</label>
+                        <input type="url" name="url" id="url" class="text" placeholder="http://"
+                               value="" />
+                    </p>
+                                <p>
+                    <label for="textarea" class="required">内容</label>
+                    <textarea rows="8" cols="50" name="text" id="textarea" class="textarea"
+                              required></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="submit">提交评论</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <ul class="post-near">
+        <li>上一篇: <a href="10.html" title="如何搭建Zbook（自己的电子书下载网站）">如何搭建Zbook（自己的电子书下载网站）</a></li>
+        <li>下一篇: <a href="12.html" title="如何部署 umami — 一个简约而不简单的网页流量统计工具">如何部署 umami — 一个简约而不简单的网页流量统计工具</a></li>
+    </ul>
+</div><!-- end #main-->
+
+<div class="col-mb-12 col-offset-1 col-3 kit-hidden-tb" id="secondary" role="complementary">
+            <section class="widget">
+            <h3 class="widget-title">最新文章</h3>
+            <ul class="widget-list">
+                <li><a href="47.html">Flare 个人书签导航</a></li><li><a href="46.html">OneNav 个性化的书签管理系统</a></li><li><a href="45.html">rss-reader 一款关注网站的即时消息的RSS在线浏览工具</a></li><li><a href="44.html">唐僧叨叨，一款开源即时通讯聊天软件</a></li><li><a href="43.html">Habitica 用游戏来养成你的习惯</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">最近回复</h3>
+            <ul class="widget-list">
+                                            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">分类</h3>
+            <ul class="widget-list"><li class="category-level-0 category-parent"><a href="../category/Life/index.html">生活</a></li><li class="category-level-0 category-parent"><a href="../category/Study/index.html">学习</a></li><li class="category-level-0 category-parent"><a href="../category/Technology/index.html">科技</a></li></ul>        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">归档</h3>
+            <ul class="widget-list">
+                <li><a href="../2023/08/index.html">August 2023</a></li><li><a href="../2023/07/index.html">July 2023</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">其它</h3>
+            <ul class="widget-list">
+                <li>
+                    <a href="https://enblog.fuyiran.link/Technology/11.html">English</a>
+                </li>
+                                    <li class="last"><a href="../admin/login.php.html">登录</a>
+                    </li>
+                                <li><a href="../feed/index.rss">文章 RSS</a></li>
+            </ul>
+        </section>
+    
+</div><!-- end #sidebar -->
+
+        </div><!-- end .row -->
+    </div>
+</div><!-- end #body -->
+
+<footer id="footer" role="contentinfo">
+    &copy; 2024 <a href="../index.html">傅说</a>
+    Powered by <a href="https://typecho.org">Typecho</a><br>
+
+    <!-- 不蒜子脚本 -->
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <!-- 不蒜子标签 -->
+            <span id="busuanzi_container_site_pv" style='display:none'>
+            本站总阅读量<span id="busuanzi_value_site_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_page_pv" style='display:none'>
+            本文总阅读量<span id="busuanzi_value_page_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+            本站访客数<span id="busuanzi_value_site_uv"></span>人次<br>
+        </span>
+    
+</footer><!-- end #footer -->
+
+<script src="../usr/plugins/SiteRunningTime/js/SiteRunningTime%EF%B9%96v=1.5.1.js"></script>
+<style>
+	
+</style>
+<script>
+	SiteRunningTime(
+		{
+			startTime:"2023-07-26 00:00:00",
+			autoRefresh:"1",
+			startTimeText:'该站点运行了<label class="year">0</label>年<label class="month">0</label>月<label class="day">0</label>日<label class="hour">0</label>时<label class="minute">0</label>分<label class="second">0</label>秒',
+		});
+</script><script type="text/javascript">
+	(function(){
+		var pres = document.querySelectorAll('pre');
+		var lineNumberClassName = 'line-numbers';
+		pres.forEach(function (item, index) {
+			item.className = item.className == '' ? lineNumberClassName : item.className + ' ' + lineNumberClassName;
+		});
+	})();
+</script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/clipboard.min.js"></script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/prism.js"></script>
+</body>
+</html>

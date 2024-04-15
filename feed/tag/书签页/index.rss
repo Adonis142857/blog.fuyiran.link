@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - 书签页</title>
+<link>https://blog.fuyiran.link/tag/%E4%B9%A6%E7%AD%BE%E9%A1%B5/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/%E4%B9%A6%E7%AD%BE%E9%A1%B5/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Sat, 19 Aug 2023 20:08:00 +0800</lastBuildDate>
+<pubDate>Sat, 19 Aug 2023 20:08:00 +0800</pubDate>
+<item>
+<title>Flare 个人书签导航</title>
+<link>https://blog.fuyiran.link/Technology/47.html</link>
+<guid>https://blog.fuyiran.link/Technology/47.html</guid>
+<pubDate>Sat, 19 Aug 2023 20:08:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：Flare ，一款在性能、数据安全、美观界面以及用户体验上都经过深思熟虑的书签导航。特点：性能优势：与其前身 Flame 相比，Flare在性能方面有着明显的优势。无论是小到10M的容器镜...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Flare ，一款在性能、数据安全、美观界面以及用户体验上都经过深思熟虑的书签导航。</p><h2>特点：</h2><ul><li>性能优势：与其前身 Flame 相比，Flare在性能方面有着明显的优势。无论是小到10M的容器镜像体积、还是平时仅消耗30M左右的内存，Flare 均能在 99% 的情况下实现页面秒开，且在极限情况下内存使用仍然保持在 60M。</li><li>数据策略简单透明：Flare 使用文本格式来存储书签数据，保证了数据的持久性和透明性。无论是软件在未来的某一天无法运行，还是用户希望切换到其他工具，数据迁移的成本都很低。</li><li>美观界面：Flare 提供了一致性的书签图标设计，包括简约的天气动画图标和 6000 多个 Material Design Icons，确保了软件界面的美观性。</li><li>懒人工具：Flare 内置了一个图标快速选择工具，以及简单易用的天气展示功能，减少了用户的操作成本。</li><li>在线编辑：为了满足用户随时随地的编辑需求，Flare 在最新版本中添加了在线编辑功能。</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/47.html" title="Flare 个人书签导航">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/47.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E4%B9%A6%E7%AD%BE%E9%A1%B5/</wfw:commentRss>
+</item>
+<item>
+<title>OneNav 个性化的书签管理系统</title>
+<link>https://blog.fuyiran.link/Technology/46.html</link>
+<guid>https://blog.fuyiran.link/Technology/46.html</guid>
+<pubDate>Sat, 19 Aug 2023 08:03:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：OneNav，使用PHP + SQLite 3开发的书签管理系统，将浏览器书签集中式管理，做到一处部署，随处访问。特点：功能特色支持后台管理支持私有链接支持Chrome/Firefox/E...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>OneNav，使用PHP + SQLite 3开发的书签管理系统，将浏览器书签集中式管理，做到一处部署，随处访问。</p><h2>特点：</h2><ul><li>功能特色</li><li>支持后台管理</li><li>支持私有链接</li><li>支持Chrome/Firefox/Edge书签批量导入</li><li>支持多种主题风格</li><li>支持链接信息自动识别</li><li>支持API</li><li>支持Docker部署</li><li>支持uTools插件</li><li>支持二级分类</li><li>支持Chromium内核的浏览器扩展（插件）</li><li>支持在线更新</li><li>手机版后台</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/46.html" title="OneNav 个性化的书签管理系统">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/46.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E4%B9%A6%E7%AD%BE%E9%A1%B5/</wfw:commentRss>
+</item>
+</channel>
+</rss>

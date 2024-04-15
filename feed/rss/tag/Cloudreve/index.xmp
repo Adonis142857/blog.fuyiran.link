@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/Cloudreve/">
+<title>傅说 - Cloudreve</title>
+<link>https://blog.fuyiran.link/tag/Cloudreve/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/19.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/19.html">
+<title>自建云盘？试试 Cloudreve</title>
+<link>https://blog.fuyiran.link/Technology/19.html</link>
+<dc:date>2023-08-05T18:21:00+08:00</dc:date>
+<description>介绍：Cloudreve 一款自用公用都合适的网盘系统，支持多种云存储平台，例如七牛，OSS，COS，又拍云，OneDrive，S3。用户在实际使用时无须关心物理存储方式。既可以使用 Cloudreve 搭建起个人用网盘、文件分享系统，也可以搭建针对大小团体的公有云系统。[...]</description>
+</item>
+</rdf:RDF>

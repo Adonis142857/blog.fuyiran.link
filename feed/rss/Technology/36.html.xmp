@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/Technology/36.html">
+<title>傅说 - Telegram Media Downloader 高速下载TG文件 的评论</title>
+<link>https://blog.fuyiran.link/Technology/36.html</link>
+<description>介绍：这是一款基于 Dineshkarthik 的项目， 支持电报视频/资源下载，支持web查看下载进度 ，支持bot下发指令下载，支持下载已经加入的私有群但是限制下载的资源，使用远高于TG客户...</description>
+<items>
+<rdf:Seq>
+</rdf:Seq>
+</items>
+</channel>
+</rdf:RDF>

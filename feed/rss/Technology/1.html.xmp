@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/Technology/1.html">
+<title>傅说 - Flarum 一款简洁优雅，高可自定义性的论坛 的评论</title>
+<link>https://blog.fuyiran.link/Technology/1.html</link>
+<description>介绍：Flarum，一款优雅简洁的论坛，基于 PHP 构建，拥有精美的响应式布局，界面使用 Mithril 构建，拥有着高度的可自定义性、扩展性。</description>
+<items>
+<rdf:Seq>
+</rdf:Seq>
+</items>
+</channel>
+</rdf:RDF>

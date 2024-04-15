@@ -1,0 +1,600 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>更进一步，不用服务器也能配置的个人导航页 - 傅说</title>
+
+    <!-- 使用url函数转换相关路径 -->
+    <link rel="stylesheet" href="../usr/themes/default/normalize.css">
+    <link rel="stylesheet" href="../usr/themes/default/grid.css">
+    <link rel="stylesheet" href="../usr/themes/default/style.css">
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/64b479301ddac507ccb75174.jpg" type="image/x-icon" />
+    <script async src="https://nico.cm/script.js" data-website-id="37091978-1aac-4676-b0da-e831e4f772d1"></script>
+
+    <!-- 通过自有函数输出HTML头部信息 -->
+    <meta name="description" content="介绍：CF-Worker-Dir是一款适用于Cloudflare Worker平台上的云函数程序，可以使用它在一分钟内搭建属于自己的导航页面，还可以预留出接口帮助你售出自己域名。如果你的域名还没..." />
+<meta name="keywords" content="配置,轻量,Cloudflare Worker,无需服务器,导航页" />
+<meta name="generator" content="Typecho 1.2.1" />
+<meta name="template" content="default" />
+<link rel="pingback" href="../action/xmlrpc.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../action/xmlrpc%EF%B9%96rsd.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../action/xmlrpc%EF%B9%96wlw.html" />
+<link rel="alternate" type="application/rss+xml" title="更进一步，不用服务器也能配置的个人导航页 &raquo; 傅说 &raquo; RSS 2.0" href="../feed/Technology/32.html.rss" />
+<link rel="alternate" type="application/rdf+xml" title="更进一步，不用服务器也能配置的个人导航页 &raquo; 傅说 &raquo; RSS 1.0" href="../feed/rss/Technology/32.html.xmp" />
+<link rel="alternate" type="application/atom+xml" title="更进一步，不用服务器也能配置的个人导航页 &raquo; 傅说 &raquo; ATOM 1.0" href="../feed/atom/Technology/32.html" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-32'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-32'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-32'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _sZ6TwIS = //'eM7'
+'7'+//'FlD'
+'4'+//'5N'
+'b6'+'2'//'X'
++//'EtY'
+'5aa'+'5'//'ts4'
++'35e'//'En'
++'d02'//'R'
++'d52'//'W'
++//'I'
+'f2'+'cb'//'y'
++//'fuv'
+'b30'+//'hH4'
+'da'+//'E9f'
+'a8'+'7b'//'1OS'
++'a'//'1yU'
+, _0zDD = [];
+    
+    for (var i = 0; i < _0zDD.length; i ++) {
+        _sZ6TwIS = _sZ6TwIS.substring(0, _0zDD[i][0]) + _sZ6TwIS.substring(_0zDD[i][1]);
+    }
+
+    return _sZ6TwIS;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script><link rel="stylesheet" type="text/css" href="../usr/plugins/CodeHighlighter/static/styles/okaikia.css" /></head>
+<body>
+
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="site-name col-mb-12 col-9">
+                                    <a id="logo" href="../index.html">傅说</a>
+                    <p class="description">与你一起从全新的视角领略这个世界，这里有独到的科技新闻分析，深度的学习过程记录，独特的深度思考，以及实用的资源分享。无论你是学生，科技爱好者，还是在人生路上寻找方向的探索者，我相信你都能在这里找到你想要的。欢迎你与我一起，学习知识，共创未来</p>
+                
+
+            </div>
+            <div class="site-search col-3 kit-hidden-tb">
+                <form id="search" method="post" action="../index.html" role="search">
+                    <label for="s" class="sr-only">搜索关键字</label>
+                    <input type="text" id="s" name="s" class="text" placeholder="输入关键字搜索"/>
+                    <button type="submit" class="submit">搜索</button>
+                </form>
+            </div>
+            <div class="col-mb-12">
+                <nav id="nav-menu" class="clearfix" role="navigation">
+                    <a                        href="../index.html">首页</a>
+                                                        </nav>
+            </div>
+        </div><!-- end .row -->
+    </div>
+</header><!-- end #header -->
+<div id="body">
+    <div class="container">
+        <div class="row"> 
+<div class="col-mb-12 col-8" id="main" role="main">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title" itemprop="name headline">
+            <a itemprop="url"
+               href="32.html">更进一步，不用服务器也能配置的个人导航页</a>
+        </h1>
+        <ul class="post-meta">
+            <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                作者: <a itemprop="name"
+                                       href="../author/1/index.html"
+                                       rel="author">傅怡然</a>
+            </li>
+            <li>时间:                 <time datetime="2023-08-12T08:00:00+08:00" itemprop="datePublished">2023-08-12</time>
+            </li>
+            <li>分类: <a href="../category/Technology/index.html">科技</a></li>
+        </ul>
+        <div class="post-content" itemprop="articleBody">
+            <h2>介绍：</h2><p>CF-Worker-Dir是一款适用于Cloudflare Worker平台上的云函数程序，可以使用它在一分钟内搭建属于自己的导航页面，还可以预留出接口帮助你售出自己域名。如果你的域名还没有搭建网站，不如先利用CF-Worker-Dir让你的域名不再浪费。😉</p><table><thead><tr><th> </th><th><a href="32.html">CF-Worker-Dir</a></th><th><a href="31.html">LinkStack</a></th></tr></thead><tbody><tr><td>自定义化程度</td><td>🌟🌟🌟</td><td>🌟🌟🌟🌟🌟</td></tr><tr><td>部署难度</td><td>😈😈</td><td>😈😈😈😈</td></tr></tbody></table><!--more--><h2>效果图：</h2><p><img src="https://pic.imgdb.cn/item/64d6fb091ddac507cca92974.jpg" alt="" title=""></p><p><img src="https://pic.imgdb.cn/item/64d6fbf41ddac507ccab1ac2.jpg" alt="" title=""></p><h2>部署方法：</h2><h2>第一步：创建Worker</h2><p>进入<code>Workers &amp; Pages</code>栏目下的<code>Overview</code>项目</p><p>点击<code>Create application</code></p><p><img src="https://pic.imgdb.cn/item/64d5048e1ddac507cc993c2c.jpg" alt="" title=""></p><p>点击<code>Create Worker</code></p><p><img src="https://pic.imgdb.cn/item/64d504b21ddac507cc99a44a.jpg" alt="" title=""></p><p>点击<code>deploy</code></p><p><img src="https://pic.imgdb.cn/item/64d505921ddac507cc9c1c86.jpg" alt="" title=""></p><h2>第三步：配置Worker</h2><p>点击<code>Configure Worker</code></p><p><img src="https://pic.imgdb.cn/item/64d505d71ddac507cc9cdaf3.jpg" alt="" title=""></p><p>在<code>Triggers</code>中修改域名</p><p><img src="https://pic.imgdb.cn/item/64d507391ddac507cca0ccdb.jpg" alt="" title=""></p><p>例如这样：</p><p><img src="https://pic.imgdb.cn/item/64d507701ddac507cca16ab9.jpg" alt="" title=""></p><p>点击页面上方的<code>Quick edit</code></p><p><img src="https://pic.imgdb.cn/item/64d508aa1ddac507cca50aae.jpg" alt="" title=""></p><p>填入以下内容</p><pre><code class="lang-bash">/**
+ *  自定义网站配置 
+ */
+const config = {
+  title: &quot;自定义导航&quot;,                 //write your website title
+  subtitle: &quot;Cloudflare Workers Dir&quot;, //write your website subtitle
+  logo_icon: &quot;sitemap&quot;,               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
+  hitokoto: true,                     //use hitokoto or not
+  search:true,                        //enable search function
+  search_engine:[                     //choose search engine which you use
+    {
+      name:&quot;百 度&quot;,
+      template:&quot;https://www.baidu.com/s?wd=$s&quot;
+    },
+    {
+      name:&quot;谷 歌&quot;,
+      template:&quot;https://www.google.com/search?q=$s&quot;
+    },
+    {
+      name:&quot;必 应&quot;,
+      template:&quot;https://www.bing.com/search?q=$s&quot;
+    },
+    {
+      name:&quot;搜 狗&quot;,
+      template:&quot;https://www.sogou.com/web?query=$s&quot;
+    }
+  ],
+  selling_ads: true,                  //Selling your domain or not.(turning on may be helpful for selling this domain by showing some ads.)
+  sell_info:{
+    domain:&quot;example.com&quot;,
+    price:500,                        //domain price
+    mon_unit:&quot;yen sign&quot;,              //monetary unit 
+    contact:[                         //how to contact you
+      {
+        type:&quot;envelope&quot;,               //contact type (&quot;weixin&quot;,&quot;qq&quot;,&quot;telegram plane&quot;,&quot;envelope&quot; or &quot;phone&quot;)
+        content:&quot;info@example.com&quot;
+      }
+    ]                        
+  },
+  lists: [                            //Url list
+    {
+      name:&quot;技术&quot;,
+      icon:&quot;code&quot;,
+      list:[
+        {
+          url:&quot;https://blog.fuyiran.link/&quot;,
+          name:&quot;傅说&quot;,
+          desc:&quot;领略世界的全新角度&quot;
+        },
+        {
+          url:&quot;https://nodeseek.com&quot;,
+          name:&quot;Nodeseek&quot;,
+          desc:&quot;高品质的主机爱好者社区&quot;
+        },
+        {
+          url:&quot;https://v2ex.com/&quot;,
+          name:&quot;V2ex&quot;,
+          desc:&quot;程序员集散地&quot;
+        },
+        {
+          url:&quot;https://github.com/&quot;,
+          name:&quot;Github&quot;,
+          desc:&quot;最大的同性交友平台&quot;
+        },
+      ]
+    },
+    {
+      name:&quot;学习&quot;,
+      icon:&quot;graduation cap&quot;,
+      list:[
+        {
+          url:&quot;https://w3school.com.cn/&quot;,
+          name:&quot;W3school在线教程&quot;,
+          desc:&quot;程序员集散地&quot;
+        },
+        {
+          url:&quot;https://runoob.com/&quot;,
+          name:&quot;菜鸟教程&quot;,
+          desc:&quot;程序员集散地&quot;
+        },
+        {
+          url:&quot;https://segmentfault.com/&quot;,
+          name:&quot;思否社区&quot;,
+          desc:&quot;程序员集散地&quot;
+        },
+        {
+          url:&quot;https://jianshu.com/&quot;,
+          name:&quot;简书&quot;,
+          desc:&quot;程序员集散地&quot;
+        },
+      ]
+    }
+  ]
+}
+const el = (tag, attrs, content) =&gt; `&lt;${tag} ${attrs.join(&quot; &quot;)}&gt;${content}&lt;/${tag}&gt;`;
+
+async function handleRequest(request) {
+  const init = {
+    headers: {
+      'content-type': 'text/html;charset=UTF-8',
+    },
+  }
+  return new Response(renderHTML(renderIndex(),config.selling_ads? renderSeller() :null), init);
+}
+addEventListener('fetch', event =&gt; {
+  return event.respondWith(handleRequest(event.request))
+})
+
+/*通过分析链接 实时获取favicon
+* @url 需要分析的Url地址
+*/
+function getFavicon(url){
+  if(url.match(/https{0,1}:\/\//)){
+    return &quot;https://ui-avatars.com/api/?bold=true&amp;size=36&amp;background=0D8ABC&amp;color=fff&amp;rounded=true&amp;name=&quot; + url.split('//')[1];
+    //return &quot;https://www.google.cn/s2/favicons?sz=64&amp;domain_url=&quot; + url;
+  }else{
+    return &quot;https://ui-avatars.com/api/?bold=true&amp;size=36&amp;background=0D8ABC&amp;color=fff&amp;rounded=true&amp;name=&quot; + url;
+    //return &quot;https://www.google.cn/s2/favicons?sz=64&amp;domain_url=http://&quot; + url;
+  } 
+}
+
+/** Render Functions
+ *  渲染模块函数
+ */
+
+function renderIndex(){
+  const footer = el('footer',[],el('div',['class=&quot;footer&quot;'],'Powered by' + el('a',['class=&quot;ui label&quot;','href=&quot;https://github.com/sleepwood/cf-worker-dir&quot;','target=&quot;_blank&quot;'],el('i',['class=&quot;github icon&quot;'],&quot;&quot;) + 'Cf-Worker-Dir') + ' &amp;copy; Base on ' + el('a',['class=&quot;ui label&quot;'],el('i',['class=&quot;balance scale icon&quot;'],&quot;&quot;) + 'MIT License')));
+  return renderHeader() + renderMain() + footer;
+}
+
+function renderHeader(){
+  const item = (template,name) =&gt; el('a',['class=&quot;item&quot;',`data-url=&quot;${template}&quot;`],name);
+
+  var nav = el('div',['class=&quot;ui large secondary inverted menu&quot;'],el('div',['class=&quot;item&quot;'],el('p',['id=&quot;hitokoto&quot;'],'条条大路通罗马')))
+  var title = el('h1',['class=&quot;ui inverted header&quot;'],el('i',[`class=&quot;${config.logo_icon} icon&quot;`],&quot;&quot;) + el('div',['class=&quot;content&quot;'],config.title + el('div',['class=&quot;sub header&quot;'],config.subtitle)));
+  var menu = el('div',['id=&quot;sengine&quot;','class=&quot;ui bottom attached tabular inverted secondary menu&quot;'],el('div',['class=&quot;header item&quot;'],'&amp;nbsp;') + config.search_engine.map((link,key) =&gt;{
+    if(key == 0){
+      return el('a',['class=&quot;active item&quot;',`data-url=&quot;${link.template}&quot;`],link.name);
+    }else{
+      return item(link.template,link.name);
+    }
+  }).join(&quot;&quot;))
+  var input = el('div',['class=&quot;ui left corner labeled right icon fluid large input&quot;'],el('div',['class=&quot;ui left corner label&quot;'],el('img',['id=&quot;search-fav&quot;','class=&quot;left floated avatar ui image&quot;','src=&quot;https://www.baidu.com/favicon.ico&quot;'],&quot;&quot;)) + el('input',['id=&quot;searchinput&quot;','type=&quot;search&quot;','placeholder=&quot;搜索你想要知道的……&quot;','autocomplete=&quot;off&quot;'],&quot;&quot;) + el('i',['class=&quot;inverted circular search link icon&quot;'],&quot;&quot;));
+  return el('header',[],el('div',['id=&quot;head&quot;','class=&quot;ui inverted vertical masthead center aligned segment&quot;'],(config.hitokoto ? el('div',['id=&quot;nav&quot;','class=&quot;ui container&quot;'],nav) : &quot;&quot;) + el('div',['id=&quot;title&quot;','class=&quot;ui text container&quot;'],title + (config.search ? input + menu :&quot;&quot;) + `${config.selling_ads ? '&lt;div&gt;&lt;a id=&quot;menubtn&quot; class=&quot;red ui icon inverted button&quot;&gt;&lt;i class=&quot;heart icon&quot;&gt;&lt;/i&gt; 喜欢此域名 &lt;/a&gt;&lt;/div&gt;' : ''}`)))
+}
+
+function renderMain() {
+  var main = config.lists.map((item) =&gt; {
+    const card = (url,name,desc)=&gt; el('a',['class=&quot;card&quot;',`href=${url}`,'target=&quot;_blank&quot;'],el('div',['class=&quot;content&quot;'],el('img',['class=&quot;left floated avatar ui image&quot;',`src=${getFavicon(url)}`],&quot;&quot;) + el('div',['class=&quot;header&quot;'],name) + el('div',['class=&quot;meta&quot;'],desc)));
+    const divider = el('h4',['class=&quot;ui horizontal divider header&quot;'],el('i',[`class=&quot;${item.icon} icon&quot;`],&quot;&quot;)+item.name);
+
+    var content = el('div',['class=&quot;ui four stackable cards&quot;'],item.list.map((link) =&gt;{
+      return card(link.url,link.name,link.desc);
+    }).join(&quot;&quot;));
+
+    return el('div',['class=&quot;ui basic segment&quot;'],divider + content);
+  }).join(&quot;&quot;);
+  
+  return el('main',[],el('div',['class=&quot;ui container&quot;'],main));
+}
+
+function renderSeller() {
+  const item = (type,content) =&gt; el('div',['class=&quot;item&quot;'],el('i',[`class=&quot;${type} icon&quot;`],&quot;&quot;) + el('div',['class=&quot;content&quot;'],content));
+  var title = el('h1',['class=&quot;ui yellow dividing header&quot;'],el('i',['class=&quot;gem outline icon&quot;'],&quot;&quot;) + el('div',['class=&quot;content&quot;'],config.sell_info.domain + ' 正在出售'));
+  var action = el('div',['class=&quot;actions&quot;'],el('div',['class=&quot;ui basic cancel inverted button&quot;'],el('i',['class=&quot;reply icon&quot;'],&quot;&quot;) + '返回'));
+
+  var contact = config.sell_info.contact.map((list) =&gt; {
+    return item(list.type,list.content);
+  }).join(&quot;&quot;);
+  var column = el('div',['class=&quot;column&quot;'],el('h3',['class=&quot;ui center aligned icon inverted header&quot;'],el('i',['class=&quot;circular envelope open outline grey inverted icon&quot;'],&quot;&quot;) + '联系我') + el('div',['class=&quot;ui relaxed celled large list&quot;'],contact));
+  var price = el('div',['class=&quot;column&quot;'],el('div',['class=&quot;ui large yellow statistic&quot;'],el('div',['class=&quot;value&quot;'],el('i',[`class=&quot;${config.sell_info.mon_unit} icon&quot;`],&quot;&quot;) + config.sell_info.price)));
+  var content = el('div',['class=&quot;content&quot;'],el('div',['class=&quot;ui basic segment&quot;'],el('div',['class=&quot;ui two column stackable center aligned grid&quot;'],el('div',['class=&quot;ui inverted vertical divider&quot;'],'感兴趣？') + el('div',['class=&quot;middle aligned row&quot;'],price + column))));
+
+  return el('div',['id=&quot;seller&quot;','class=&quot;ui basic modal&quot;'],title + content + action);
+}
+
+function renderHTML(index,seller) {
+  return `&lt;!DOCTYPE html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+      &lt;meta charset=&quot;UTF-8&quot;&gt;
+      &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+      &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+      &lt;title&gt;${config.title} - ${config.subtitle}&lt;/title&gt;
+      &lt;link href=&quot;https://cdn.jsdelivr.net/npm/semantic-ui-css@2.4.1/semantic.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+      &lt;link href=&quot;https://cdn.jsdelivr.net/gh/sleepwood/cf-worker-dir@0.1.1/style.css&quot; rel=&quot;stylesheet&quot;&gt;
+      &lt;script src=&quot;https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js&quot;&gt;&lt;/script&gt;
+      &lt;script src=&quot;https://cdn.jsdelivr.net/npm/semantic-ui-css@2.4.1/semantic.min.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    ${index}
+    ${config.selling_ads ? seller : ''}
+    &lt;script src=&quot;https://v1.hitokoto.cn/?encode=js&amp;select=%23hitokoto&quot; defer&gt;&lt;/script&gt;
+    &lt;script&gt;
+      $('#sengine a').on('click', function (e) {
+        $('#sengine a.active').toggleClass('active');
+        $(e.target).toggleClass('active');
+        $('#search-fav').attr('src',$(e.target).data('url').match(`+/https{0,1}:\/\/\S+\//+`)[0] + '/favicon.ico') ;
+      });
+      $('.search').on('click', function (e) {
+          var url = $('#sengine a.active').data('url');
+          url = url.replace(`+/\$s/+`,$('#searchinput').val());
+          window.open(url);
+      });
+      /* 鼠标聚焦时，回车事件 */
+      $(&quot;#searchinput&quot;).bind(&quot;keypress&quot;, function(){
+          if (event.keyCode == 13){
+          // 触发需要调用的方法
+          $(&quot;.search&quot;).click();
+          }
+      });
+      $('#menubtn').on('click', function (e) {
+          $('#seller').modal('show');
+      });
+    &lt;/script&gt;
+  &lt;/body&gt;
+
+  &lt;/html&gt;`
+}</code></pre><p>修改配置来自定义导航页面：</p><pre><code class="lang-bash">const config = {
+  title: &quot;自定义导航&quot;,                 //自定义网站标题
+  subtitle: &quot;Cloudflare Workers Nav&quot;, //自定义网站副标题
+  logo_icon: &quot;sitemap&quot;,               //选择网站logo icon 暂时只支持 (eg:https://semantic-ui.com/elements/icon.html)
+  hitokoto: true,                     //开启 一言 插件
+  search:true,                        //开启 搜索 功能  
+  search_engine:[                     //搜索引擎列表
+    {
+      name:&quot;百度一下&quot;,                   //搜索引擎名称
+      template:&quot;https://www.baidu.com/s?wd=$s&quot;  //搜索引擎模板（含关键词$s）
+    }
+  ],
+  selling_ads: true,                  //是否要开启网址推广
+  sell_info:{
+    domain:&quot;example.com&quot;,             //当前域名
+    price:500,                        //价格
+    mon_unit:&quot;yen sign&quot;,              //货币单位 (eg:https://semantic-ui.com/elements/icon.html#computers)
+    contact:[                         //联系方式
+      {
+        type:&quot;envelope&quot;,              //通讯工具 (&quot;weixin&quot;,&quot;qq&quot;,&quot;telegram plane&quot;,&quot;envelope&quot; or &quot;phone&quot;)
+        content:&quot;info@example.com&quot;    //号码/地址
+      }
+    ]                        
+  },
+  lists: [                            //网址信息
+    {
+      name:&quot;技术&quot;,                    //网址类别
+      icon:&quot;code&quot;,                    //网址类别icon 暂时只支持 (eg:https://semantic-ui.com/elements/icon.html)
+      list:[
+        {
+          url:&quot;https://oschina.net/&quot;, //网站url
+          name:&quot;开源中国&quot;,             //网站名称
+          desc:&quot;领先的中文开源技术社区&quot; //网站描述
+        }
+      ]
+    }
+  ]
+}</code></pre><h2>相关地址：</h2><p>GitHub地址：<a href="https://github.com/sleepwood/CF-Worker-Dir/">https://github.com/sleepwood/CF-Worker-Dir/</a></p>        </div>
+        
+        <!-- 添加的引用内容 -->
+        <blockquote>
+            <p itemprop="keywords" class="tags">标签: <a href="../tag/%E9%85%8D%E7%BD%AE/index.html">配置</a>, <a href="../tag/%E8%BD%BB%E9%87%8F/index.html">轻量</a>, <a href="../tag/Cloudflare-Worker/index.html">Cloudflare Worker</a>, <a href="../tag/%E6%97%A0%E9%9C%80%E6%9C%8D%E5%8A%A1%E5%99%A8/index.html">无需服务器</a>, <a href="../tag/%E5%AF%BC%E8%88%AA%E9%A1%B5/index.html">导航页</a></p>
+            <p>原文链接：https://blog.fuyiran.link/Technology/32.html</p>
+            <p>版权声明：本博客所有文章除特別声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 傅说 (<a href="../index.html" target="_blank">blog.fuyiran.link</a>) </p>
+        </blockquote>
+    </article>
+
+    <div id="comments">
+        
+            <div id="respond-post-32" class="respond">
+            <div class="cancel-comment-reply">
+                <a id="cancel-comment-reply-link" href="#respond-post-32" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>            </div>
+
+            <h3 id="response">添加新评论</h3>
+            <form method="post" action="32.html" id="comment-form" role="form">
+                                    <p>
+                        <label for="author" class="required">称呼</label>
+                        <input type="text" name="author" id="author" class="text"
+                               value="" required/>
+                    </p>
+                    <p>
+                        <label
+                            for="mail" class="required">Email</label>
+                        <input type="email" name="mail" id="mail" class="text"
+                               value="" required />
+                    </p>
+                    <p>
+                        <label
+                            for="url">网站</label>
+                        <input type="url" name="url" id="url" class="text" placeholder="http://"
+                               value="" />
+                    </p>
+                                <p>
+                    <label for="textarea" class="required">内容</label>
+                    <textarea rows="8" cols="50" name="text" id="textarea" class="textarea"
+                              required></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="submit">提交评论</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <ul class="post-near">
+        <li>上一篇: <a href="31.html" title="部署一个美观又轻量的链接聚合页，LinkStack 是一个很棒的选择">部署一个美观又轻量的链接聚合页，LinkStack 是一个很棒的选择</a></li>
+        <li>下一篇: <a href="33.html" title="用 Talebook 打造属于你的图书馆">用 Talebook 打造属于你的图书馆</a></li>
+    </ul>
+</div><!-- end #main-->
+
+<div class="col-mb-12 col-offset-1 col-3 kit-hidden-tb" id="secondary" role="complementary">
+            <section class="widget">
+            <h3 class="widget-title">最新文章</h3>
+            <ul class="widget-list">
+                <li><a href="47.html">Flare 个人书签导航</a></li><li><a href="46.html">OneNav 个性化的书签管理系统</a></li><li><a href="45.html">rss-reader 一款关注网站的即时消息的RSS在线浏览工具</a></li><li><a href="44.html">唐僧叨叨，一款开源即时通讯聊天软件</a></li><li><a href="43.html">Habitica 用游戏来养成你的习惯</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">最近回复</h3>
+            <ul class="widget-list">
+                                            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">分类</h3>
+            <ul class="widget-list"><li class="category-level-0 category-parent"><a href="../category/Life/index.html">生活</a></li><li class="category-level-0 category-parent"><a href="../category/Study/index.html">学习</a></li><li class="category-level-0 category-parent"><a href="../category/Technology/index.html">科技</a></li></ul>        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">归档</h3>
+            <ul class="widget-list">
+                <li><a href="../2023/08/index.html">August 2023</a></li><li><a href="../2023/07/index.html">July 2023</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">其它</h3>
+            <ul class="widget-list">
+                <li>
+                    <a href="https://enblog.fuyiran.link/Technology/32.html">English</a>
+                </li>
+                                    <li class="last"><a href="../admin/login.php.html">登录</a>
+                    </li>
+                                <li><a href="../feed/index.rss">文章 RSS</a></li>
+            </ul>
+        </section>
+    
+</div><!-- end #sidebar -->
+
+        </div><!-- end .row -->
+    </div>
+</div><!-- end #body -->
+
+<footer id="footer" role="contentinfo">
+    &copy; 2024 <a href="../index.html">傅说</a>
+    Powered by <a href="https://typecho.org">Typecho</a><br>
+
+    <!-- 不蒜子脚本 -->
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <!-- 不蒜子标签 -->
+            <span id="busuanzi_container_site_pv" style='display:none'>
+            本站总阅读量<span id="busuanzi_value_site_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_page_pv" style='display:none'>
+            本文总阅读量<span id="busuanzi_value_page_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+            本站访客数<span id="busuanzi_value_site_uv"></span>人次<br>
+        </span>
+    
+</footer><!-- end #footer -->
+
+<script src="../usr/plugins/SiteRunningTime/js/SiteRunningTime%EF%B9%96v=1.5.1.js"></script>
+<style>
+	
+</style>
+<script>
+	SiteRunningTime(
+		{
+			startTime:"2023-07-26 00:00:00",
+			autoRefresh:"1",
+			startTimeText:'该站点运行了<label class="year">0</label>年<label class="month">0</label>月<label class="day">0</label>日<label class="hour">0</label>时<label class="minute">0</label>分<label class="second">0</label>秒',
+		});
+</script><script type="text/javascript">
+	(function(){
+		var pres = document.querySelectorAll('pre');
+		var lineNumberClassName = 'line-numbers';
+		pres.forEach(function (item, index) {
+			item.className = item.className == '' ? lineNumberClassName : item.className + ' ' + lineNumberClassName;
+		});
+	})();
+</script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/clipboard.min.js"></script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/prism.js"></script>
+</body>
+</html>

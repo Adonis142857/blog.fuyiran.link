@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - 发卡网站引流</title>
+<link>https://blog.fuyiran.link/tag/%E5%8F%91%E5%8D%A1%E7%BD%91%E7%AB%99%E5%BC%95%E6%B5%81/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/%E5%8F%91%E5%8D%A1%E7%BD%91%E7%AB%99%E5%BC%95%E6%B5%81/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Fri, 11 Aug 2023 08:15:00 +0800</lastBuildDate>
+<pubDate>Fri, 11 Aug 2023 08:15:00 +0800</pubDate>
+<item>
+<title>手把手教你搭建检测并解锁 Apple ID 的自动化程序，发卡网站引流必备</title>
+<link>https://blog.fuyiran.link/Technology/30.html</link>
+<guid>https://blog.fuyiran.link/Technology/30.html</guid>
+<pubDate>Fri, 11 Aug 2023 08:15:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍appleid_auto，一款基于密保问题的自动化 Apple ID 检测&解锁程序。前端用于管理账号，支持添加多个账号，并提供展示账号页面。支持创建包含多个账号的分享页面，并可以为分享页面...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍</h2><p>appleid_auto，一款基于密保问题的自动化 Apple ID 检测&解锁程序。</p><p>前端用于管理账号，支持添加多个账号，并提供展示账号页面。</p><p>支持创建包含多个账号的分享页面，并可以为分享页面设置密码。</p><p>后端定时检测账号是否被锁定，若被锁定或开启二步验证则自动解锁，修改密码并向API回报密码。</p><p>登录Apple ID并自动删除Apple ID中的设备。</p><p>启用代理池和Selenium集群，提高解锁成功率，防止风控。</p><p>发卡网站可以使用它来搭建账户分享界面进行引流。</p><p class="more"><a href="https://blog.fuyiran.link/Technology/30.html" title="手把手教你搭建检测并解锁 Apple ID 的自动化程序，发卡网站引流必备">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/30.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E5%8F%91%E5%8D%A1%E7%BD%91%E7%AB%99%E5%BC%95%E6%B5%81/</wfw:commentRss>
+</item>
+</channel>
+</rss>

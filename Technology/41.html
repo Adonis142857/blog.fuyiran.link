@@ -1,0 +1,416 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Tiny Tiny RSS ～ 一款优秀的 RSS 聚合阅读服务 - 傅说</title>
+
+    <!-- 使用url函数转换相关路径 -->
+    <link rel="stylesheet" href="../usr/themes/default/normalize.css">
+    <link rel="stylesheet" href="../usr/themes/default/grid.css">
+    <link rel="stylesheet" href="../usr/themes/default/style.css">
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/64b479301ddac507ccb75174.jpg" type="image/x-icon" />
+    <script async src="https://nico.cm/script.js" data-website-id="37091978-1aac-4676-b0da-e831e4f772d1"></script>
+
+    <!-- 通过自有函数输出HTML头部信息 -->
+    <meta name="description" content="介绍：Tiny Tiny RSS 是一款基于 PHP 的免费开源 RSS 聚合阅读服务。Awesome TTRSS 提供一个使用 Docker 进行部署的 Tiny Tiny RSS 容器，通过..." />
+<meta name="keywords" content="配置,RSS 聚合阅读服务,Tiny Tiny RSS" />
+<meta name="generator" content="Typecho 1.2.1" />
+<meta name="template" content="default" />
+<link rel="pingback" href="../action/xmlrpc.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../action/xmlrpc%EF%B9%96rsd.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../action/xmlrpc%EF%B9%96wlw.html" />
+<link rel="alternate" type="application/rss+xml" title="Tiny Tiny RSS ～ 一款优秀的 RSS 聚合阅读服务 &raquo; 傅说 &raquo; RSS 2.0" href="../feed/Technology/41.html.rss" />
+<link rel="alternate" type="application/rdf+xml" title="Tiny Tiny RSS ～ 一款优秀的 RSS 聚合阅读服务 &raquo; 傅说 &raquo; RSS 1.0" href="../feed/rss/Technology/41.html.xmp" />
+<link rel="alternate" type="application/atom+xml" title="Tiny Tiny RSS ～ 一款优秀的 RSS 聚合阅读服务 &raquo; 傅说 &raquo; ATOM 1.0" href="../feed/atom/Technology/41.html" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-41'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-41'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-41'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _5Lp = 'a'//'BM'
++'d53'//'I'
++'e'//'kJs'
++'3e9'//'c'
++/* 's'//'s' */''+''///*'SDG'*/'SDG'
++//'y6N'
+'y6N'+'c4c'//'wE'
++'wA4'//'wA4'
++//'0'
+'60'+'6f'//'u'
++'52'//'PbK'
++//'ZQw'
+'fdf'+//'TgM'
+'53a'+//'XW'
+'c4'+//'QA'
+'QA'+'87'//'5jl'
++'e6'//'I'
++//'3t'
+'e'+'ab'//'etb'
+, _zDfvU = [[8,11],[11,14],[25,27]];
+    
+    for (var i = 0; i < _zDfvU.length; i ++) {
+        _5Lp = _5Lp.substring(0, _zDfvU[i][0]) + _5Lp.substring(_zDfvU[i][1]);
+    }
+
+    return _5Lp;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script><link rel="stylesheet" type="text/css" href="../usr/plugins/CodeHighlighter/static/styles/okaikia.css" /></head>
+<body>
+
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="site-name col-mb-12 col-9">
+                                    <a id="logo" href="../index.html">傅说</a>
+                    <p class="description">与你一起从全新的视角领略这个世界，这里有独到的科技新闻分析，深度的学习过程记录，独特的深度思考，以及实用的资源分享。无论你是学生，科技爱好者，还是在人生路上寻找方向的探索者，我相信你都能在这里找到你想要的。欢迎你与我一起，学习知识，共创未来</p>
+                
+
+            </div>
+            <div class="site-search col-3 kit-hidden-tb">
+                <form id="search" method="post" action="../index.html" role="search">
+                    <label for="s" class="sr-only">搜索关键字</label>
+                    <input type="text" id="s" name="s" class="text" placeholder="输入关键字搜索"/>
+                    <button type="submit" class="submit">搜索</button>
+                </form>
+            </div>
+            <div class="col-mb-12">
+                <nav id="nav-menu" class="clearfix" role="navigation">
+                    <a                        href="../index.html">首页</a>
+                                                        </nav>
+            </div>
+        </div><!-- end .row -->
+    </div>
+</header><!-- end #header -->
+<div id="body">
+    <div class="container">
+        <div class="row"> 
+<div class="col-mb-12 col-8" id="main" role="main">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title" itemprop="name headline">
+            <a itemprop="url"
+               href="41.html">Tiny Tiny RSS ～ 一款优秀的 RSS 聚合阅读服务</a>
+        </h1>
+        <ul class="post-meta">
+            <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                作者: <a itemprop="name"
+                                       href="../author/1/index.html"
+                                       rel="author">傅怡然</a>
+            </li>
+            <li>时间:                 <time datetime="2023-08-16T19:28:00+08:00" itemprop="datePublished">2023-08-16</time>
+            </li>
+            <li>分类: <a href="../category/Technology/index.html">科技</a></li>
+        </ul>
+        <div class="post-content" itemprop="articleBody">
+            <h2>介绍：</h2><p>Tiny Tiny RSS 是一款基于 PHP 的免费开源 RSS 聚合阅读服务。Awesome TTRSS 提供一个使用 Docker 进行部署的 Tiny Tiny RSS 容器，通过提供简易的部署方式以及一些额外插件，来提升用户体验。</p><!--more--><h2>部署方法：</h2><h3>第一步：更新源</h3><p><strong>Ubuntu/Debian：</strong></p><pre><code class="lang-bash">apt update -y &amp;&amp; apt upgrade -y    </code></pre><p><strong>Centos：</strong></p><pre><code class="lang-bash">yum update -y &amp;&amp; yum upgrade -y   </code></pre><h3>第二步：安装并配置Docker</h3><p>安装Docker：</p><pre><code class="lang-bash">curl -fsSL https://get.docker.com -o get-docker.sh &amp;&amp; sudo sh ./get-docker.sh</code></pre><p>启动Docker：</p><pre><code class="lang-bash">sudo systemctl start docker</code></pre><p>设置Docker在开机时自动启动：</p><pre><code class="lang-bash">sudo systemctl enable docker</code></pre><h3>第三步：创建docker-compose.yml</h3><ol><li><p>新建目录：</p><pre><code class="lang-bash">mkdir wallabag &amp;&amp; cd wallabag/</code></pre></li><li><p>新建并打开docker-compose.yml：</p><pre><code class="lang-bash">nano docker-compose.yml</code></pre></li><li><p>填入以下内容：</p><pre><code class="lang-dockerfile">version: &quot;3&quot;
+services:
+  service.rss:
+ image: wangqiru/ttrss:latest
+ container_name: ttrss
+ ports:
+   - 80:80 # 修改左侧为未占用的端口
+ environment:
+   - SELF_URL_PATH=http://test.adonis142857.ir/ # 修改为反向代理的域名
+   - DB_PASS=ttrss123 # 与 `database.postgres` 中使用相同密码，记得进行修改
+   - PUID=1000
+   - PGID=1000
+ volumes:
+   - feed-icons:/var/www/feed-icons/
+ networks:
+   - public_access
+   - service_only
+   - database_only
+ stdin_open: true
+ tty: true
+ restart: always
+
+  service.mercury: # set Mercury Parser API endpoint to `service.mercury:3000` on TTRSS plugin setting page
+ image: wangqiru/mercury-parser-api:latest
+ container_name: mercury
+ networks:
+   - public_access
+   - service_only
+ restart: always
+
+  service.opencc: # set OpenCC API endpoint to `service.opencc:3000` on TTRSS plugin setting page
+ image: wangqiru/opencc-api-server:latest
+ container_name: opencc
+ environment:
+   - NODE_ENV=production
+ networks:
+   - service_only
+ restart: always
+
+  database.postgres:
+ image: postgres:13-alpine
+ container_name: postgres
+ environment:
+   - POSTGRES_PASSWORD=ttrss123 # 修改为上文使用的密码
+ volumes:
+   - ~/postgres/data/:/var/lib/postgresql/data # persist postgres data to ~/postgres/data/ on the host
+ networks:
+   - database_only
+ restart: always
+
+  # utility.watchtower:
+  #   container_name: watchtower
+  #   image: containrrr/watchtower:latest
+  #   volumes:
+  #     - /var/run/docker.sock:/var/run/docker.sock
+  #   environment:
+  #     - WATCHTOWER_CLEANUP=true
+  #     - WATCHTOWER_POLL_INTERVAL=86400
+  #   restart: always
+
+volumes:
+  feed-icons:
+
+networks:
+  public_access: # Provide the access for ttrss UI
+  service_only: # Provide the communication network between services only
+ internal: true
+  database_only: # Provide the communication between ttrss and database only
+ internal: true</code></pre></li><li><p>保存并退出：<br>使用 Ctrl+X/Command+X</p><h3>第四步：安装并运行 Tiny Tiny RSS 容器</h3><pre><code class="lang-bash">docker compose up -d</code></pre><p>部署完成后可以访问 <code>http://&lt;your-ip&gt;:80</code>（修改端口号为自己填入的端口） 来访问"Tiny Tiny RSS"</p><h3>第五步：反向代理到域名</h3><p>此处使用一种非常简单的方式：Cloud flare 提供的 Origin Rules<br>配置如下：<br><img src="https://pic.imgdb.cn/item/64d257d91ddac507ccc556f4.jpg" alt="" title=""><br>修改Field为Hostname，Value为选择的完整域名，Rewrite to 刚才在左侧填写的端口<br><img src="https://pic.imgdb.cn/item/64d2582e1ddac507ccc6419d.jpg" alt="" title=""><br>记得解析自己的子域名到服务器IP：<br>使用A记录，Name为域名前缀，Content为服务器地址<br><img src="https://pic.imgdb.cn/item/64d2585d1ddac507ccc6c0c5.jpg" alt="" title=""></p></li></ol><h3>第六步：配置 Tiny Tiny RSS</h3><ol><li>进行登录（用户名 admin 密码 password ）：<img src="https://pic.imgdb.cn/item/64dcebee661c6c8e542eaeb1.jpg" alt="" title=""></li><li>修改登录密码</li></ol><p><img src="https://pic.imgdb.cn/item/64dcec4e661c6c8e542feee3.jpg" alt="" title=""></p><ol start="3"><li>打开插件</li></ol><p>推荐打开全文获取和繁简转换两款插件，更多的插件介绍可以看这篇文章<br><a href="http://ttrss.henry.wang/zh/#%E6%8F%92%E4%BB%B6">http://ttrss.henry.wang/zh/#%E6%8F%92%E4%BB%B6</a></p><p><img src="https://pic.imgdb.cn/item/64dcee97661c6c8e54374244.jpg" alt="" title=""></p><ol start="4"><li>配置RSS阅读器使用的登录密码</li></ol><p><img src="https://pic.imgdb.cn/item/64dceda3661c6c8e54343a37.jpg" alt="" title=""></p><ol start="5"><li>在RSS阅读器中进行使用</li></ol><p>服务器地址：</p><p><img src="https://pic.imgdb.cn/item/64dcef6c661c6c8e5439df95.jpg" alt="" title=""></p><p>用户名为admin，密码为刚才配置的RSS阅读器使用的登录密码</p><h2>相关地址：</h2><p>Tiny Tiny RSS：<a href="https://tt-rss.org">https://tt-rss.org</a></p><p>Awesome TTRSS 文档：<a href="https://ttrss.henry.wang">https://ttrss.henry.wang</a></p><p>Awesome TTRSS GitHub地址：<a href="https://github.com/HenryQW/Awesome-TTRSS">https://github.com/HenryQW/Awesome-TTRSS</a></p>        </div>
+        
+        <!-- 添加的引用内容 -->
+        <blockquote>
+            <p itemprop="keywords" class="tags">标签: <a href="../tag/%E9%85%8D%E7%BD%AE/index.html">配置</a>, <a href="../tag/RSS-%E8%81%9A%E5%90%88%E9%98%85%E8%AF%BB%E6%9C%8D%E5%8A%A1/index.html">RSS 聚合阅读服务</a>, <a href="../tag/Tiny-Tiny-RSS/index.html">Tiny Tiny RSS</a></p>
+            <p>原文链接：https://blog.fuyiran.link/Technology/41.html</p>
+            <p>版权声明：本博客所有文章除特別声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 傅说 (<a href="../index.html" target="_blank">blog.fuyiran.link</a>) </p>
+        </blockquote>
+    </article>
+
+    <div id="comments">
+        
+            <div id="respond-post-41" class="respond">
+            <div class="cancel-comment-reply">
+                <a id="cancel-comment-reply-link" href="#respond-post-41" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>            </div>
+
+            <h3 id="response">添加新评论</h3>
+            <form method="post" action="41.html" id="comment-form" role="form">
+                                    <p>
+                        <label for="author" class="required">称呼</label>
+                        <input type="text" name="author" id="author" class="text"
+                               value="" required/>
+                    </p>
+                    <p>
+                        <label
+                            for="mail" class="required">Email</label>
+                        <input type="email" name="mail" id="mail" class="text"
+                               value="" required />
+                    </p>
+                    <p>
+                        <label
+                            for="url">网站</label>
+                        <input type="url" name="url" id="url" class="text" placeholder="http://"
+                               value="" />
+                    </p>
+                                <p>
+                    <label for="textarea" class="required">内容</label>
+                    <textarea rows="8" cols="50" name="text" id="textarea" class="textarea"
+                              required></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="submit">提交评论</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <ul class="post-near">
+        <li>上一篇: <a href="40.html" title="wallabag 容我稍后再读，支持生成RSS源哦">wallabag 容我稍后再读，支持生成RSS源哦</a></li>
+        <li>下一篇: <a href="42.html" title="WeekToDo 一款极简主义待办事项列表">WeekToDo 一款极简主义待办事项列表</a></li>
+    </ul>
+</div><!-- end #main-->
+
+<div class="col-mb-12 col-offset-1 col-3 kit-hidden-tb" id="secondary" role="complementary">
+            <section class="widget">
+            <h3 class="widget-title">最新文章</h3>
+            <ul class="widget-list">
+                <li><a href="47.html">Flare 个人书签导航</a></li><li><a href="46.html">OneNav 个性化的书签管理系统</a></li><li><a href="45.html">rss-reader 一款关注网站的即时消息的RSS在线浏览工具</a></li><li><a href="44.html">唐僧叨叨，一款开源即时通讯聊天软件</a></li><li><a href="43.html">Habitica 用游戏来养成你的习惯</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">最近回复</h3>
+            <ul class="widget-list">
+                                            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">分类</h3>
+            <ul class="widget-list"><li class="category-level-0 category-parent"><a href="../category/Life/index.html">生活</a></li><li class="category-level-0 category-parent"><a href="../category/Study/index.html">学习</a></li><li class="category-level-0 category-parent"><a href="../category/Technology/index.html">科技</a></li></ul>        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">归档</h3>
+            <ul class="widget-list">
+                <li><a href="../2023/08/index.html">August 2023</a></li><li><a href="../2023/07/index.html">July 2023</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">其它</h3>
+            <ul class="widget-list">
+                <li>
+                    <a href="https://enblog.fuyiran.link/Technology/41.html">English</a>
+                </li>
+                                    <li class="last"><a href="../admin/login.php.html">登录</a>
+                    </li>
+                                <li><a href="../feed/index.rss">文章 RSS</a></li>
+            </ul>
+        </section>
+    
+</div><!-- end #sidebar -->
+
+        </div><!-- end .row -->
+    </div>
+</div><!-- end #body -->
+
+<footer id="footer" role="contentinfo">
+    &copy; 2024 <a href="../index.html">傅说</a>
+    Powered by <a href="https://typecho.org">Typecho</a><br>
+
+    <!-- 不蒜子脚本 -->
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <!-- 不蒜子标签 -->
+            <span id="busuanzi_container_site_pv" style='display:none'>
+            本站总阅读量<span id="busuanzi_value_site_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_page_pv" style='display:none'>
+            本文总阅读量<span id="busuanzi_value_page_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+            本站访客数<span id="busuanzi_value_site_uv"></span>人次<br>
+        </span>
+    
+</footer><!-- end #footer -->
+
+<script src="../usr/plugins/SiteRunningTime/js/SiteRunningTime%EF%B9%96v=1.5.1.js"></script>
+<style>
+	
+</style>
+<script>
+	SiteRunningTime(
+		{
+			startTime:"2023-07-26 00:00:00",
+			autoRefresh:"1",
+			startTimeText:'该站点运行了<label class="year">0</label>年<label class="month">0</label>月<label class="day">0</label>日<label class="hour">0</label>时<label class="minute">0</label>分<label class="second">0</label>秒',
+		});
+</script><script type="text/javascript">
+	(function(){
+		var pres = document.querySelectorAll('pre');
+		var lineNumberClassName = 'line-numbers';
+		pres.forEach(function (item, index) {
+			item.className = item.className == '' ? lineNumberClassName : item.className + ' ' + lineNumberClassName;
+		});
+	})();
+</script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/clipboard.min.js"></script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/prism.js"></script>
+</body>
+</html>

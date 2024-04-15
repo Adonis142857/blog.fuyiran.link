@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E8%87%AA%E5%8A%A8%E6%89%A7%E8%A1%8C%E6%A1%86%E6%9E%B6/">
+<title>傅说 - 定时任务自动执行框架</title>
+<link>https://blog.fuyiran.link/tag/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E8%87%AA%E5%8A%A8%E6%89%A7%E8%A1%8C%E6%A1%86%E6%9E%B6/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/20.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/20.html">
+<title>QD ～ 不仅限于自动签到的定时任务自动执行框架</title>
+<link>https://blog.fuyiran.link/Technology/20.html</link>
+<dc:date>2023-08-06T08:08:00+08:00</dc:date>
+<description>介绍：QD，一个定时任务自动执行框架，可以帮助进行自动签到，自动评论，自动抽奖，自动领取礼品，只有你想不到，没有它做不到（甚至能通过抓框架对应ip的ck和ua，来过网站开启的CF五秒盾）[...]</description>
+</item>
+</rdf:RDF>

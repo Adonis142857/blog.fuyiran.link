@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/%E7%BD%91%E7%BB%9C%E6%89%AB%E6%8F%8F/">
+<title>傅说 - 网络扫描</title>
+<link>https://blog.fuyiran.link/tag/%E7%BD%91%E7%BB%9C%E6%89%AB%E6%8F%8F/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/3.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/3.html">
+<title>如何配置 Rainmap Lite — Web 版 Nmap 来进行网络扫描</title>
+<link>https://blog.fuyiran.link/Technology/3.html</link>
+<dc:date>2023-07-29T08:11:00+08:00</dc:date>
+<description>介绍：Rainmap Lite是一款响应式Web应用，允许用户从移动设备、平板或Web浏览器轻松启动Nmap扫描。与其前身Rainmap不同，Rainmap Lite的部署更为简单，不需要特殊的服务（如RabbitMQ, PostgreSQL, Celery, supervisor等）。只需安装Django应用并添加cron轮询任务，即可在任何服务器上轻松设置新的扫描服务器。特点：点击几下即可轻松启动Nmap扫描。响应式界面使其在手机/平板上运行流畅。以所有格式通过电子邮件发送报告。从Web浏览器查看报告。安排扫描任务。提供数十种扫描配置文件供用户选择。安装/设置简单。列表项目[...]</description>
+</item>
+</rdf:RDF>

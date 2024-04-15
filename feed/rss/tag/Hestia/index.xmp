@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/Hestia/">
+<title>傅说 - Hestia</title>
+<link>https://blog.fuyiran.link/tag/Hestia/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/6.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/6.html">
+<title>如何使用 Hestia 面板来创建网络邮局</title>
+<link>https://blog.fuyiran.link/Technology/6.html</link>
+<dc:date>2023-07-31T08:17:00+08:00</dc:date>
+<description>请注意：Hestia Control Panel需要安装在全新的操作系统上才能保证正常运行。支持的平台和操作系统：Debian：12，11或10Ubuntu：22.04 LTS，20.04 LTS注意：Hestia Control Panel并不支持32位操作系统！[...]</description>
+</item>
+</rdf:RDF>

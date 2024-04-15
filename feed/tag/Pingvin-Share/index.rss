@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - Pingvin Share</title>
+<link>https://blog.fuyiran.link/tag/Pingvin-Share/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/Pingvin-Share/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Sun, 06 Aug 2023 18:13:00 +0800</lastBuildDate>
+<pubDate>Sun, 06 Aug 2023 18:13:00 +0800</pubDate>
+<item>
+<title>自建文件分享平台？你可能需要 Pingvin Share</title>
+<link>https://blog.fuyiran.link/Technology/21.html</link>
+<guid>https://blog.fuyiran.link/Technology/21.html</guid>
+<pubDate>Sun, 06 Aug 2023 18:13:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：你真的放心把文件交到第三方文件平台手中吗？来试试Pingvin Share轻松自建-轻松使用私有服务器搭建文件共享平台完全隐私-你的文件只属于你！不用将它放到第三方文件平台注重保护-支持二...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>你真的放心把文件交到第三方文件平台手中吗？来试试Pingvin Share</p><ul><li>轻松自建-轻松使用私有服务器搭建文件共享平台</li><li>完全隐私-你的文件只属于你！不用将它放到第三方文件平台</li><li>注重保护-支持二步验证，你的文件独属于你</li><li>更加安全-发给小伙伴使用害怕传入木马？没关系，Pingvin Share 支持挂载 clamav，让你的存储更加安全</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/21.html" title="自建文件分享平台？你可能需要 Pingvin Share">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/21.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/Pingvin-Share/</wfw:commentRss>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - 电子书下载网站</title>
+<link>https://blog.fuyiran.link/tag/%E7%94%B5%E5%AD%90%E4%B9%A6%E4%B8%8B%E8%BD%BD%E7%BD%91%E7%AB%99/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/%E7%94%B5%E5%AD%90%E4%B9%A6%E4%B8%8B%E8%BD%BD%E7%BD%91%E7%AB%99/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Tue, 01 Aug 2023 08:25:00 +0800</lastBuildDate>
+<pubDate>Tue, 01 Aug 2023 08:25:00 +0800</pubDate>
+<item>
+<title>如何搭建Zbook（自己的电子书下载网站）</title>
+<link>https://blog.fuyiran.link/Technology/10.html</link>
+<guid>https://blog.fuyiran.link/Technology/10.html</guid>
+<pubDate>Tue, 01 Aug 2023 08:25:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：Zbook，一个电子书下载网站，官方提供了可直接下载安装的电子书文件包，大大简化部署流程，数据查找迅速，界面美观。 TalebookZbook用户系统❌✅在线阅读✅❌推送书籍至Kindle...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Zbook，一个电子书下载网站，官方提供了可直接下载安装的电子书文件包，大大简化部署流程，数据查找迅速，界面美观。</p><table><thead><tr><th> </th><th><a href="https://blog.fuyiran.link/Technology/33.html">Talebook</a></th><th><a href="https://blog.fuyiran.link/Technology/10.html">Zbook</a></th></tr></thead><tbody><tr><td>用户系统</td><td>❌</td><td>✅</td></tr><tr><td>在线阅读</td><td>✅</td><td>❌</td></tr><tr><td>推送书籍至Kindle</td><td>❌</td><td>✅</td></tr><tr><td>私人模式</td><td>✅</td><td>❌</td></tr><tr><td>从百度百科、豆瓣中导入书籍信息</td><td>✅</td><td>❌</td></tr><tr><td>上传书籍</td><td>✅</td><td>❌（官方收录上传书籍后更新电子书文件包）</td></tr><tr><td>查找书籍速度</td><td>🌟🌟🌟</td><td>🌟🌟🌟🌟🌟</td></tr><tr><td>界面美观度</td><td>🌟🌟🌟🌟</td><td>🌟🌟🌟🌟🌟</td></tr><tr><td>部署难易度</td><td>😈😈😈</td><td>😈😈😈</td></tr></tbody></table><p class="more"><a href="https://blog.fuyiran.link/Technology/10.html" title="如何搭建Zbook（自己的电子书下载网站）">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/10.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E7%94%B5%E5%AD%90%E4%B9%A6%E4%B8%8B%E8%BD%BD%E7%BD%91%E7%AB%99/</wfw:commentRss>
+</item>
+</channel>
+</rss>

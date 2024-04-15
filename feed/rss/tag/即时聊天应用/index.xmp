@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/%E5%8D%B3%E6%97%B6%E8%81%8A%E5%A4%A9%E5%BA%94%E7%94%A8/">
+<title>傅说 - 即时聊天应用</title>
+<link>https://blog.fuyiran.link/tag/%E5%8D%B3%E6%97%B6%E8%81%8A%E5%A4%A9%E5%BA%94%E7%94%A8/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/44.html"/>
+<rdf:li resource="https://blog.fuyiran.link/Technology/13.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/44.html">
+<title>唐僧叨叨，一款开源即时通讯聊天软件</title>
+<link>https://blog.fuyiran.link/Technology/44.html</link>
+<dc:date>2023-08-18T08:08:00+08:00</dc:date>
+<description>介绍：唐僧叨叨是一款轻量级，高性能，重安全，专注于私有化部署的开源即时通讯系统。特点：🆓 开源免费：服务端源码，APP源码，Web/PC端源码全部开源，Apache2.0开源协议（可商用），没人能拿捏你🔏 私有化部署：所有程序和数据都在自己的服务器上，不用担心数据泄露，不用担心数据被用于其他用途🆚 消息必达：采用 tcp + ack机制，保证消息必达，支持离线消息，支持消息漫游。🔐 内容安全：消息传输采用私有二进制加密协议、DH+流式加密，防止消息内容泄露💽 消息永久存储：消息支持永久存储，得益于WuKongIM的自研消息db，永久存储不影响性能，只浪费点磁盘空间📱 多设备消息同步：支持 1 个移动端、多个 Web/PC 端同时在线，并且支持多端之间的消息实时同步。📟 全平台支持：iOS，Android，Windows，MAC，Ubuntu，Web提示：在自部署客户端中，新用户注册必须使用iOS/Android应用，且无法进行密码找回开源版有很多功能无法使用，更推荐使用Tailchat部署教程：https://blog.fuyiran.link/Technology/13.html[...]</description>
+</item>
+<item rdf:about="https://blog.fuyiran.link/Technology/13.html">
+<title>如何配置一个易拓展的即时聊天应用 —Tailchat</title>
+<link>https://blog.fuyiran.link/Technology/13.html</link>
+<dc:date>2023-08-02T18:46:00+08:00</dc:date>
+<description>介绍：Tailchat—一个开源易拓展的及时聊天应用，让沟通变得更加自由、灵活和有趣[...]</description>
+</item>
+</rdf:RDF>

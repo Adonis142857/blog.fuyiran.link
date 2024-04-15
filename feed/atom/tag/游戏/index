@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="zh-CN"
+xml:base="https://blog.fuyiran.link/tag/%E6%B8%B8%E6%88%8F/"
+>
+<title type="text">傅说 - 游戏</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-17T19:30:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/tag/%E6%B8%B8%E6%88%8F/" />
+<id>https://blog.fuyiran.link/feed/atom/tag/%E6%B8%B8%E6%88%8F/</id>
+<link rel="self" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E6%B8%B8%E6%88%8F/" />
+<entry>
+<title type="html"><![CDATA[Habitica 用游戏来养成你的习惯]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/43.html" />
+<id>https://blog.fuyiran.link/Technology/43.html</id>
+<updated>2023-08-17T19:30:00+08:00</updated>
+<published>2023-08-17T19:30:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：Habitica是一个开源的习惯构建程序，它将你的生活视为一个角色扮演游戏。当你成功完成你设定的目标时，你的角色将升级；当你失败时，你的角色将失去这个游戏中的HP；你还可以通过养成计划来赚...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/43.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Habitica是一个开源的习惯构建程序，它将你的生活视为一个角色扮演游戏。当你成功完成你设定的目标时，你的角色将升级；当你失败时，你的角色将失去这个游戏中的HP；你还可以通过养成计划来赚取金钱购买武器和盔甲。这款程序不仅帮助你构建和坚持习惯，同时也为你带来了游戏的乐趣和成就感。</p><h2>提示：</h2><p>不推荐个人进行部署，官方提供了 Android 和IOS 应用，自行部署无法进行联动（可以网页端互通）</p><p class="more"><a href="https://blog.fuyiran.link/Technology/43.html" title="Habitica 用游戏来养成你的习惯">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/43.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E6%B8%B8%E6%88%8F/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[如何部署一个 Web 版的复古 DOS 游戏库—畅玩1898款游戏]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/14.html" />
+<id>https://blog.fuyiran.link/Technology/14.html</id>
+<updated>2023-08-03T08:04:00+08:00</updated>
+<published>2023-08-03T08:04:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[效果图：]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/14.html" xml:lang="zh-CN"><![CDATA[
+<h2>效果图：</h2><p><img src="https://pic.imgdb.cn/item/64cb19741ddac507ccec9320.jpg" alt="" title=""></p><p class="more"><a href="https://blog.fuyiran.link/Technology/14.html" title="如何部署一个 Web 版的复古 DOS 游戏库—畅玩1898款游戏">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/14.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E6%B8%B8%E6%88%8F/" thr:count="0"/>
+</entry>
+</feed>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/wallabag/">
+<title>傅说 - wallabag</title>
+<link>https://blog.fuyiran.link/tag/wallabag/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/40.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/40.html">
+<title>wallabag 容我稍后再读，支持生成RSS源哦</title>
+<link>https://blog.fuyiran.link/Technology/40.html</link>
+<dc:date>2023-08-16T07:25:00+08:00</dc:date>
+<description>介绍：wallabag，一款保存网页以备日后阅读的工具。自动提取内容，帮助你不被弹出窗口分心。效果图：[...]</description>
+</item>
+</rdf:RDF>

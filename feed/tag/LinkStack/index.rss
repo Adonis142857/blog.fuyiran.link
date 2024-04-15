@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - LinkStack</title>
+<link>https://blog.fuyiran.link/tag/LinkStack/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/LinkStack/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Fri, 11 Aug 2023 18:26:00 +0800</lastBuildDate>
+<pubDate>Fri, 11 Aug 2023 18:26:00 +0800</pubDate>
+<item>
+<title>部署一个美观又轻量的链接聚合页，LinkStack 是一个很棒的选择</title>
+<link>https://blog.fuyiran.link/Technology/31.html</link>
+<guid>https://blog.fuyiran.link/Technology/31.html</guid>
+<pubDate>Fri, 11 Aug 2023 18:26:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：LinkStack，一个开源的链接聚合页，终极链接管理解决方案，可以有效的进行在线管理和链接共享，允许用户克服社交媒体平台上只能添加一个链接的限制，用户可以通过主题自定义LinkStack...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>LinkStack，一个开源的链接聚合页，终极链接管理解决方案，可以有效的进行在线管理和链接共享，允许用户克服社交媒体平台上只能添加一个链接的限制，用户可以通过主题自定义LinkStack实例的外观，高度可自定义化是它的优势。</p><table><thead><tr><th> </th><th><a href="https://blog.fuyiran.link/Technology/32.html">CF-Worker-Dir</a></th><th><a href="https://blog.fuyiran.link/Technology/31.html">LinkStack</a></th></tr></thead><tbody><tr><td>自定义化程度</td><td>🌟🌟🌟</td><td>🌟🌟🌟🌟🌟</td></tr><tr><td>部署难度</td><td>😈😈</td><td>😈😈😈😈</td></tr></tbody></table><p class="more"><a href="https://blog.fuyiran.link/Technology/31.html" title="部署一个美观又轻量的链接聚合页，LinkStack 是一个很棒的选择">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/31.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/LinkStack/</wfw:commentRss>
+</item>
+</channel>
+</rss>

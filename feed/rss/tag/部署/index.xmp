@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/%E9%83%A8%E7%BD%B2/">
+<title>傅说 - 部署</title>
+<link>https://blog.fuyiran.link/tag/%E9%83%A8%E7%BD%B2/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/42.html"/>
+<rdf:li resource="https://blog.fuyiran.link/Technology/31.html"/>
+<rdf:li resource="https://blog.fuyiran.link/Technology/26.html"/>
+<rdf:li resource="https://blog.fuyiran.link/Technology/25.html"/>
+<rdf:li resource="https://blog.fuyiran.link/Technology/24.html"/>
+<rdf:li resource="https://blog.fuyiran.link/Technology/22.html"/>
+<rdf:li resource="https://blog.fuyiran.link/Technology/21.html"/>
+<rdf:li resource="https://blog.fuyiran.link/Technology/20.html"/>
+<rdf:li resource="https://blog.fuyiran.link/Technology/19.html"/>
+<rdf:li resource="https://blog.fuyiran.link/Technology/18.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/42.html">
+<title>WeekToDo 一款极简主义待办事项列表</title>
+<link>https://blog.fuyiran.link/Technology/42.html</link>
+<dc:date>2023-08-17T08:25:00+08:00</dc:date>
+<description>介绍：WeekToDo 是一个注重隐私的待办事项清单。用户可以通过待办事项列表和日历来安排任务和项目。提供了在 Windows、Mac、Linux 操作系统上的客户端，也可以直接在线使用。特点：支持跨平台使用支持明暗模式切换自定义待办事项列表拖放功能多语言支持子任务功能Markdown 支持可定制的用户界面本地存储任务颜色标记任务时间设置周期性任务通知和提醒功能[...]</description>
+</item>
+<item rdf:about="https://blog.fuyiran.link/Technology/31.html">
+<title>部署一个美观又轻量的链接聚合页，LinkStack 是一个很棒的选择</title>
+<link>https://blog.fuyiran.link/Technology/31.html</link>
+<dc:date>2023-08-11T18:26:00+08:00</dc:date>
+<description>介绍：LinkStack，一个开源的链接聚合页，终极链接管理解决方案，可以有效的进行在线管理和链接共享，允许用户克服社交媒体平台上只能添加一个链接的限制，用户可以通过主题自定义LinkStack实例的外观，高度可自定义化是它的优势。 CF-Worker-DirLinkStack自定义化程度🌟🌟🌟🌟🌟🌟🌟🌟部署难度😈😈😈😈😈😈[...]</description>
+</item>
+<item rdf:about="https://blog.fuyiran.link/Technology/26.html">
+<title>用 Myurls 轻松部署个短链接网站</title>
+<link>https://blog.fuyiran.link/Technology/26.html</link>
+<dc:date>2023-08-09T07:56:00+08:00</dc:date>
+<description>介绍：Myurls 是一个开源的短链接项目，基于 Go 1.20 与 Redis 实现，轻松部署。[...]</description>
+</item>
+<item rdf:about="https://blog.fuyiran.link/Technology/25.html">
+<title>FileCodeBox ~ 文件快递柜，像取快递一样取文件</title>
+<link>https://blog.fuyiran.link/Technology/25.html</link>
+<dc:date>2023-08-08T18:15:00+08:00</dc:date>
+<description>介绍：在之前的文章中，我写过 Pingvin Share 的部署方案，有很多小伙伴向我推荐了FileCodeBox，在进行部署使用后，感觉的确很不错，于是便写一份部署教程来帮助大家部署。对比： FileCodeBoxPingvin Share轻松上传✅✅防止爆破取件码/滥用上传✅❌口令分享✅✅匿名分享✅✅管理面板✅✅登陆二步验证❌✅挂载阿里云OSS✅❌文件安全监测❌✅部署简单程度（星星数目越多越简单）🌟🌟🌟🌟🌟🌟🌟🌟🌟[...]</description>
+</item>
+<item rdf:about="https://blog.fuyiran.link/Technology/24.html">
+<title>cryptgeon ～ 轻量的密信密件分享平台</title>
+<link>https://blog.fuyiran.link/Technology/24.html</link>
+<dc:date>2023-08-08T08:10:00+08:00</dc:date>
+<description>介绍：cryptgeon 是一个安全开源到轻量密信密件分享平台，灵感来自 PrivNote。[...]</description>
+</item>
+<item rdf:about="https://blog.fuyiran.link/Technology/22.html">
+<title>自部署个调查问卷系统/考试系统？那我推荐&amp;quot;卷王&amp;quot;</title>
+<link>https://blog.fuyiran.link/Technology/22.html</link>
+<dc:date>2023-08-07T08:30:00+08:00</dc:date>
+<description>介绍卷王，功能强大的调查问卷系统和考试系统[...]</description>
+</item>
+<item rdf:about="https://blog.fuyiran.link/Technology/21.html">
+<title>自建文件分享平台？你可能需要 Pingvin Share</title>
+<link>https://blog.fuyiran.link/Technology/21.html</link>
+<dc:date>2023-08-06T18:13:00+08:00</dc:date>
+<description>介绍：你真的放心把文件交到第三方文件平台手中吗？来试试Pingvin Share轻松自建-轻松使用私有服务器搭建文件共享平台完全隐私-你的文件只属于你！不用将它放到第三方文件平台注重保护-支持二步验证，你的文件独属于你更加安全-发给小伙伴使用害怕传入木马？没关系，Pingvin Share 支持挂载 clamav，让你的存储更加安全[...]</description>
+</item>
+<item rdf:about="https://blog.fuyiran.link/Technology/20.html">
+<title>QD ～ 不仅限于自动签到的定时任务自动执行框架</title>
+<link>https://blog.fuyiran.link/Technology/20.html</link>
+<dc:date>2023-08-06T08:08:00+08:00</dc:date>
+<description>介绍：QD，一个定时任务自动执行框架，可以帮助进行自动签到，自动评论，自动抽奖，自动领取礼品，只有你想不到，没有它做不到（甚至能通过抓框架对应ip的ck和ua，来过网站开启的CF五秒盾）[...]</description>
+</item>
+<item rdf:about="https://blog.fuyiran.link/Technology/19.html">
+<title>自建云盘？试试 Cloudreve</title>
+<link>https://blog.fuyiran.link/Technology/19.html</link>
+<dc:date>2023-08-05T18:21:00+08:00</dc:date>
+<description>介绍：Cloudreve 一款自用公用都合适的网盘系统，支持多种云存储平台，例如七牛，OSS，COS，又拍云，OneDrive，S3。用户在实际使用时无须关心物理存储方式。既可以使用 Cloudreve 搭建起个人用网盘、文件分享系统，也可以搭建针对大小团体的公有云系统。[...]</description>
+</item>
+<item rdf:about="https://blog.fuyiran.link/Technology/18.html">
+<title>想自建邮件服务器？来试试 Maddy </title>
+<link>https://blog.fuyiran.link/Technology/18.html</link>
+<dc:date>2023-08-05T08:16:00+08:00</dc:date>
+<description>介绍：Maddy 是一款用 Go 语言开发的邮件服务器，部署方便，资源占用少，是一款适合个人使用的邮箱服务器。[...]</description>
+</item>
+</rdf:RDF>

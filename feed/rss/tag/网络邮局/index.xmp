@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/%E7%BD%91%E7%BB%9C%E9%82%AE%E5%B1%80/">
+<title>傅说 - 网络邮局</title>
+<link>https://blog.fuyiran.link/tag/%E7%BD%91%E7%BB%9C%E9%82%AE%E5%B1%80/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/18.html"/>
+<rdf:li resource="https://blog.fuyiran.link/Technology/6.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/18.html">
+<title>想自建邮件服务器？来试试 Maddy </title>
+<link>https://blog.fuyiran.link/Technology/18.html</link>
+<dc:date>2023-08-05T08:16:00+08:00</dc:date>
+<description>介绍：Maddy 是一款用 Go 语言开发的邮件服务器，部署方便，资源占用少，是一款适合个人使用的邮箱服务器。[...]</description>
+</item>
+<item rdf:about="https://blog.fuyiran.link/Technology/6.html">
+<title>如何使用 Hestia 面板来创建网络邮局</title>
+<link>https://blog.fuyiran.link/Technology/6.html</link>
+<dc:date>2023-07-31T08:17:00+08:00</dc:date>
+<description>请注意：Hestia Control Panel需要安装在全新的操作系统上才能保证正常运行。支持的平台和操作系统：Debian：12，11或10Ubuntu：22.04 LTS，20.04 LTS注意：Hestia Control Panel并不支持32位操作系统！[...]</description>
+</item>
+</rdf:RDF>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - 定时任务自动执行框架</title>
+<link>https://blog.fuyiran.link/tag/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E8%87%AA%E5%8A%A8%E6%89%A7%E8%A1%8C%E6%A1%86%E6%9E%B6/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E8%87%AA%E5%8A%A8%E6%89%A7%E8%A1%8C%E6%A1%86%E6%9E%B6/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Sun, 06 Aug 2023 08:08:00 +0800</lastBuildDate>
+<pubDate>Sun, 06 Aug 2023 08:08:00 +0800</pubDate>
+<item>
+<title>QD ～ 不仅限于自动签到的定时任务自动执行框架</title>
+<link>https://blog.fuyiran.link/Technology/20.html</link>
+<guid>https://blog.fuyiran.link/Technology/20.html</guid>
+<pubDate>Sun, 06 Aug 2023 08:08:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：QD，一个定时任务自动执行框架，可以帮助进行自动签到，自动评论，自动抽奖，自动领取礼品，只有你想不到，没有它做不到（甚至能通过抓框架对应ip的ck和ua，来过网站开启的CF五秒盾）]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>QD，一个定时任务自动执行框架，可以帮助进行自动签到，自动评论，自动抽奖，自动领取礼品，只有你想不到，没有它做不到（甚至能通过抓框架对应ip的ck和ua，来过网站开启的CF五秒盾）</p><p class="more"><a href="https://blog.fuyiran.link/Technology/20.html" title="QD ～ 不仅限于自动签到的定时任务自动执行框架">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/20.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E8%87%AA%E5%8A%A8%E6%89%A7%E8%A1%8C%E6%A1%86%E6%9E%B6/</wfw:commentRss>
+</item>
+</channel>
+</rss>

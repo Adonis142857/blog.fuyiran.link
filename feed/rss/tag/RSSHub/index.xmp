@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/RSSHub/">
+<title>傅说 - RSSHub</title>
+<link>https://blog.fuyiran.link/tag/RSSHub/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/38.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/38.html">
+<title>RSSHub RSS生成器</title>
+<link>https://blog.fuyiran.link/Technology/38.html</link>
+<dc:date>2023-08-15T07:53:00+08:00</dc:date>
+<description>介绍：RSSHub 是一个开源、简单易用、易于扩展的 RSS 生成器，可以给任何奇奇怪怪的内容生成 RSS 订阅源。RSSHub 借助于开源社区的力量快速发展中，目前已适配数百家网站的上千项内容。RSSHub源地址：https://docs.rsshub.app/routes[...]</description>
+</item>
+</rdf:RDF>

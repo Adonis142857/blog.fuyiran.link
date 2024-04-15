@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - 导航页</title>
+<link>https://blog.fuyiran.link/tag/%E5%AF%BC%E8%88%AA%E9%A1%B5/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/%E5%AF%BC%E8%88%AA%E9%A1%B5/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Sat, 12 Aug 2023 08:00:00 +0800</lastBuildDate>
+<pubDate>Sat, 12 Aug 2023 08:00:00 +0800</pubDate>
+<item>
+<title>更进一步，不用服务器也能配置的个人导航页</title>
+<link>https://blog.fuyiran.link/Technology/32.html</link>
+<guid>https://blog.fuyiran.link/Technology/32.html</guid>
+<pubDate>Sat, 12 Aug 2023 08:00:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：CF-Worker-Dir是一款适用于Cloudflare Worker平台上的云函数程序，可以使用它在一分钟内搭建属于自己的导航页面，还可以预留出接口帮助你售出自己域名。如果你的域名还没...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>CF-Worker-Dir是一款适用于Cloudflare Worker平台上的云函数程序，可以使用它在一分钟内搭建属于自己的导航页面，还可以预留出接口帮助你售出自己域名。如果你的域名还没有搭建网站，不如先利用CF-Worker-Dir让你的域名不再浪费。😉</p><table><thead><tr><th> </th><th><a href="https://blog.fuyiran.link/Technology/32.html">CF-Worker-Dir</a></th><th><a href="https://blog.fuyiran.link/Technology/31.html">LinkStack</a></th></tr></thead><tbody><tr><td>自定义化程度</td><td>🌟🌟🌟</td><td>🌟🌟🌟🌟🌟</td></tr><tr><td>部署难度</td><td>😈😈</td><td>😈😈😈😈</td></tr></tbody></table><p class="more"><a href="https://blog.fuyiran.link/Technology/32.html" title="更进一步，不用服务器也能配置的个人导航页">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/32.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E5%AF%BC%E8%88%AA%E9%A1%B5/</wfw:commentRss>
+</item>
+</channel>
+</rss>

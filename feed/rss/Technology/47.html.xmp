@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/Technology/47.html">
+<title>傅说 - Flare 个人书签导航 的评论</title>
+<link>https://blog.fuyiran.link/Technology/47.html</link>
+<description>介绍：Flare ，一款在性能、数据安全、美观界面以及用户体验上都经过深思熟虑的书签导航。特点：性能优势：与其前身 Flame 相比，Flare在性能方面有着明显的优势。无论是小到10M的容器镜...</description>
+<items>
+<rdf:Seq>
+</rdf:Seq>
+</items>
+</channel>
+</rdf:RDF>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - Audiobookshelf</title>
+<link>https://blog.fuyiran.link/tag/Audiobookshelf/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/Audiobookshelf/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Sun, 13 Aug 2023 19:58:00 +0800</lastBuildDate>
+<pubDate>Sun, 13 Aug 2023 19:58:00 +0800</pubDate>
+<item>
+<title>自托管有声读物和播客？欢迎尝试 Audiobookshelf</title>
+<link>https://blog.fuyiran.link/Technology/35.html</link>
+<guid>https://blog.fuyiran.link/Technology/35.html</guid>
+<pubDate>Sun, 13 Aug 2023 19:58:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：Audiobookshelf 是一款自托管有声读物和播客服务器，专为音频爱好者量身打造。完全开源，包括正处于测试阶段的安卓和 iOS 应用，可以即时流式传输所有音频格式，支持搜索并添加播客...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Audiobookshelf 是一款自托管有声读物和播客服务器，专为音频爱好者量身打造。完全开源，包括正处于测试阶段的安卓和 iOS 应用，可以即时流式传输所有音频格式，支持搜索并添加播客。</p><p>Audiobookshelf 的独特之处在于其自动检测图书馆更新和批量上传的功能，可以备份元数据并自动进行每日备份，从多个来源获取元数据和封面，并配备了章节编辑器和章节查找功能，它允许用户将音频文件合并为单一 m4b 格式，并将元数据和封面图像嵌入音频文件中。同时，它还可以充当一款电子书阅读器，支持 Epub、pdf、cbr 和 cbz 格式。用户甚至可以将电子书发送到设备（如 Kindle）上，并为播客和有声读物打开 RSS 源。</p><p class="more"><a href="https://blog.fuyiran.link/Technology/35.html" title="自托管有声读物和播客？欢迎尝试 Audiobookshelf">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/35.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/Audiobookshelf/</wfw:commentRss>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB%E5%89%AA%E8%B4%B4%E6%9D%BF/">
+<title>傅说 - 代码分享剪贴板</title>
+<link>https://blog.fuyiran.link/tag/%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB%E5%89%AA%E8%B4%B4%E6%9D%BF/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/37.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/37.html">
+<title>Hasty Paste 更适合代码分享的剪贴板</title>
+<link>https://blog.fuyiran.link/Technology/37.html</link>
+<dc:date>2023-08-14T20:09:00+08:00</dc:date>
+<description>介绍Hasty Paste，一个轻量的自托管剪贴板。可以快速粘贴和保存文本，并共享给他人。无需登录就可以进行访问，使用随机生成的编号唯一标识每个粘贴，并提供长编号来抵抗暴力破解攻击，支持配置过期时间和夜间模式，还可以选择性地高亮语法，无需JavaScript就可以运行。[...]</description>
+</item>
+</rdf:RDF>

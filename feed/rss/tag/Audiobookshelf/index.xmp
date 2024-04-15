@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/Audiobookshelf/">
+<title>傅说 - Audiobookshelf</title>
+<link>https://blog.fuyiran.link/tag/Audiobookshelf/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/35.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/35.html">
+<title>自托管有声读物和播客？欢迎尝试 Audiobookshelf</title>
+<link>https://blog.fuyiran.link/Technology/35.html</link>
+<dc:date>2023-08-13T19:58:00+08:00</dc:date>
+<description>介绍：Audiobookshelf 是一款自托管有声读物和播客服务器，专为音频爱好者量身打造。完全开源，包括正处于测试阶段的安卓和 iOS 应用，可以即时流式传输所有音频格式，支持搜索并添加播客。Audiobookshelf 的独特之处在于其自动检测图书馆更新和批量上传的功能，可以备份元数据并自动进行每日备份，从多个来源获取元数据和封面，并配备了章节编辑器和章节查找功能，它允许用户将音频文件合并为单一 m4b 格式，并将元数据和封面图像嵌入音频文件中。同时，它还可以充当一款电子书阅读器，支持 Epub、pdf、cbr 和 cbz 格式。用户甚至可以将电子书发送到设备（如 Kindle）上，并为播客和有声读物打开 RSS 源。[...]</description>
+</item>
+</rdf:RDF>

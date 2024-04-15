@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/Technology/6.html">
+<title>傅说 - 如何使用 Hestia 面板来创建网络邮局 的评论</title>
+<link>https://blog.fuyiran.link/Technology/6.html</link>
+<description>请注意：Hestia Control Panel需要安装在全新的操作系统上才能保证正常运行。支持的平台和操作系统：Debian：12，11或10Ubuntu：22.04 LTS，20.04 LT...</description>
+<items>
+<rdf:Seq>
+</rdf:Seq>
+</items>
+</channel>
+</rdf:RDF>

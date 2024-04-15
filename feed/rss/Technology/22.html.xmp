@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/Technology/22.html">
+<title>傅说 - 自部署个调查问卷系统/考试系统？那我推荐&amp;quot;卷王&amp;quot; 的评论</title>
+<link>https://blog.fuyiran.link/Technology/22.html</link>
+<description>介绍卷王，功能强大的调查问卷系统和考试系统</description>
+<items>
+<rdf:Seq>
+</rdf:Seq>
+</items>
+</channel>
+</rdf:RDF>

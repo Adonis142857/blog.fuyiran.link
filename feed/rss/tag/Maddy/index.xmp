@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/Maddy/">
+<title>傅说 - Maddy</title>
+<link>https://blog.fuyiran.link/tag/Maddy/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/18.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/18.html">
+<title>想自建邮件服务器？来试试 Maddy </title>
+<link>https://blog.fuyiran.link/Technology/18.html</link>
+<dc:date>2023-08-05T08:16:00+08:00</dc:date>
+<description>介绍：Maddy 是一款用 Go 语言开发的邮件服务器，部署方便，资源占用少，是一款适合个人使用的邮箱服务器。[...]</description>
+</item>
+</rdf:RDF>

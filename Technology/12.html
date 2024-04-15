@@ -1,0 +1,385 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>如何部署 umami — 一个简约而不简单的网页流量统计工具 - 傅说</title>
+
+    <!-- 使用url函数转换相关路径 -->
+    <link rel="stylesheet" href="../usr/themes/default/normalize.css">
+    <link rel="stylesheet" href="../usr/themes/default/grid.css">
+    <link rel="stylesheet" href="../usr/themes/default/style.css">
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/64b479301ddac507ccb75174.jpg" type="image/x-icon" />
+    <script async src="https://nico.cm/script.js" data-website-id="37091978-1aac-4676-b0da-e831e4f772d1"></script>
+
+    <!-- 通过自有函数输出HTML头部信息 -->
+    <meta name="description" content="介绍：Umami，一款简单、快速、注重隐私的Google Analytics的替代品，帮助站长进行网页流量统计分析，以进行进一步优化" />
+<meta name="keywords" content="配置,umami,网页流量统计工具,Google Analytics替代品" />
+<meta name="generator" content="Typecho 1.2.1" />
+<meta name="template" content="default" />
+<link rel="pingback" href="../action/xmlrpc.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../action/xmlrpc%EF%B9%96rsd.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../action/xmlrpc%EF%B9%96wlw.html" />
+<link rel="alternate" type="application/rss+xml" title="如何部署 umami — 一个简约而不简单的网页流量统计工具 &raquo; 傅说 &raquo; RSS 2.0" href="../feed/Technology/12.html.rss" />
+<link rel="alternate" type="application/rdf+xml" title="如何部署 umami — 一个简约而不简单的网页流量统计工具 &raquo; 傅说 &raquo; RSS 1.0" href="../feed/rss/Technology/12.html.xmp" />
+<link rel="alternate" type="application/atom+xml" title="如何部署 umami — 一个简约而不简单的网页流量统计工具 &raquo; 傅说 &raquo; ATOM 1.0" href="../feed/atom/Technology/12.html" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-12'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-12'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-12'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _66OUix = 'sLz'//'sLz'
++'b'//'T'
++'16e'//'H'
++'a'//'YaR'
++//'U'
+'34'+'d7'//'v'
++'1'//'QJm'
++'e'//'e'
++'4e'//'7ob'
++'1d'//'Yp'
++'51'//'v'
++//'q'
+'e2'+'5'//'t'
++//'lS'
+'0'+'5a1'//'d'
++//'xo'
+'c'+'6'//'D'
++//'DF'
+'DF'+'94'//'XE'
++'5i'//'5i'
++'19f'//'p0M'
++//'Zfj'
+'b'+//'xOn'
+'xOn'+//'h'
+'1', _AttZfF = [[0,3],[10,11],[25,27],[27,29],[31,34]];
+    
+    for (var i = 0; i < _AttZfF.length; i ++) {
+        _66OUix = _66OUix.substring(0, _AttZfF[i][0]) + _66OUix.substring(_AttZfF[i][1]);
+    }
+
+    return _66OUix;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script><link rel="stylesheet" type="text/css" href="../usr/plugins/CodeHighlighter/static/styles/okaikia.css" /></head>
+<body>
+
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="site-name col-mb-12 col-9">
+                                    <a id="logo" href="../index.html">傅说</a>
+                    <p class="description">与你一起从全新的视角领略这个世界，这里有独到的科技新闻分析，深度的学习过程记录，独特的深度思考，以及实用的资源分享。无论你是学生，科技爱好者，还是在人生路上寻找方向的探索者，我相信你都能在这里找到你想要的。欢迎你与我一起，学习知识，共创未来</p>
+                
+
+            </div>
+            <div class="site-search col-3 kit-hidden-tb">
+                <form id="search" method="post" action="../index.html" role="search">
+                    <label for="s" class="sr-only">搜索关键字</label>
+                    <input type="text" id="s" name="s" class="text" placeholder="输入关键字搜索"/>
+                    <button type="submit" class="submit">搜索</button>
+                </form>
+            </div>
+            <div class="col-mb-12">
+                <nav id="nav-menu" class="clearfix" role="navigation">
+                    <a                        href="../index.html">首页</a>
+                                                        </nav>
+            </div>
+        </div><!-- end .row -->
+    </div>
+</header><!-- end #header -->
+<div id="body">
+    <div class="container">
+        <div class="row"> 
+<div class="col-mb-12 col-8" id="main" role="main">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title" itemprop="name headline">
+            <a itemprop="url"
+               href="12.html">如何部署 umami — 一个简约而不简单的网页流量统计工具</a>
+        </h1>
+        <ul class="post-meta">
+            <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                作者: <a itemprop="name"
+                                       href="../author/1/index.html"
+                                       rel="author">傅怡然</a>
+            </li>
+            <li>时间:                 <time datetime="2023-08-02T08:42:00+08:00" itemprop="datePublished">2023-08-02</time>
+            </li>
+            <li>分类: <a href="../category/Technology/index.html">科技</a></li>
+        </ul>
+        <div class="post-content" itemprop="articleBody">
+            <h2>介绍：</h2><p>Umami，一款简单、快速、注重隐私的Google Analytics的替代品，帮助站长进行网页流量统计分析，以进行进一步优化</p><!--more--><h2>部署方法一：使用Docker安装</h2><h3>第一步：更新源</h3><pre><code class="lang-bash">apt update -y &amp;&amp; apt upgrade -y        #Ubuntu/Debian
+yum update -y &amp;&amp; yum upgrade -y        #Centos</code></pre><h3>第二步：安装Docker</h3><pre><code class="lang-bash">curl -fsSL https://get.docker.com -o get-docker.sh &amp;&amp; sh ./get-docker.sh</code></pre><h3>第三步：创建一个用于存储数据库数据的Docker卷</h3><pre><code class="lang-bash">docker volume create umami-db-data</code></pre><h3>第四步：安装并启动PostgreSQL容器</h3><pre><code class="lang-bash">docker run -d \
+  --name umami-db \
+  -e POSTGRES_DB=umami \
+  -e POSTGRES_USER=umami \
+  -e POSTGRES_PASSWORD=umami \
+  -v ./sql/schema.postgresql.sql:/docker-entrypoint-initdb.d/schema.postgresql.sql:ro \
+  -v umami-db-data:/var/lib/postgresql/data \
+  --restart always \
+  postgres:12-alpine</code></pre><h3>第五步：安装并启动umami容器</h3><pre><code class="lang-bash">docker run -d \
+  --name umami \
+  --link umami-db:db \
+  -p 3000:3000 \
+  -e DATABASE_URL=postgresql://umami:umami@db:5432/umami \
+  -e DATABASE_TYPE=postgresql \
+  -e HASH_SALT=&quot;replace-me-with-a-random-string&quot; \
+  --restart always \
+  ghcr.io/umami-software/umami:postgresql-latest</code></pre><p>注意：<code>HASH_SALT</code>的值应替换为一个随机字符串，可以使用命令openssl rand -hex 32生成。</p><h2>部署方法二：从源代码安装</h2><h3>第一步：安装Node.js和npm</h3><p>虽然官方说使用Node.js 12 或更高版本即可，但是实际使用过程中，环境提示需要安装Node.js 16.13 或更高版本。</p><p>执行以下命令来安装：</p><pre><code class="lang-bash">curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs</code></pre><p>验证Node.js和npm是否安装成功：</p><pre><code class="lang-bash">node -v
+npm -v</code></pre><h3>第二步：获取umami的源代码并安装依赖</h3><pre><code class="lang-bash">git clone https://github.com/umami-software/umami.git
+cd umami
+npm install -g yarn</code></pre><h3>第三步：设置MySQL数据库并配置umami使用的数据库</h3><p>安装MySQL服务器：</p><pre><code class="lang-bash">sudo apt-get update
+sudo apt-get install mysql-server
+sudo mysql_secure_installation</code></pre><p>登录MySQL创建用户和数据库：</p><pre><code class="lang-bash">sudo mysql -u root -p
+CREATE USER 'umami'@'localhost' IDENTIFIED BY 'mypassword';
+CREATE DATABASE mydb;
+GRANT ALL PRIVILEGES ON mydb.* TO 'umami'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;</code></pre><p>在umami项目目录中创建一个<code>.env</code>文件，内容如下：</p><pre><code class="lang-env">DATABASE_URL=mysql://umami:mypassword@localhost:3306/mydb</code></pre><h3>第四步：构建和启动umami</h3><p>返回到umami目录，执行以下命令构建和启动应用：</p><pre><code class="lang-bash">yarn install
+yarn build
+yarn start</code></pre><p>使用浏览器登录<code>ip:3000</code>来查看是否安装成功，初始用户名：<code>admin</code>，密码：<code>umami</code></p><h3>第五步：配置umami后台运行和自启动</h3><p>安装PM2并使用PM2启动umami</p><pre><code class="lang-bash">npm install -g pm2
+pm2 start yarn --name &quot;umami&quot; -- start</code></pre><p>设置PM2自启动钩子，并保存当前的PM2进程列表和状态：</p><pre><code class="lang-bash">pm2 startup
+pm2 save</code></pre><h2>配置网页流量统计代码</h2><ol><li>在设置—&gt;网站—&gt;添加网站中添加自己的网站<br><img src="https://pic.imgdb.cn/item/64c9fc0c1ddac507ccf13039.jpg" alt="" title=""></li><li>保存后点击编辑来查看追踪代码<br><img src="https://pic.imgdb.cn/item/64c9fcc11ddac507ccf2cd99.jpg" alt="" title=""><br><img src="https://pic.imgdb.cn/item/64c9fd0d1ddac507ccf378c6.jpg" alt="" title=""></li><li><p>在网站代码中添加追踪代码<br>示例：Typecho可以直接塞在header.php中</p><p><img src="https://pic.imgdb.cn/item/64c9fe8b1ddac507ccf6d446.jpg" alt="" title=""></p></li></ol><h2>效果图展示：</h2><p><img src="https://pic.imgdb.cn/item/64c9de4b1ddac507ccaad67f.jpg" alt="" title=""><br><img src="https://pic.imgdb.cn/item/64c9fbb71ddac507ccf06c04.jpg" alt="" title=""></p><h3>缺点：</h3><p>这个面板适合自用，未注册用户无法直接进行注册，需要管理员创建账号<br><img src="https://pic.imgdb.cn/item/64c9f8911ddac507cce8a3a8.jpg" alt="" title=""></p>        </div>
+        
+        <!-- 添加的引用内容 -->
+        <blockquote>
+            <p itemprop="keywords" class="tags">标签: <a href="../tag/%E9%85%8D%E7%BD%AE/index.html">配置</a>, <a href="../tag/umami/index.html">umami</a>, <a href="../tag/%E7%BD%91%E9%A1%B5%E6%B5%81%E9%87%8F%E7%BB%9F%E8%AE%A1%E5%B7%A5%E5%85%B7/index.html">网页流量统计工具</a>, <a href="../tag/Google-Analytics%E6%9B%BF%E4%BB%A3%E5%93%81/index.html">Google Analytics替代品</a></p>
+            <p>原文链接：https://blog.fuyiran.link/Technology/12.html</p>
+            <p>版权声明：本博客所有文章除特別声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 傅说 (<a href="../index.html" target="_blank">blog.fuyiran.link</a>) </p>
+        </blockquote>
+    </article>
+
+    <div id="comments">
+        
+            <div id="respond-post-12" class="respond">
+            <div class="cancel-comment-reply">
+                <a id="cancel-comment-reply-link" href="#respond-post-12" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>            </div>
+
+            <h3 id="response">添加新评论</h3>
+            <form method="post" action="12.html" id="comment-form" role="form">
+                                    <p>
+                        <label for="author" class="required">称呼</label>
+                        <input type="text" name="author" id="author" class="text"
+                               value="" required/>
+                    </p>
+                    <p>
+                        <label
+                            for="mail" class="required">Email</label>
+                        <input type="email" name="mail" id="mail" class="text"
+                               value="" required />
+                    </p>
+                    <p>
+                        <label
+                            for="url">网站</label>
+                        <input type="url" name="url" id="url" class="text" placeholder="http://"
+                               value="" />
+                    </p>
+                                <p>
+                    <label for="textarea" class="required">内容</label>
+                    <textarea rows="8" cols="50" name="text" id="textarea" class="textarea"
+                              required></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="submit">提交评论</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <ul class="post-near">
+        <li>上一篇: <a href="11.html" title="如何使用Docker搭建NginxWebUI">如何使用Docker搭建NginxWebUI</a></li>
+        <li>下一篇: <a href="13.html" title="如何配置一个易拓展的即时聊天应用 —Tailchat">如何配置一个易拓展的即时聊天应用 —Tailchat</a></li>
+    </ul>
+</div><!-- end #main-->
+
+<div class="col-mb-12 col-offset-1 col-3 kit-hidden-tb" id="secondary" role="complementary">
+            <section class="widget">
+            <h3 class="widget-title">最新文章</h3>
+            <ul class="widget-list">
+                <li><a href="47.html">Flare 个人书签导航</a></li><li><a href="46.html">OneNav 个性化的书签管理系统</a></li><li><a href="45.html">rss-reader 一款关注网站的即时消息的RSS在线浏览工具</a></li><li><a href="44.html">唐僧叨叨，一款开源即时通讯聊天软件</a></li><li><a href="43.html">Habitica 用游戏来养成你的习惯</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">最近回复</h3>
+            <ul class="widget-list">
+                                            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">分类</h3>
+            <ul class="widget-list"><li class="category-level-0 category-parent"><a href="../category/Life/index.html">生活</a></li><li class="category-level-0 category-parent"><a href="../category/Study/index.html">学习</a></li><li class="category-level-0 category-parent"><a href="../category/Technology/index.html">科技</a></li></ul>        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">归档</h3>
+            <ul class="widget-list">
+                <li><a href="../2023/08/index.html">August 2023</a></li><li><a href="../2023/07/index.html">July 2023</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">其它</h3>
+            <ul class="widget-list">
+                <li>
+                    <a href="https://enblog.fuyiran.link/Technology/12.html">English</a>
+                </li>
+                                    <li class="last"><a href="../admin/login.php.html">登录</a>
+                    </li>
+                                <li><a href="../feed/index.rss">文章 RSS</a></li>
+            </ul>
+        </section>
+    
+</div><!-- end #sidebar -->
+
+        </div><!-- end .row -->
+    </div>
+</div><!-- end #body -->
+
+<footer id="footer" role="contentinfo">
+    &copy; 2024 <a href="../index.html">傅说</a>
+    Powered by <a href="https://typecho.org">Typecho</a><br>
+
+    <!-- 不蒜子脚本 -->
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <!-- 不蒜子标签 -->
+            <span id="busuanzi_container_site_pv" style='display:none'>
+            本站总阅读量<span id="busuanzi_value_site_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_page_pv" style='display:none'>
+            本文总阅读量<span id="busuanzi_value_page_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+            本站访客数<span id="busuanzi_value_site_uv"></span>人次<br>
+        </span>
+    
+</footer><!-- end #footer -->
+
+<script src="../usr/plugins/SiteRunningTime/js/SiteRunningTime%EF%B9%96v=1.5.1.js"></script>
+<style>
+	
+</style>
+<script>
+	SiteRunningTime(
+		{
+			startTime:"2023-07-26 00:00:00",
+			autoRefresh:"1",
+			startTimeText:'该站点运行了<label class="year">0</label>年<label class="month">0</label>月<label class="day">0</label>日<label class="hour">0</label>时<label class="minute">0</label>分<label class="second">0</label>秒',
+		});
+</script><script type="text/javascript">
+	(function(){
+		var pres = document.querySelectorAll('pre');
+		var lineNumberClassName = 'line-numbers';
+		pres.forEach(function (item, index) {
+			item.className = item.className == '' ? lineNumberClassName : item.className + ' ' + lineNumberClassName;
+		});
+	})();
+</script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/clipboard.min.js"></script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/prism.js"></script>
+</body>
+</html>

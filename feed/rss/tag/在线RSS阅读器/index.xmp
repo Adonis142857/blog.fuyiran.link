@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/%E5%9C%A8%E7%BA%BFRSS%E9%98%85%E8%AF%BB%E5%99%A8/">
+<title>傅说 - 在线RSS阅读器</title>
+<link>https://blog.fuyiran.link/tag/%E5%9C%A8%E7%BA%BFRSS%E9%98%85%E8%AF%BB%E5%99%A8/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/45.html"/>
+<rdf:li resource="https://blog.fuyiran.link/Technology/39.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/45.html">
+<title>rss-reader 一款关注网站的即时消息的RSS在线浏览工具</title>
+<link>https://blog.fuyiran.link/Technology/45.html</link>
+<dc:date>2023-08-18T20:13:00+08:00</dc:date>
+<description>介绍：rss-reader，一款关注网站的即时消息的RSS在线浏览工具效果图：[...]</description>
+</item>
+<item rdf:about="https://blog.fuyiran.link/Technology/39.html">
+<title>CommaFeed 在线RSS阅读器</title>
+<link>https://blog.fuyiran.link/Technology/39.html</link>
+<dc:date>2023-08-15T19:54:00+08:00</dc:date>
+<description>介绍：CommaFeed 是一个受 Google Reader 启发、基于 Dropwizard 和 React/TypeScript 的自托管 RSS 阅读器。特点：有4种不同的布局黑暗模式完全响应式几乎所有操作都有键盘快捷键支持从右到左的feeds已翻译为25+种语言支持数千名用户和数百万feedsOPML导入/导出REST API浏览器扩展[...]</description>
+</item>
+</rdf:RDF>

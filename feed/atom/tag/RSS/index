@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="zh-CN"
+xml:base="https://blog.fuyiran.link/tag/RSS/"
+>
+<title type="text">傅说 - RSS</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-16T07:25:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/tag/RSS/" />
+<id>https://blog.fuyiran.link/feed/atom/tag/RSS/</id>
+<link rel="self" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/RSS/" />
+<entry>
+<title type="html"><![CDATA[wallabag 容我稍后再读，支持生成RSS源哦]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/40.html" />
+<id>https://blog.fuyiran.link/Technology/40.html</id>
+<updated>2023-08-16T07:25:00+08:00</updated>
+<published>2023-08-16T07:25:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：wallabag，一款保存网页以备日后阅读的工具。自动提取内容，帮助你不被弹出窗口分心。效果图：]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/40.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>wallabag，一款保存网页以备日后阅读的工具。自动提取内容，帮助你不被弹出窗口分心。</p><h2>效果图：</h2><p><img src="https://pic.imgdb.cn/item/64dce556661c6c8e54161b7e.jpg" alt="" title=""></p><p class="more"><a href="https://blog.fuyiran.link/Technology/40.html" title="wallabag 容我稍后再读，支持生成RSS源哦">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/40.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/RSS/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[RSSHub RSS生成器]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/38.html" />
+<id>https://blog.fuyiran.link/Technology/38.html</id>
+<updated>2023-08-15T07:53:00+08:00</updated>
+<published>2023-08-15T07:53:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：RSSHub 是一个开源、简单易用、易于扩展的 RSS 生成器，可以给任何奇奇怪怪的内容生成 RSS 订阅源。RSSHub 借助于开源社区的力量快速发展中，目前已适配数百家网站的上千项内容...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/38.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>RSSHub 是一个开源、简单易用、易于扩展的 RSS 生成器，可以给任何奇奇怪怪的内容生成 RSS 订阅源。RSSHub 借助于开源社区的力量快速发展中，目前已适配数百家网站的上千项内容。</p><p>RSSHub源地址：<a href="https://docs.rsshub.app/routes">https://docs.rsshub.app/routes</a></p><p class="more"><a href="https://blog.fuyiran.link/Technology/38.html" title="RSSHub RSS生成器">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/38.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/RSS/" thr:count="0"/>
+</entry>
+</feed>

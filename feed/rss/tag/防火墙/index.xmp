@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/%E9%98%B2%E7%81%AB%E5%A2%99/">
+<title>傅说 - 防火墙</title>
+<link>https://blog.fuyiran.link/tag/%E9%98%B2%E7%81%AB%E5%A2%99/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/4.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/4.html">
+<title>如何配置 Fail2Ban 来阻止恶意登录</title>
+<link>https://blog.fuyiran.link/Technology/4.html</link>
+<dc:date>2023-07-29T16:13:00+08:00</dc:date>
+<description>介绍：Fail2Ban 是一个用于禁止多次认证错误的恶意登录的工具。通过扫描日志文件（例如 /var/log/auth.log），该工具可以识别并禁止过多失败登录尝试的 IP 地址。它通过更新系统的防火墙规则来实现这一功能，拒绝来自这些 IP 地址的新连接，尽管 Fail2Ban 可以降低错误认证尝试的频率，但它不能完全消除由弱认证带来的风险，建议设置仅使用两因素或公钥/私钥认证机制来更进一步保障安全。[...]</description>
+</item>
+</rdf:RDF>

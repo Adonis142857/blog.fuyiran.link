@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - 文件分享</title>
+<link>https://blog.fuyiran.link/tag/%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Tue, 08 Aug 2023 18:15:00 +0800</lastBuildDate>
+<pubDate>Tue, 08 Aug 2023 18:15:00 +0800</pubDate>
+<item>
+<title>FileCodeBox ~ 文件快递柜，像取快递一样取文件</title>
+<link>https://blog.fuyiran.link/Technology/25.html</link>
+<guid>https://blog.fuyiran.link/Technology/25.html</guid>
+<pubDate>Tue, 08 Aug 2023 18:15:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：在之前的文章中，我写过 Pingvin Share 的部署方案，有很多小伙伴向我推荐了FileCodeBox，在进行部署使用后，感觉的确很不错，于是便写一份部署教程来帮助大家部署。对比： ...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>在之前的文章中，我写过 Pingvin Share 的部署方案，有很多小伙伴向我推荐了FileCodeBox，在进行部署使用后，感觉的确很不错，于是便写一份部署教程来帮助大家部署。</p><h3>对比：</h3><table><thead><tr><th> </th><th>FileCodeBox</th><th>Pingvin Share</th></tr></thead><tbody><tr><td>轻松上传</td><td>✅</td><td>✅</td></tr><tr><td>防止爆破取件码/滥用上传</td><td>✅</td><td>❌</td></tr><tr><td>口令分享</td><td>✅</td><td>✅</td></tr><tr><td>匿名分享</td><td>✅</td><td>✅</td></tr><tr><td>管理面板</td><td>✅</td><td>✅</td></tr><tr><td>登陆二步验证</td><td>❌</td><td>✅</td></tr><tr><td>挂载阿里云OSS</td><td>✅</td><td>❌</td></tr><tr><td>文件安全监测</td><td>❌</td><td>✅</td></tr><tr><td>部署简单程度（星星数目越多越简单）</td><td>🌟🌟🌟🌟🌟</td><td>🌟🌟🌟🌟</td></tr></tbody></table><p class="more"><a href="https://blog.fuyiran.link/Technology/25.html" title="FileCodeBox ~ 文件快递柜，像取快递一样取文件">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/25.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB/</wfw:commentRss>
+</item>
+<item>
+<title>cryptgeon ～ 轻量的密信密件分享平台</title>
+<link>https://blog.fuyiran.link/Technology/24.html</link>
+<guid>https://blog.fuyiran.link/Technology/24.html</guid>
+<pubDate>Tue, 08 Aug 2023 08:10:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：cryptgeon 是一个安全开源到轻量密信密件分享平台，灵感来自 PrivNote。]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>cryptgeon 是一个安全开源到轻量密信密件分享平台，灵感来自 PrivNote。</p><p class="more"><a href="https://blog.fuyiran.link/Technology/24.html" title="cryptgeon ～ 轻量的密信密件分享平台">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/24.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB/</wfw:commentRss>
+</item>
+<item>
+<title>自建文件分享平台？你可能需要 Pingvin Share</title>
+<link>https://blog.fuyiran.link/Technology/21.html</link>
+<guid>https://blog.fuyiran.link/Technology/21.html</guid>
+<pubDate>Sun, 06 Aug 2023 18:13:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：你真的放心把文件交到第三方文件平台手中吗？来试试Pingvin Share轻松自建-轻松使用私有服务器搭建文件共享平台完全隐私-你的文件只属于你！不用将它放到第三方文件平台注重保护-支持二...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>你真的放心把文件交到第三方文件平台手中吗？来试试Pingvin Share</p><ul><li>轻松自建-轻松使用私有服务器搭建文件共享平台</li><li>完全隐私-你的文件只属于你！不用将它放到第三方文件平台</li><li>注重保护-支持二步验证，你的文件独属于你</li><li>更加安全-发给小伙伴使用害怕传入木马？没关系，Pingvin Share 支持挂载 clamav，让你的存储更加安全</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/21.html" title="自建文件分享平台？你可能需要 Pingvin Share">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/21.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB/</wfw:commentRss>
+</item>
+</channel>
+</rss>

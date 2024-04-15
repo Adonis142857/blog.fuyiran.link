@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - Bitwarden</title>
+<link>https://blog.fuyiran.link/tag/Bitwarden/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/Bitwarden/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Thu, 10 Aug 2023 08:10:00 +0800</lastBuildDate>
+<pubDate>Thu, 10 Aug 2023 08:10:00 +0800</pubDate>
+<item>
+<title>自部署一个优秀的密码管理器 ～ Bitwarden</title>
+<link>https://blog.fuyiran.link/Technology/28.html</link>
+<guid>https://blog.fuyiran.link/Technology/28.html</guid>
+<pubDate>Thu, 10 Aug 2023 08:10:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：Bitwarden 是一款开源的密码管理工具，与 SafeInCloud、1Password 等类似。其官方服务器端采用 .Net 开发，浏览器插件和桌面应用使用 Javascript 编...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Bitwarden 是一款开源的密码管理工具，与 SafeInCloud、1Password 等类似。其官方服务器端采用 .Net 开发，浏览器插件和桌面应用使用 Javascript 编写，而移动应用则由 C# 实现。该系统的数据库采用 mssql，由于其占用内存较大，部署此系统的机器至少需要 3GB 的内存。<br>不过好消息是，有人使用 Rust 实现了 Bitwarden 并且提供了 Docker 镜像，降低了对机器配置的要求，并且官方版本中部分收费的功能,在这个开源实现中可以免费使用。本文便使用 vaultwarden 来进行配置 Bitwarden。</p><p class="more"><a href="https://blog.fuyiran.link/Technology/28.html" title="自部署一个优秀的密码管理器 ～ Bitwarden">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/28.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/Bitwarden/</wfw:commentRss>
+</item>
+</channel>
+</rss>

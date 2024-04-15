@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/Zbook/">
+<title>傅说 - Zbook</title>
+<link>https://blog.fuyiran.link/tag/Zbook/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/10.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/10.html">
+<title>如何搭建Zbook（自己的电子书下载网站）</title>
+<link>https://blog.fuyiran.link/Technology/10.html</link>
+<dc:date>2023-08-01T08:25:00+08:00</dc:date>
+<description>介绍：Zbook，一个电子书下载网站，官方提供了可直接下载安装的电子书文件包，大大简化部署流程，数据查找迅速，界面美观。 TalebookZbook用户系统❌✅在线阅读✅❌推送书籍至Kindle❌✅私人模式✅❌从百度百科、豆瓣中导入书籍信息✅❌上传书籍✅❌（官方收录上传书籍后更新电子书文件包）查找书籍速度🌟🌟🌟🌟🌟🌟🌟🌟界面美观度🌟🌟🌟🌟🌟🌟🌟🌟🌟部署难易度😈😈😈😈😈😈[...]</description>
+</item>
+</rdf:RDF>

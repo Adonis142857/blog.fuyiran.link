@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - 轻量</title>
+<link>https://blog.fuyiran.link/tag/%E8%BD%BB%E9%87%8F/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/%E8%BD%BB%E9%87%8F/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Thu, 17 Aug 2023 08:25:00 +0800</lastBuildDate>
+<pubDate>Thu, 17 Aug 2023 08:25:00 +0800</pubDate>
+<item>
+<title>WeekToDo 一款极简主义待办事项列表</title>
+<link>https://blog.fuyiran.link/Technology/42.html</link>
+<guid>https://blog.fuyiran.link/Technology/42.html</guid>
+<pubDate>Thu, 17 Aug 2023 08:25:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：WeekToDo 是一个注重隐私的待办事项清单。用户可以通过待办事项列表和日历来安排任务和项目。提供了在 Windows、Mac、Linux 操作系统上的客户端，也可以直接在线使用。特点：...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>WeekToDo 是一个注重隐私的待办事项清单。用户可以通过待办事项列表和日历来安排任务和项目。提供了在 Windows、Mac、Linux 操作系统上的客户端，也可以直接在线使用。</p><h2>特点：</h2><ul><li>支持跨平台使用</li><li>支持明暗模式切换</li><li>自定义待办事项列表</li><li>拖放功能</li><li>多语言支持</li><li>子任务功能</li><li>Markdown 支持</li><li>可定制的用户界面</li><li>本地存储</li><li>任务颜色标记</li><li>任务时间设置</li><li>周期性任务</li><li>通知和提醒功能</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/42.html" title="WeekToDo 一款极简主义待办事项列表">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/42.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E8%BD%BB%E9%87%8F/</wfw:commentRss>
+</item>
+<item>
+<title>随时记录灵感,任何地方都能写笔记!Memos — 一款实用便捷的在线记事本工具，同样还是一个小型社区</title>
+<link>https://blog.fuyiran.link/Technology/34.html</link>
+<guid>https://blog.fuyiran.link/Technology/34.html</guid>
+<pubDate>Sun, 13 Aug 2023 08:39:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：Memos是一款很实用的在线记事本应用，让你可以随时随地记录自己的思路、灵感和笔记，不用再担心记事本随手丢失，同时还是一个轻量的社区，可以跟大家分享你的生活。 PaoPaoMemos管理系...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Memos是一款很实用的在线记事本应用，让你可以随时随地记录自己的思路、灵感和笔记，不用再担心记事本随手丢失，同时还是一个轻量的社区，可以跟大家分享你的生活。</p><table><thead><tr><th> </th><th><a href="https://blog.fuyiran.link/Technology/27.html">PaoPao</a></th><th><a href="https://blog.fuyiran.link/Technology/34.html">Memos</a></th></tr></thead><tbody><tr><td>管理系统</td><td>❌</td><td>✅</td></tr><tr><td>好友系统</td><td>✅</td><td>❌</td></tr><tr><td>关注系统</td><td>✅</td><td>❌</td></tr><tr><td>用户注册验证</td><td>✅</td><td>❌</td></tr><tr><td>发布文章时记录地理位置</td><td>✅</td><td>❌</td></tr><tr><td>SSO单点登录</td><td>❌</td><td>✅</td></tr><tr><td>上传附件</td><td>仅照片/视频</td><td>不限制</td></tr><tr><td>界面美观度</td><td>🌟🌟🌟🌟🌟</td><td>🌟🌟🌟🌟</td></tr><tr><td>部署难度</td><td>😈😈😈😈😈</td><td>😈😈😈</td></tr></tbody></table><p class="more"><a href="https://blog.fuyiran.link/Technology/34.html" title="随时记录灵感,任何地方都能写笔记!Memos — 一款实用便捷的在线记事本工具，同样还是一个小型社区">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/34.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E8%BD%BB%E9%87%8F/</wfw:commentRss>
+</item>
+<item>
+<title>更进一步，不用服务器也能配置的个人导航页</title>
+<link>https://blog.fuyiran.link/Technology/32.html</link>
+<guid>https://blog.fuyiran.link/Technology/32.html</guid>
+<pubDate>Sat, 12 Aug 2023 08:00:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：CF-Worker-Dir是一款适用于Cloudflare Worker平台上的云函数程序，可以使用它在一分钟内搭建属于自己的导航页面，还可以预留出接口帮助你售出自己域名。如果你的域名还没...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>CF-Worker-Dir是一款适用于Cloudflare Worker平台上的云函数程序，可以使用它在一分钟内搭建属于自己的导航页面，还可以预留出接口帮助你售出自己域名。如果你的域名还没有搭建网站，不如先利用CF-Worker-Dir让你的域名不再浪费。😉</p><table><thead><tr><th> </th><th><a href="https://blog.fuyiran.link/Technology/32.html">CF-Worker-Dir</a></th><th><a href="https://blog.fuyiran.link/Technology/31.html">LinkStack</a></th></tr></thead><tbody><tr><td>自定义化程度</td><td>🌟🌟🌟</td><td>🌟🌟🌟🌟🌟</td></tr><tr><td>部署难度</td><td>😈😈</td><td>😈😈😈😈</td></tr></tbody></table><p class="more"><a href="https://blog.fuyiran.link/Technology/32.html" title="更进一步，不用服务器也能配置的个人导航页">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/32.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E8%BD%BB%E9%87%8F/</wfw:commentRss>
+</item>
+<item>
+<title>部署一个美观又轻量的链接聚合页，LinkStack 是一个很棒的选择</title>
+<link>https://blog.fuyiran.link/Technology/31.html</link>
+<guid>https://blog.fuyiran.link/Technology/31.html</guid>
+<pubDate>Fri, 11 Aug 2023 18:26:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：LinkStack，一个开源的链接聚合页，终极链接管理解决方案，可以有效的进行在线管理和链接共享，允许用户克服社交媒体平台上只能添加一个链接的限制，用户可以通过主题自定义LinkStack...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>LinkStack，一个开源的链接聚合页，终极链接管理解决方案，可以有效的进行在线管理和链接共享，允许用户克服社交媒体平台上只能添加一个链接的限制，用户可以通过主题自定义LinkStack实例的外观，高度可自定义化是它的优势。</p><table><thead><tr><th> </th><th><a href="https://blog.fuyiran.link/Technology/32.html">CF-Worker-Dir</a></th><th><a href="https://blog.fuyiran.link/Technology/31.html">LinkStack</a></th></tr></thead><tbody><tr><td>自定义化程度</td><td>🌟🌟🌟</td><td>🌟🌟🌟🌟🌟</td></tr><tr><td>部署难度</td><td>😈😈</td><td>😈😈😈😈</td></tr></tbody></table><p class="more"><a href="https://blog.fuyiran.link/Technology/31.html" title="部署一个美观又轻量的链接聚合页，LinkStack 是一个很棒的选择">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/31.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E8%BD%BB%E9%87%8F/</wfw:commentRss>
+</item>
+<item>
+<title>更进一步，不用服务器也能配置的短域名</title>
+<link>https://blog.fuyiran.link/Technology/29.html</link>
+<guid>https://blog.fuyiran.link/Technology/29.html</guid>
+<pubDate>Thu, 10 Aug 2023 18:27:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：020短链，利用Cloudflare Worker实现的简单免费的短链接平台]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>020短链，利用Cloudflare Worker实现的简单免费的短链接平台</p><p class="more"><a href="https://blog.fuyiran.link/Technology/29.html" title="更进一步，不用服务器也能配置的短域名">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/29.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E8%BD%BB%E9%87%8F/</wfw:commentRss>
+</item>
+<item>
+<title>自部署一个优秀的密码管理器 ～ Bitwarden</title>
+<link>https://blog.fuyiran.link/Technology/28.html</link>
+<guid>https://blog.fuyiran.link/Technology/28.html</guid>
+<pubDate>Thu, 10 Aug 2023 08:10:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：Bitwarden 是一款开源的密码管理工具，与 SafeInCloud、1Password 等类似。其官方服务器端采用 .Net 开发，浏览器插件和桌面应用使用 Javascript 编...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Bitwarden 是一款开源的密码管理工具，与 SafeInCloud、1Password 等类似。其官方服务器端采用 .Net 开发，浏览器插件和桌面应用使用 Javascript 编写，而移动应用则由 C# 实现。该系统的数据库采用 mssql，由于其占用内存较大，部署此系统的机器至少需要 3GB 的内存。<br>不过好消息是，有人使用 Rust 实现了 Bitwarden 并且提供了 Docker 镜像，降低了对机器配置的要求，并且官方版本中部分收费的功能,在这个开源实现中可以免费使用。本文便使用 vaultwarden 来进行配置 Bitwarden。</p><p class="more"><a href="https://blog.fuyiran.link/Technology/28.html" title="自部署一个优秀的密码管理器 ～ Bitwarden">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/28.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E8%BD%BB%E9%87%8F/</wfw:commentRss>
+</item>
+<item>
+<title>cryptgeon ～ 轻量的密信密件分享平台</title>
+<link>https://blog.fuyiran.link/Technology/24.html</link>
+<guid>https://blog.fuyiran.link/Technology/24.html</guid>
+<pubDate>Tue, 08 Aug 2023 08:10:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：cryptgeon 是一个安全开源到轻量密信密件分享平台，灵感来自 PrivNote。]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>cryptgeon 是一个安全开源到轻量密信密件分享平台，灵感来自 PrivNote。</p><p class="more"><a href="https://blog.fuyiran.link/Technology/24.html" title="cryptgeon ～ 轻量的密信密件分享平台">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/24.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E8%BD%BB%E9%87%8F/</wfw:commentRss>
+</item>
+</channel>
+</rss>

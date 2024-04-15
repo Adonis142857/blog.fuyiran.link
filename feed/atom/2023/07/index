@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="zh-CN"
+xml:base="https://blog.fuyiran.link/2023/07/"
+>
+<title type="text">傅说 - 2023年7月</title>
+<subtitle type="text">与你一起从全新的视角领略这个世界，这里有独到的科技新闻分析，深度的学习过程记录，独特的深度思考，以及实用的资源分享。无论你是学生，科技爱好者，还是在人生路上寻找方向的探索者，我相信你都能在这里找到你想要的。欢迎你与我一起，学习知识，共创未来</subtitle>
+<updated>2023-07-31T18:20:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/2023/07/" />
+<id>https://blog.fuyiran.link/feed/atom/2023/07/</id>
+<link rel="self" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/2023/07/" />
+<entry>
+<title type="html"><![CDATA[如何在 Typecho 中引入&quot;不蒜子&quot;来统计访问次数]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/7.html" />
+<id>https://blog.fuyiran.link/Technology/7.html</id>
+<updated>2023-07-31T18:20:00+08:00</updated>
+<published>2023-07-31T18:20:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[实现效果在访问量数据未取回来之前，统计次数不进行显示在主站点只显示站点总阅读量，以及总访客数在文章处显示站点总阅读量，文章总阅读量，以及总访客数]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/7.html" xml:lang="zh-CN"><![CDATA[
+<p><strong>实现效果</strong></p><ul><li>在访问量数据未取回来之前，统计次数不进行显示</li><li>在主站点只显示站点总阅读量，以及总访客数</li><li>在文章处显示站点总阅读量，文章总阅读量，以及总访客数</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/7.html" title="如何在 Typecho 中引入&quot;不蒜子&quot;来统计访问次数">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/7.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/2023/07/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[如何使用 Hestia 面板来创建网络邮局]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/6.html" />
+<id>https://blog.fuyiran.link/Technology/6.html</id>
+<updated>2023-07-31T08:17:00+08:00</updated>
+<published>2023-07-31T08:17:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[请注意：Hestia Control Panel需要安装在全新的操作系统上才能保证正常运行。支持的平台和操作系统：Debian：12，11或10Ubuntu：22.04 LTS，20.04 LT...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/6.html" xml:lang="zh-CN"><![CDATA[
+<p>请注意：Hestia Control Panel需要安装在全新的操作系统上才能保证正常运行。</p><p>支持的平台和操作系统：</p><ul><li>Debian：12，11或10</li><li>Ubuntu：22.04 LTS，20.04 LTS<br>注意：Hestia Control Panel并不支持32位操作系统！</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/6.html" title="如何使用 Hestia 面板来创建网络邮局">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/6.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/2023/07/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[如何使用镜像站来创造多语言支持的 Typecho 站点]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/5.html" />
+<id>https://blog.fuyiran.link/Technology/5.html</id>
+<updated>2023-07-30T08:14:00+08:00</updated>
+<published>2023-07-30T08:14:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[在尝试使用Typecho创作双语博客的过程中，我遇到了一个问题，我希望博客可以支持中英文切换，在一番查找后没有找到能直接实现这个功能的办法，于是现学PHP，尝试使用了镜像站模式，blog站点为中...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/5.html" xml:lang="zh-CN"><![CDATA[
+<p>在尝试使用Typecho创作双语博客的过程中，我遇到了一个问题，我希望博客可以支持中英文切换，在一番查找后没有找到能直接实现这个功能的办法，于是现学PHP，尝试使用了镜像站模式，blog站点为中文站点，enblog站点为英文站点，用户可以在侧边栏进行切换，这是一个笨办法，但对于像我这种技术力不够强的人来说，是个简便办法，也在这里分享下我的代码，希望能起到抛砖引玉的功能，期待后续能有人进行进一步优化</p><p class="more"><a href="https://blog.fuyiran.link/Technology/5.html" title="如何使用镜像站来创造多语言支持的 Typecho 站点">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/5.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/2023/07/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[如何配置 Fail2Ban 来阻止恶意登录]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/4.html" />
+<id>https://blog.fuyiran.link/Technology/4.html</id>
+<updated>2023-07-29T16:13:00+08:00</updated>
+<published>2023-07-29T16:13:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：Fail2Ban 是一个用于禁止多次认证错误的恶意登录的工具。通过扫描日志文件（例如 /var/log/auth.log），该工具可以识别并禁止过多失败登录尝试的 IP 地址。它通过更新系...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/4.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Fail2Ban 是一个用于禁止多次认证错误的恶意登录的工具。通过扫描日志文件（例如 <code>/var/log/auth.log</code>），该工具可以识别并禁止过多失败登录尝试的 IP 地址。它通过更新系统的防火墙规则来实现这一功能，拒绝来自这些 IP 地址的新连接，尽管 Fail2Ban 可以降低错误认证尝试的频率，但它不能完全消除由弱认证带来的风险，建议设置仅使用两因素或公钥/私钥认证机制来更进一步保障安全。</p><p class="more"><a href="https://blog.fuyiran.link/Technology/4.html" title="如何配置 Fail2Ban 来阻止恶意登录">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/4.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/2023/07/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[如何配置 Rainmap Lite — Web 版 Nmap 来进行网络扫描]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/3.html" />
+<id>https://blog.fuyiran.link/Technology/3.html</id>
+<updated>2023-07-29T08:11:00+08:00</updated>
+<published>2023-07-29T08:11:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：Rainmap Lite是一款响应式Web应用，允许用户从移动设备、平板或Web浏览器轻松启动Nmap扫描。与其前身Rainmap不同，Rainmap Lite的部署更为简单，不需要特殊的...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/3.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Rainmap Lite是一款响应式Web应用，允许用户从移动设备、平板或Web浏览器轻松启动Nmap扫描。与其前身Rainmap不同，Rainmap Lite的部署更为简单，不需要特殊的服务（如RabbitMQ, PostgreSQL, Celery, supervisor等）。只需安装Django应用并添加cron轮询任务，即可在任何服务器上轻松设置新的扫描服务器。</p><h2>特点：</h2><ul><li>点击几下即可轻松启动Nmap扫描。</li><li>响应式界面使其在手机/平板上运行流畅。</li><li>以所有格式通过电子邮件发送报告。</li><li>从Web浏览器查看报告。</li><li>安排扫描任务。</li><li>提供数十种扫描配置文件供用户选择。</li><li>安装/设置简单。</li><li>列表项目</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/3.html" title="如何配置 Rainmap Lite — Web 版 Nmap 来进行网络扫描">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/3.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/2023/07/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[如何批量创建 KVM 共享 IP VPS]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/2.html" />
+<id>https://blog.fuyiran.link/Technology/2.html</id>
+<updated>2023-07-28T16:09:00+08:00</updated>
+<published>2023-07-28T16:09:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：当我们拥有一台高性能的服务器而自己未充分利用时，可以考虑创建共享IP VPS 进行分割并销售给他人。使用本文介绍的脚本进行创建，可以使得每个分割出的服务器相互独立，不会互相干扰，还提供了面...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/2.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>当我们拥有一台高性能的服务器而自己未充分利用时，可以考虑创建共享IP VPS 进行分割并销售给他人。使用本文介绍的脚本进行创建，可以使得每个分割出的服务器相互独立，不会互相干扰，还提供了面板进行管理分割出的共享IP VPS。</p><h2>环境要求：</h2><ul><li>系统要求：Debian 8+（建议debian11而不是debian12，因为后者是beta版本，debian11安装的才是稳定版）</li><li>硬件要求：2核2G内存x86_64架构服务器，硬盘至少20G</li><li>可开KVM的硬件要求：VM-X或AMD-V支持 (部分VPS和全部独服支持)</li><li>如果硬件或系统需求不满足，可使用LXD批量开LXC容器</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/2.html" title="如何批量创建 KVM 共享 IP VPS">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/2.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/2023/07/" thr:count="0"/>
+</entry>
+<entry>
+<title type="html"><![CDATA[Flarum 一款简洁优雅，高可自定义性的论坛]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/1.html" />
+<id>https://blog.fuyiran.link/Technology/1.html</id>
+<updated>2023-07-28T08:06:00+08:00</updated>
+<published>2023-07-28T08:06:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：Flarum，一款优雅简洁的论坛，基于 PHP 构建，拥有精美的响应式布局，界面使用 Mithril 构建，拥有着高度的可自定义性、扩展性。]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/1.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Flarum，一款优雅简洁的论坛，基于 PHP 构建，拥有精美的响应式布局，界面使用 Mithril 构建，拥有着高度的可自定义性、扩展性。</p><p class="more"><a href="https://blog.fuyiran.link/Technology/1.html" title="Flarum 一款简洁优雅，高可自定义性的论坛">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/1.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/2023/07/" thr:count="0"/>
+</entry>
+</feed>

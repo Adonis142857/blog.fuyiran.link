@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - 手把手教你搭建检测并解锁 Apple ID 的自动化程序，发卡网站引流必备 的评论</title>
+<link>https://blog.fuyiran.link/Technology/30.html</link>
+<atom:link href="https://blog.fuyiran.link/feed/Technology/30.html" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description>介绍appleid_auto，一款基于密保问题的自动化 Apple ID 检测&amp;解锁程序。前端用于管理账号，支持添加多个账号，并提供展示账号页面。支持创建包含多个账号的分享页面，并可以为分享页面...</description>
+<lastBuildDate>Thu, 01 Jan 1970 08:00:00 +0800</lastBuildDate>
+<pubDate>Thu, 01 Jan 1970 08:00:00 +0800</pubDate>
+</channel>
+</rss>

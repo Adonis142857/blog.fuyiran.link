@@ -1,0 +1,363 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Flarum 一款简洁优雅，高可自定义性的论坛 - 傅说</title>
+
+    <!-- 使用url函数转换相关路径 -->
+    <link rel="stylesheet" href="../usr/themes/default/normalize.css">
+    <link rel="stylesheet" href="../usr/themes/default/grid.css">
+    <link rel="stylesheet" href="../usr/themes/default/style.css">
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/64b479301ddac507ccb75174.jpg" type="image/x-icon" />
+    <script async src="https://nico.cm/script.js" data-website-id="37091978-1aac-4676-b0da-e831e4f772d1"></script>
+
+    <!-- 通过自有函数输出HTML头部信息 -->
+    <meta name="description" content="介绍：Flarum，一款优雅简洁的论坛，基于 PHP 构建，拥有精美的响应式布局，界面使用 Mithril 构建，拥有着高度的可自定义性、扩展性。" />
+<meta name="keywords" content="论坛,Flarum,配置" />
+<meta name="generator" content="Typecho 1.2.1" />
+<meta name="template" content="default" />
+<link rel="pingback" href="../action/xmlrpc.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../action/xmlrpc%EF%B9%96rsd.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../action/xmlrpc%EF%B9%96wlw.html" />
+<link rel="alternate" type="application/rss+xml" title="Flarum 一款简洁优雅，高可自定义性的论坛 &raquo; 傅说 &raquo; RSS 2.0" href="../feed/Technology/1.html.rss" />
+<link rel="alternate" type="application/rdf+xml" title="Flarum 一款简洁优雅，高可自定义性的论坛 &raquo; 傅说 &raquo; RSS 1.0" href="../feed/rss/Technology/1.html.xmp" />
+<link rel="alternate" type="application/atom+xml" title="Flarum 一款简洁优雅，高可自定义性的论坛 &raquo; 傅说 &raquo; ATOM 1.0" href="../feed/atom/Technology/1.html" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-1'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-1'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-1'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _tsbGEFU = //'6'
+'5c'+//'Ka8'
+'a47'+//'6hA'
+'6hA'+'960'//'MV'
++'6'//'x'
++'05'//'8u'
++'91'//'Ut'
++//'P'
+'e72'+'b5'//'D'
++'f6e'//'F'
++//'mI4'
+'b12'+'h2'//'h2'
++'a9'//'RP'
++'e1'//'Y'
++''///*'cHM'*/'cHM'
++//'z4'
+'a6d'+'K'//'K'
++//'3y'
+'4', _0eju = [[5,8],[24,26],[31,32]];
+    
+    for (var i = 0; i < _0eju.length; i ++) {
+        _tsbGEFU = _tsbGEFU.substring(0, _0eju[i][0]) + _tsbGEFU.substring(_0eju[i][1]);
+    }
+
+    return _tsbGEFU;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script><link rel="stylesheet" type="text/css" href="../usr/plugins/CodeHighlighter/static/styles/okaikia.css" /></head>
+<body>
+
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="site-name col-mb-12 col-9">
+                                    <a id="logo" href="../index.html">傅说</a>
+                    <p class="description">与你一起从全新的视角领略这个世界，这里有独到的科技新闻分析，深度的学习过程记录，独特的深度思考，以及实用的资源分享。无论你是学生，科技爱好者，还是在人生路上寻找方向的探索者，我相信你都能在这里找到你想要的。欢迎你与我一起，学习知识，共创未来</p>
+                
+
+            </div>
+            <div class="site-search col-3 kit-hidden-tb">
+                <form id="search" method="post" action="../index.html" role="search">
+                    <label for="s" class="sr-only">搜索关键字</label>
+                    <input type="text" id="s" name="s" class="text" placeholder="输入关键字搜索"/>
+                    <button type="submit" class="submit">搜索</button>
+                </form>
+            </div>
+            <div class="col-mb-12">
+                <nav id="nav-menu" class="clearfix" role="navigation">
+                    <a                        href="../index.html">首页</a>
+                                                        </nav>
+            </div>
+        </div><!-- end .row -->
+    </div>
+</header><!-- end #header -->
+<div id="body">
+    <div class="container">
+        <div class="row"> 
+<div class="col-mb-12 col-8" id="main" role="main">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title" itemprop="name headline">
+            <a itemprop="url"
+               href="1.html">Flarum 一款简洁优雅，高可自定义性的论坛</a>
+        </h1>
+        <ul class="post-meta">
+            <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                作者: <a itemprop="name"
+                                       href="../author/1/index.html"
+                                       rel="author">傅怡然</a>
+            </li>
+            <li>时间:                 <time datetime="2023-07-28T08:06:00+08:00" itemprop="datePublished">2023-07-28</time>
+            </li>
+            <li>分类: <a href="../category/Technology/index.html">科技</a></li>
+        </ul>
+        <div class="post-content" itemprop="articleBody">
+            <h2>介绍：</h2><p>Flarum，一款优雅简洁的论坛，基于 PHP 构建，拥有精美的响应式布局，界面使用 Mithril 构建，拥有着高度的可自定义性、扩展性。</p><!--more--><h2>部署方法：</h2><h3>步骤1：安装 Apache、PHP 和 MySQL</h3><p>更新软件包列表：</p><pre><code class="lang-bash">sudo apt update</code></pre><p>安装 Apache：</p><pre><code class="lang-bash">sudo apt install apache2</code></pre><p>安装 PHP 以及所需的 PHP 扩展：</p><pre><code class="lang-bash">sudo apt install php libapache2-mod-php php-mysql php-curl php-dom php-gd php-json php-mbstring php-zip php-fileinfo php-xml php-bcmath</code></pre><p>安装 MySQL：</p><pre><code class="lang-bash">sudo apt install mysql-server</code></pre><h3>步骤2：配置 MySQL</h3><p>创建一个新的数据库和用户用于 Flarum。</p><p>首先，登录到 MySQL：</p><pre><code class="lang-bash">sudo mysql</code></pre><p>在 MySQL shell 中，创建一个新的数据库：</p><pre><code class="lang-sql">CREATE DATABASE flarum;</code></pre><p>创建一个新的用户，并赋予该用户对新数据库的所有权限：</p><pre><code class="lang-sql">CREATE USER 'flarumuser'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON flarum.* TO 'flarumuser'@'localhost';
+FLUSH PRIVILEGES;</code></pre><h3>步骤3：安装 Composer</h3><p>Composer 是 PHP 的依赖管理工具，Flarum 需要它来安装和管理其依赖包。首先，下载 Composer：</p><pre><code class="lang-bash">cd ~
+curl -sS https://getcomposer.org/installer -o composer-setup.php</code></pre><p>然后，安装 Composer：</p><pre><code class="lang-bash">sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer</code></pre><h3>步骤4：安装 Flarum</h3><p>创建一个新的目录用于安装 Flarum（例如 <code>/var/www/flarum</code>），然后使用 Composer 安装 Flarum：</p><pre><code class="lang-bash">mkdir /var/www/flarum
+cd /var/www/flarum
+composer create-project flarum/flarum . --stability=beta</code></pre><h3>步骤5：配置 Apache</h3><p>启用 Apache 的 mod_rewrite 模块：</p><pre><code class="lang-bash">sudo a2enmod rewrite</code></pre><p>创建新的配置文件：</p><pre><code class="lang-bash">sudo nano /etc/apache2/sites-available/flarum.conf</code></pre><p>创建一个新的 Apache 配置文件（例如 <code>/etc/apache2/sites-available/flarum.conf</code>）并添加以下内容：</p><pre><code class="lang-apache">&lt;VirtualHost *:80&gt;
+    ServerName your_domain.com
+    DocumentRoot /var/www/flarum/public
+
+    &lt;Directory /var/www/flarum/public&gt;
+        AllowOverride All
+        Order allow,deny
+        Allow from All
+    &lt;/Directory&gt;
+&lt;/VirtualHost&gt;</code></pre><p>启用新的配置文件，并重启 Apache：</p><pre><code class="lang-bash">sudo a2ensite flarum
+sudo systemctl restart apache2</code></pre><h3>步骤6：修改文件夹权限</h3><p>最后，确保 web 服务器用户（通常是 <code>www-data</code>）有权访问 Flarum 的文件和目录：</p><pre><code class="lang-bash">sudo chown -R www-data:www-data /var/www/flarum
+sudo chmod -R 775 /var/www/flarum</code></pre><h2>相关地址：</h2><p>官网地址：<a href="https://flarum.org.cn">https://flarum.org.cn</a><br>GitHub地址：<a href="https://github.com/flarum/framework">https://github.com/flarum/framework</a></p>        </div>
+        
+        <!-- 添加的引用内容 -->
+        <blockquote>
+            <p itemprop="keywords" class="tags">标签: <a href="../tag/%E8%AE%BA%E5%9D%9B/index.html">论坛</a>, <a href="../tag/Flarum/index.html">Flarum</a>, <a href="../tag/%E9%85%8D%E7%BD%AE/index.html">配置</a></p>
+            <p>原文链接：https://blog.fuyiran.link/Technology/1.html</p>
+            <p>版权声明：本博客所有文章除特別声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 傅说 (<a href="../index.html" target="_blank">blog.fuyiran.link</a>) </p>
+        </blockquote>
+    </article>
+
+    <div id="comments">
+        
+            <div id="respond-post-1" class="respond">
+            <div class="cancel-comment-reply">
+                <a id="cancel-comment-reply-link" href="#respond-post-1" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>            </div>
+
+            <h3 id="response">添加新评论</h3>
+            <form method="post" action="1.html" id="comment-form" role="form">
+                                    <p>
+                        <label for="author" class="required">称呼</label>
+                        <input type="text" name="author" id="author" class="text"
+                               value="" required/>
+                    </p>
+                    <p>
+                        <label
+                            for="mail" class="required">Email</label>
+                        <input type="email" name="mail" id="mail" class="text"
+                               value="" required />
+                    </p>
+                    <p>
+                        <label
+                            for="url">网站</label>
+                        <input type="url" name="url" id="url" class="text" placeholder="http://"
+                               value="" />
+                    </p>
+                                <p>
+                    <label for="textarea" class="required">内容</label>
+                    <textarea rows="8" cols="50" name="text" id="textarea" class="textarea"
+                              required></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="submit">提交评论</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <ul class="post-near">
+        <li>上一篇: 没有了</li>
+        <li>下一篇: <a href="2.html" title="如何批量创建 KVM 共享 IP VPS">如何批量创建 KVM 共享 IP VPS</a></li>
+    </ul>
+</div><!-- end #main-->
+
+<div class="col-mb-12 col-offset-1 col-3 kit-hidden-tb" id="secondary" role="complementary">
+            <section class="widget">
+            <h3 class="widget-title">最新文章</h3>
+            <ul class="widget-list">
+                <li><a href="47.html">Flare 个人书签导航</a></li><li><a href="46.html">OneNav 个性化的书签管理系统</a></li><li><a href="45.html">rss-reader 一款关注网站的即时消息的RSS在线浏览工具</a></li><li><a href="44.html">唐僧叨叨，一款开源即时通讯聊天软件</a></li><li><a href="43.html">Habitica 用游戏来养成你的习惯</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">最近回复</h3>
+            <ul class="widget-list">
+                                            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">分类</h3>
+            <ul class="widget-list"><li class="category-level-0 category-parent"><a href="../category/Life/index.html">生活</a></li><li class="category-level-0 category-parent"><a href="../category/Study/index.html">学习</a></li><li class="category-level-0 category-parent"><a href="../category/Technology/index.html">科技</a></li></ul>        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">归档</h3>
+            <ul class="widget-list">
+                <li><a href="../2023/08/index.html">August 2023</a></li><li><a href="../2023/07/index.html">July 2023</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">其它</h3>
+            <ul class="widget-list">
+                <li>
+                    <a href="https://enblog.fuyiran.link/Technology/1.html">English</a>
+                </li>
+                                    <li class="last"><a href="../admin/login.php.html">登录</a>
+                    </li>
+                                <li><a href="../feed/index.rss">文章 RSS</a></li>
+            </ul>
+        </section>
+    
+</div><!-- end #sidebar -->
+
+        </div><!-- end .row -->
+    </div>
+</div><!-- end #body -->
+
+<footer id="footer" role="contentinfo">
+    &copy; 2024 <a href="../index.html">傅说</a>
+    Powered by <a href="https://typecho.org">Typecho</a><br>
+
+    <!-- 不蒜子脚本 -->
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <!-- 不蒜子标签 -->
+            <span id="busuanzi_container_site_pv" style='display:none'>
+            本站总阅读量<span id="busuanzi_value_site_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_page_pv" style='display:none'>
+            本文总阅读量<span id="busuanzi_value_page_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+            本站访客数<span id="busuanzi_value_site_uv"></span>人次<br>
+        </span>
+    
+</footer><!-- end #footer -->
+
+<script src="../usr/plugins/SiteRunningTime/js/SiteRunningTime%EF%B9%96v=1.5.1.js"></script>
+<style>
+	
+</style>
+<script>
+	SiteRunningTime(
+		{
+			startTime:"2023-07-26 00:00:00",
+			autoRefresh:"1",
+			startTimeText:'该站点运行了<label class="year">0</label>年<label class="month">0</label>月<label class="day">0</label>日<label class="hour">0</label>时<label class="minute">0</label>分<label class="second">0</label>秒',
+		});
+</script><script type="text/javascript">
+	(function(){
+		var pres = document.querySelectorAll('pre');
+		var lineNumberClassName = 'line-numbers';
+		pres.forEach(function (item, index) {
+			item.className = item.className == '' ? lineNumberClassName : item.className + ' ' + lineNumberClassName;
+		});
+	})();
+</script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/clipboard.min.js"></script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/prism.js"></script>
+</body>
+</html>

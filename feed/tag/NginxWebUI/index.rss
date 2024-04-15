@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - NginxWebUI</title>
+<link>https://blog.fuyiran.link/tag/NginxWebUI/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/NginxWebUI/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Tue, 01 Aug 2023 16:19:00 +0800</lastBuildDate>
+<pubDate>Tue, 01 Aug 2023 16:19:00 +0800</pubDate>
+<item>
+<title>如何使用Docker搭建NginxWebUI</title>
+<link>https://blog.fuyiran.link/Technology/11.html</link>
+<guid>https://blog.fuyiran.link/Technology/11.html</guid>
+<pubDate>Tue, 01 Aug 2023 16:19:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：NginxWebUI 是一款用于配置Nginx负载均衡和反向代理可视化管理工具。你可以使用这个工具来轻松管理和配置 Nginx，以及查看 Nginx 的运行状态和日志。]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：NginxWebUI 是一款用于配置Nginx负载均衡和反向代理可视化管理工具。你可以使用这个工具来轻松管理和配置 Nginx，以及查看 Nginx 的运行状态和日志。</h2><p class="more"><a href="https://blog.fuyiran.link/Technology/11.html" title="如何使用Docker搭建NginxWebUI">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/11.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/NginxWebUI/</wfw:commentRss>
+</item>
+</channel>
+</rss>

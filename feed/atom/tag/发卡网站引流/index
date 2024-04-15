@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="zh-CN"
+xml:base="https://blog.fuyiran.link/tag/%E5%8F%91%E5%8D%A1%E7%BD%91%E7%AB%99%E5%BC%95%E6%B5%81/"
+>
+<title type="text">傅说 - 发卡网站引流</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-11T08:15:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/tag/%E5%8F%91%E5%8D%A1%E7%BD%91%E7%AB%99%E5%BC%95%E6%B5%81/" />
+<id>https://blog.fuyiran.link/feed/atom/tag/%E5%8F%91%E5%8D%A1%E7%BD%91%E7%AB%99%E5%BC%95%E6%B5%81/</id>
+<link rel="self" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E5%8F%91%E5%8D%A1%E7%BD%91%E7%AB%99%E5%BC%95%E6%B5%81/" />
+<entry>
+<title type="html"><![CDATA[手把手教你搭建检测并解锁 Apple ID 的自动化程序，发卡网站引流必备]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/30.html" />
+<id>https://blog.fuyiran.link/Technology/30.html</id>
+<updated>2023-08-11T08:15:00+08:00</updated>
+<published>2023-08-11T08:15:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍appleid_auto，一款基于密保问题的自动化 Apple ID 检测&amp;解锁程序。前端用于管理账号，支持添加多个账号，并提供展示账号页面。支持创建包含多个账号的分享页面，并可以为分享页面...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/30.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍</h2><p>appleid_auto，一款基于密保问题的自动化 Apple ID 检测&解锁程序。</p><p>前端用于管理账号，支持添加多个账号，并提供展示账号页面。</p><p>支持创建包含多个账号的分享页面，并可以为分享页面设置密码。</p><p>后端定时检测账号是否被锁定，若被锁定或开启二步验证则自动解锁，修改密码并向API回报密码。</p><p>登录Apple ID并自动删除Apple ID中的设备。</p><p>启用代理池和Selenium集群，提高解锁成功率，防止风控。</p><p>发卡网站可以使用它来搭建账户分享界面进行引流。</p><p class="more"><a href="https://blog.fuyiran.link/Technology/30.html" title="手把手教你搭建检测并解锁 Apple ID 的自动化程序，发卡网站引流必备">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/30.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E5%8F%91%E5%8D%A1%E7%BD%91%E7%AB%99%E5%BC%95%E6%B5%81/" thr:count="0"/>
+</entry>
+</feed>

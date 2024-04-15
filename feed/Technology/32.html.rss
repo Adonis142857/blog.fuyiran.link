@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - 更进一步，不用服务器也能配置的个人导航页 的评论</title>
+<link>https://blog.fuyiran.link/Technology/32.html</link>
+<atom:link href="https://blog.fuyiran.link/feed/Technology/32.html" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description>介绍：CF-Worker-Dir是一款适用于Cloudflare Worker平台上的云函数程序，可以使用它在一分钟内搭建属于自己的导航页面，还可以预留出接口帮助你售出自己域名。如果你的域名还没...</description>
+<lastBuildDate>Thu, 01 Jan 1970 08:00:00 +0800</lastBuildDate>
+<pubDate>Thu, 01 Jan 1970 08:00:00 +0800</pubDate>
+</channel>
+</rss>

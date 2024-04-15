@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - RSSHub RSS生成器 的评论</title>
+<link>https://blog.fuyiran.link/Technology/38.html</link>
+<atom:link href="https://blog.fuyiran.link/feed/Technology/38.html" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description>介绍：RSSHub 是一个开源、简单易用、易于扩展的 RSS 生成器，可以给任何奇奇怪怪的内容生成 RSS 订阅源。RSSHub 借助于开源社区的力量快速发展中，目前已适配数百家网站的上千项内容...</description>
+<lastBuildDate>Thu, 01 Jan 1970 08:00:00 +0800</lastBuildDate>
+<pubDate>Thu, 01 Jan 1970 08:00:00 +0800</pubDate>
+</channel>
+</rss>

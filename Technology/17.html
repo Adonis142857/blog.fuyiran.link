@@ -1,0 +1,358 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>超简单 ～ 用 Forsaken-Mail 来部署自己的临时邮箱 - 傅说</title>
+
+    <!-- 使用url函数转换相关路径 -->
+    <link rel="stylesheet" href="../usr/themes/default/normalize.css">
+    <link rel="stylesheet" href="../usr/themes/default/grid.css">
+    <link rel="stylesheet" href="../usr/themes/default/style.css">
+    <link rel="shortcut icon" href="https://pic.imgdb.cn/item/64b479301ddac507ccb75174.jpg" type="image/x-icon" />
+    <script async src="https://nico.cm/script.js" data-website-id="37091978-1aac-4676-b0da-e831e4f772d1"></script>
+
+    <!-- 通过自有函数输出HTML头部信息 -->
+    <meta name="description" content="介绍：Forsaken-Mail，超简单的临时邮箱部署工具，在我之前的文章中，介绍过两种办法，一种是使用Cloudflare的邮件转发功能，转发到自己邮箱，只能投送到一个邮箱，功能受限，一种是使..." />
+<meta name="keywords" content="部署,Forsaken-Mail,临时邮箱" />
+<meta name="generator" content="Typecho 1.2.1" />
+<meta name="template" content="default" />
+<link rel="pingback" href="../action/xmlrpc.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../action/xmlrpc%EF%B9%96rsd.html" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../action/xmlrpc%EF%B9%96wlw.html" />
+<link rel="alternate" type="application/rss+xml" title="超简单 ～ 用 Forsaken-Mail 来部署自己的临时邮箱 &raquo; 傅说 &raquo; RSS 2.0" href="../feed/Technology/17.html.rss" />
+<link rel="alternate" type="application/rdf+xml" title="超简单 ～ 用 Forsaken-Mail 来部署自己的临时邮箱 &raquo; 傅说 &raquo; RSS 1.0" href="../feed/rss/Technology/17.html.xmp" />
+<link rel="alternate" type="application/atom+xml" title="超简单 ～ 用 Forsaken-Mail 来部署自己的临时邮箱 &raquo; 傅说 &raquo; ATOM 1.0" href="../feed/atom/Technology/17.html" />
+<script type="text/javascript">
+(function () {
+    window.TypechoComment = {
+        dom : function (id) {
+            return document.getElementById(id);
+        },
+    
+        create : function (tag, attr) {
+            var el = document.createElement(tag);
+        
+            for (var key in attr) {
+                el.setAttribute(key, attr[key]);
+            }
+        
+            return el;
+        },
+
+        reply : function (cid, coid) {
+            var comment = this.dom(cid), parent = comment.parentNode,
+                response = this.dom('respond-post-17'), input = this.dom('comment-parent'),
+                form = 'form' == response.tagName ? response : response.getElementsByTagName('form')[0],
+                textarea = response.getElementsByTagName('textarea')[0];
+
+            if (null == input) {
+                input = this.create('input', {
+                    'type' : 'hidden',
+                    'name' : 'parent',
+                    'id'   : 'comment-parent'
+                });
+
+                form.appendChild(input);
+            }
+
+            input.setAttribute('value', coid);
+
+            if (null == this.dom('comment-form-place-holder')) {
+                var holder = this.create('div', {
+                    'id' : 'comment-form-place-holder'
+                });
+
+                response.parentNode.insertBefore(holder, response);
+            }
+
+            comment.appendChild(response);
+            this.dom('cancel-comment-reply-link').style.display = '';
+
+            if (null != textarea && 'text' == textarea.name) {
+                textarea.focus();
+            }
+
+            return false;
+        },
+
+        cancelReply : function () {
+            var response = this.dom('respond-post-17'),
+            holder = this.dom('comment-form-place-holder'), input = this.dom('comment-parent');
+
+            if (null != input) {
+                input.parentNode.removeChild(input);
+            }
+
+            if (null == holder) {
+                return true;
+            }
+
+            this.dom('cancel-comment-reply-link').style.display = 'none';
+            holder.parentNode.insertBefore(response, holder);
+            return false;
+        }
+    };
+})();
+</script>
+<script type="text/javascript">
+(function () {
+    var event = document.addEventListener ? {
+        add: 'addEventListener',
+        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
+        load: 'DOMContentLoaded'
+    } : {
+        add: 'attachEvent',
+        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
+        load: 'onload'
+    }, added = false;
+
+    document[event.add](event.load, function () {
+        var r = document.getElementById('respond-post-17'),
+            input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = '_';
+        input.value = (function () {
+    var _wQm = //'z'
+'f'+'NAk'//'NAk'
++'4'//'U'
++'4'//'eZx'
++//'B'
+'b53'+'aff'//'Lvq'
++'cfd'//'c'
++//'V'
+'4'+//'rz'
+'6a'+''///*'K'*/'K'
++//'a'
+'1'+//'xN'
+'8'+'87'//'GiU'
++//'Xp'
+'5f'+//'V'
+'f'+'0N'//'0N'
++'u8a'//'u8a'
++//'XY'
+'161'+'ff1'//'fKb'
++'ce'//'1I'
++'c'//'mtI'
++//'4j'
+'a', _AatHdMl = [[1,4],[22,24],[22,25]];
+    
+    for (var i = 0; i < _AatHdMl.length; i ++) {
+        _wQm = _wQm.substring(0, _AatHdMl[i][0]) + _wQm.substring(_AatHdMl[i][1]);
+    }
+
+    return _wQm;
+})();
+
+        if (null != r) {
+            var forms = r.getElementsByTagName('form');
+            if (forms.length > 0) {
+                function append() {
+                    if (!added) {
+                        forms[0].appendChild(input);
+                        added = true;
+                    }
+                }
+            
+                for (var i = 0; i < event.triggers.length; i ++) {
+                    var trigger = event.triggers[i];
+                    document[event.add](trigger, append);
+                    window[event.add](trigger, append);
+                }
+            }
+        }
+    });
+})();
+</script><link rel="stylesheet" type="text/css" href="../usr/plugins/CodeHighlighter/static/styles/okaikia.css" /></head>
+<body>
+
+<header id="header" class="clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="site-name col-mb-12 col-9">
+                                    <a id="logo" href="../index.html">傅说</a>
+                    <p class="description">与你一起从全新的视角领略这个世界，这里有独到的科技新闻分析，深度的学习过程记录，独特的深度思考，以及实用的资源分享。无论你是学生，科技爱好者，还是在人生路上寻找方向的探索者，我相信你都能在这里找到你想要的。欢迎你与我一起，学习知识，共创未来</p>
+                
+
+            </div>
+            <div class="site-search col-3 kit-hidden-tb">
+                <form id="search" method="post" action="../index.html" role="search">
+                    <label for="s" class="sr-only">搜索关键字</label>
+                    <input type="text" id="s" name="s" class="text" placeholder="输入关键字搜索"/>
+                    <button type="submit" class="submit">搜索</button>
+                </form>
+            </div>
+            <div class="col-mb-12">
+                <nav id="nav-menu" class="clearfix" role="navigation">
+                    <a                        href="../index.html">首页</a>
+                                                        </nav>
+            </div>
+        </div><!-- end .row -->
+    </div>
+</header><!-- end #header -->
+<div id="body">
+    <div class="container">
+        <div class="row"> 
+<div class="col-mb-12 col-8" id="main" role="main">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="post-title" itemprop="name headline">
+            <a itemprop="url"
+               href="17.html">超简单 ～ 用 Forsaken-Mail 来部署自己的临时邮箱</a>
+        </h1>
+        <ul class="post-meta">
+            <li itemprop="author" itemscope itemtype="http://schema.org/Person">
+                作者: <a itemprop="name"
+                                       href="../author/1/index.html"
+                                       rel="author">傅怡然</a>
+            </li>
+            <li>时间:                 <time datetime="2023-08-04T16:01:00+08:00" itemprop="datePublished">2023-08-04</time>
+            </li>
+            <li>分类: <a href="../category/Technology/index.html">科技</a></li>
+        </ul>
+        <div class="post-content" itemprop="articleBody">
+            <h2>介绍：</h2><p>Forsaken-Mail，超简单的临时邮箱部署工具，在我之前的文章中，介绍过两种办法，一种是使用Cloudflare的邮件转发功能，转发到自己邮箱，只能投送到一个邮箱，功能受限，一种是使用 Hestia 面板，不仅有独立邮箱，还能够使用这个邮箱发送邮件。<br>但是有的小伙伴希望只使用临时邮箱服务，不需要发送邮件，只需要接收就可以，那有没有更简单的方案呢？来啦，今天就介绍下 Forsaken-Mail 的部署方案，真的超级简单，跟着步骤走就可以了</p><!--more--><h2>效果图：</h2><p><img src="https://pic.imgdb.cn/item/64cd1fc51ddac507cc84ae7d.jpg" alt="" title=""></p><h2>部署方法一：使用Docker安装</h2><h3>第一步：更新源并安装依赖</h3><p><strong>Ubuntu/Debian：</strong></p><pre><code class="lang-bash">apt update -y &amp;&amp; apt upgrade -y
+sudo apt-get install git -y</code></pre><p><strong>Centos：</strong></p><pre><code class="lang-bash">yum update -y &amp;&amp; yum upgrade -y
+sudo yum install git -y</code></pre><h3>第二步：安装Docker</h3><pre><code class="lang-bash">curl -fsSL https://get.docker.com -o get-docker.sh &amp;&amp; sh ./get-docker.sh</code></pre><h3>第三步：克隆仓库</h3><pre><code class="lang-bash">git clone https://github.com/denghongcai/forsaken-mail.git
+cd forsaken-mail</code></pre><h3>第四步：构建Docker镜像</h3><pre><code class="lang-bash">docker build -t denghongcai/forsaken-mail .</code></pre><h3>第五步：运行Docker容器</h3><pre><code class="lang-bash">docker run --name forsaken-mail -d -p 25:25 -p 3000:3000 denghongcai/forsaken-mail</code></pre><p>运行完成后可以访问 <code>http://&lt;your-ip&gt;:3000</code> 来访问临时邮箱啦</p><h2>部署方法二：从源代码安装</h2><h3>第一步：更新源并安装依赖</h3><p><strong>Ubuntu/Debian：</strong></p><pre><code class="lang-bash">apt update -y &amp;&amp; apt upgrade -y
+sudo apt-get install git -y</code></pre><p><strong>Centos：</strong></p><pre><code class="lang-bash">yum update -y &amp;&amp; yum upgrade -y
+sudo yum install git -y</code></pre><h3>第二步：安装 Node.js 和 npm</h3><pre><code class="lang-bash">sudo apt-get install nodejs npm</code></pre><p>验证Node.js和npm的安装：</p><pre><code class="lang-bash">node -v
+npm -v</code></pre><h3>第三步：克隆仓库</h3><pre><code class="lang-bash">git clone https://github.com/denghongcai/forsaken-mail.git
+cd forsaken-mail</code></pre><h3>第四步：安装依赖</h3><pre><code class="lang-bash">npm install</code></pre><h3>第五步：启动 Forsaken-Mail</h3><pre><code class="lang-bash">npm start</code></pre><p>运行完成后可以访问 <code>http://&lt;your-ip&gt;:3000</code> 来访问临时邮箱啦</p>        </div>
+        
+        <!-- 添加的引用内容 -->
+        <blockquote>
+            <p itemprop="keywords" class="tags">标签: <a href="../tag/%E9%83%A8%E7%BD%B2/index.html">部署</a>, <a href="../tag/Forsaken-Mail/index.html">Forsaken-Mail</a>, <a href="../tag/%E4%B8%B4%E6%97%B6%E9%82%AE%E7%AE%B1/index.html">临时邮箱</a></p>
+            <p>原文链接：https://blog.fuyiran.link/Technology/17.html</p>
+            <p>版权声明：本博客所有文章除特別声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 傅说 (<a href="../index.html" target="_blank">blog.fuyiran.link</a>) </p>
+        </blockquote>
+    </article>
+
+    <div id="comments">
+        
+            <div id="respond-post-17" class="respond">
+            <div class="cancel-comment-reply">
+                <a id="cancel-comment-reply-link" href="#respond-post-17" rel="nofollow" style="display:none" onclick="return TypechoComment.cancelReply();">取消回复</a>            </div>
+
+            <h3 id="response">添加新评论</h3>
+            <form method="post" action="17.html" id="comment-form" role="form">
+                                    <p>
+                        <label for="author" class="required">称呼</label>
+                        <input type="text" name="author" id="author" class="text"
+                               value="" required/>
+                    </p>
+                    <p>
+                        <label
+                            for="mail" class="required">Email</label>
+                        <input type="email" name="mail" id="mail" class="text"
+                               value="" required />
+                    </p>
+                    <p>
+                        <label
+                            for="url">网站</label>
+                        <input type="url" name="url" id="url" class="text" placeholder="http://"
+                               value="" />
+                    </p>
+                                <p>
+                    <label for="textarea" class="required">内容</label>
+                    <textarea rows="8" cols="50" name="text" id="textarea" class="textarea"
+                              required></textarea>
+                </p>
+                <p>
+                    <button type="submit" class="submit">提交评论</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <ul class="post-near">
+        <li>上一篇: <a href="16.html" title="如何配置 YOURLS — 一个网址缩短平台">如何配置 YOURLS — 一个网址缩短平台</a></li>
+        <li>下一篇: <a href="18.html" title="想自建邮件服务器？来试试 Maddy ">想自建邮件服务器？来试试 Maddy </a></li>
+    </ul>
+</div><!-- end #main-->
+
+<div class="col-mb-12 col-offset-1 col-3 kit-hidden-tb" id="secondary" role="complementary">
+            <section class="widget">
+            <h3 class="widget-title">最新文章</h3>
+            <ul class="widget-list">
+                <li><a href="47.html">Flare 个人书签导航</a></li><li><a href="46.html">OneNav 个性化的书签管理系统</a></li><li><a href="45.html">rss-reader 一款关注网站的即时消息的RSS在线浏览工具</a></li><li><a href="44.html">唐僧叨叨，一款开源即时通讯聊天软件</a></li><li><a href="43.html">Habitica 用游戏来养成你的习惯</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">最近回复</h3>
+            <ul class="widget-list">
+                                            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">分类</h3>
+            <ul class="widget-list"><li class="category-level-0 category-parent"><a href="../category/Life/index.html">生活</a></li><li class="category-level-0 category-parent"><a href="../category/Study/index.html">学习</a></li><li class="category-level-0 category-parent"><a href="../category/Technology/index.html">科技</a></li></ul>        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">归档</h3>
+            <ul class="widget-list">
+                <li><a href="../2023/08/index.html">August 2023</a></li><li><a href="../2023/07/index.html">July 2023</a></li>            </ul>
+        </section>
+    
+            <section class="widget">
+            <h3 class="widget-title">其它</h3>
+            <ul class="widget-list">
+                <li>
+                    <a href="https://enblog.fuyiran.link/Technology/17.html">English</a>
+                </li>
+                                    <li class="last"><a href="../admin/login.php.html">登录</a>
+                    </li>
+                                <li><a href="../feed/index.rss">文章 RSS</a></li>
+            </ul>
+        </section>
+    
+</div><!-- end #sidebar -->
+
+        </div><!-- end .row -->
+    </div>
+</div><!-- end #body -->
+
+<footer id="footer" role="contentinfo">
+    &copy; 2024 <a href="../index.html">傅说</a>
+    Powered by <a href="https://typecho.org">Typecho</a><br>
+
+    <!-- 不蒜子脚本 -->
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <!-- 不蒜子标签 -->
+            <span id="busuanzi_container_site_pv" style='display:none'>
+            本站总阅读量<span id="busuanzi_value_site_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_page_pv" style='display:none'>
+            本文总阅读量<span id="busuanzi_value_page_pv"></span>次<br>
+        </span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+            本站访客数<span id="busuanzi_value_site_uv"></span>人次<br>
+        </span>
+    
+</footer><!-- end #footer -->
+
+<script src="../usr/plugins/SiteRunningTime/js/SiteRunningTime%EF%B9%96v=1.5.1.js"></script>
+<style>
+	
+</style>
+<script>
+	SiteRunningTime(
+		{
+			startTime:"2023-07-26 00:00:00",
+			autoRefresh:"1",
+			startTimeText:'该站点运行了<label class="year">0</label>年<label class="month">0</label>月<label class="day">0</label>日<label class="hour">0</label>时<label class="minute">0</label>分<label class="second">0</label>秒',
+		});
+</script><script type="text/javascript">
+	(function(){
+		var pres = document.querySelectorAll('pre');
+		var lineNumberClassName = 'line-numbers';
+		pres.forEach(function (item, index) {
+			item.className = item.className == '' ? lineNumberClassName : item.className + ' ' + lineNumberClassName;
+		});
+	})();
+</script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/clipboard.min.js"></script>
+<script type="text/javascript" src="../usr/plugins/CodeHighlighter/static/prism.js"></script>
+</body>
+</html>

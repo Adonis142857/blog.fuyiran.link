@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/Forsaken-Mail/">
+<title>傅说 - Forsaken-Mail</title>
+<link>https://blog.fuyiran.link/tag/Forsaken-Mail/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/17.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/17.html">
+<title>超简单 ～ 用 Forsaken-Mail 来部署自己的临时邮箱</title>
+<link>https://blog.fuyiran.link/Technology/17.html</link>
+<dc:date>2023-08-04T16:01:00+08:00</dc:date>
+<description>介绍：Forsaken-Mail，超简单的临时邮箱部署工具，在我之前的文章中，介绍过两种办法，一种是使用Cloudflare的邮件转发功能，转发到自己邮箱，只能投送到一个邮箱，功能受限，一种是使用 Hestia 面板，不仅有独立邮箱，还能够使用这个邮箱发送邮件。但是有的小伙伴希望只使用临时邮箱服务，不需要发送邮件，只需要接收就可以，那有没有更简单的方案呢？来啦，今天就介绍下 Forsaken-Mail 的部署方案，真的超级简单，跟着步骤走就可以了[...]</description>
+</item>
+</rdf:RDF>

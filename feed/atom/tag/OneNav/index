@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="zh-CN"
+xml:base="https://blog.fuyiran.link/tag/OneNav/"
+>
+<title type="text">傅说 - OneNav</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-19T08:03:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/tag/OneNav/" />
+<id>https://blog.fuyiran.link/feed/atom/tag/OneNav/</id>
+<link rel="self" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/OneNav/" />
+<entry>
+<title type="html"><![CDATA[OneNav 个性化的书签管理系统]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/46.html" />
+<id>https://blog.fuyiran.link/Technology/46.html</id>
+<updated>2023-08-19T08:03:00+08:00</updated>
+<published>2023-08-19T08:03:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：OneNav，使用PHP + SQLite 3开发的书签管理系统，将浏览器书签集中式管理，做到一处部署，随处访问。特点：功能特色支持后台管理支持私有链接支持Chrome/Firefox/E...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/46.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>OneNav，使用PHP + SQLite 3开发的书签管理系统，将浏览器书签集中式管理，做到一处部署，随处访问。</p><h2>特点：</h2><ul><li>功能特色</li><li>支持后台管理</li><li>支持私有链接</li><li>支持Chrome/Firefox/Edge书签批量导入</li><li>支持多种主题风格</li><li>支持链接信息自动识别</li><li>支持API</li><li>支持Docker部署</li><li>支持uTools插件</li><li>支持二级分类</li><li>支持Chromium内核的浏览器扩展（插件）</li><li>支持在线更新</li><li>手机版后台</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/46.html" title="OneNav 个性化的书签管理系统">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/46.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/OneNav/" thr:count="0"/>
+</entry>
+</feed>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="zh-CN"
+xml:base="https://blog.fuyiran.link/tag/%E5%85%B1%E4%BA%ABIP-VPS/"
+>
+<title type="text">傅说 - 共享IP VPS</title>
+<subtitle type="text"></subtitle>
+<updated>2023-07-28T16:09:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/tag/%E5%85%B1%E4%BA%ABIP-VPS/" />
+<id>https://blog.fuyiran.link/feed/atom/tag/%E5%85%B1%E4%BA%ABIP-VPS/</id>
+<link rel="self" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E5%85%B1%E4%BA%ABIP-VPS/" />
+<entry>
+<title type="html"><![CDATA[如何批量创建 KVM 共享 IP VPS]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/2.html" />
+<id>https://blog.fuyiran.link/Technology/2.html</id>
+<updated>2023-07-28T16:09:00+08:00</updated>
+<published>2023-07-28T16:09:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：当我们拥有一台高性能的服务器而自己未充分利用时，可以考虑创建共享IP VPS 进行分割并销售给他人。使用本文介绍的脚本进行创建，可以使得每个分割出的服务器相互独立，不会互相干扰，还提供了面...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/2.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>当我们拥有一台高性能的服务器而自己未充分利用时，可以考虑创建共享IP VPS 进行分割并销售给他人。使用本文介绍的脚本进行创建，可以使得每个分割出的服务器相互独立，不会互相干扰，还提供了面板进行管理分割出的共享IP VPS。</p><h2>环境要求：</h2><ul><li>系统要求：Debian 8+（建议debian11而不是debian12，因为后者是beta版本，debian11安装的才是稳定版）</li><li>硬件要求：2核2G内存x86_64架构服务器，硬盘至少20G</li><li>可开KVM的硬件要求：VM-X或AMD-V支持 (部分VPS和全部独服支持)</li><li>如果硬件或系统需求不满足，可使用LXD批量开LXC容器</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/2.html" title="如何批量创建 KVM 共享 IP VPS">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/2.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E5%85%B1%E4%BA%ABIP-VPS/" thr:count="0"/>
+</entry>
+</feed>

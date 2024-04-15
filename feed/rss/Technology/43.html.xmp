@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/Technology/43.html">
+<title>傅说 - Habitica 用游戏来养成你的习惯 的评论</title>
+<link>https://blog.fuyiran.link/Technology/43.html</link>
+<description>介绍：Habitica是一个开源的习惯构建程序，它将你的生活视为一个角色扮演游戏。当你成功完成你设定的目标时，你的角色将升级；当你失败时，你的角色将失去这个游戏中的HP；你还可以通过养成计划来赚...</description>
+<items>
+<rdf:Seq>
+</rdf:Seq>
+</items>
+</channel>
+</rdf:RDF>

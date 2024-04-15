@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/tag/WeekToDo/">
+<title>傅说 - WeekToDo</title>
+<link>https://blog.fuyiran.link/tag/WeekToDo/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/42.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/42.html">
+<title>WeekToDo 一款极简主义待办事项列表</title>
+<link>https://blog.fuyiran.link/Technology/42.html</link>
+<dc:date>2023-08-17T08:25:00+08:00</dc:date>
+<description>介绍：WeekToDo 是一个注重隐私的待办事项清单。用户可以通过待办事项列表和日历来安排任务和项目。提供了在 Windows、Mac、Linux 操作系统上的客户端，也可以直接在线使用。特点：支持跨平台使用支持明暗模式切换自定义待办事项列表拖放功能多语言支持子任务功能Markdown 支持可定制的用户界面本地存储任务颜色标记任务时间设置周期性任务通知和提醒功能[...]</description>
+</item>
+</rdf:RDF>

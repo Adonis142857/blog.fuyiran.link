@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:thr="http://purl.org/syndication/thread/1.0"
+xml:lang="zh-CN"
+xml:base="https://blog.fuyiran.link/tag/%E5%94%90%E5%83%A7%E5%8F%A8%E5%8F%A8/"
+>
+<title type="text">傅说 - 唐僧叨叨</title>
+<subtitle type="text"></subtitle>
+<updated>2023-08-18T08:08:00+08:00</updated>
+<generator uri="http://typecho.org/" version="1.2.1">Typecho</generator>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/tag/%E5%94%90%E5%83%A7%E5%8F%A8%E5%8F%A8/" />
+<id>https://blog.fuyiran.link/feed/atom/tag/%E5%94%90%E5%83%A7%E5%8F%A8%E5%8F%A8/</id>
+<link rel="self" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E5%94%90%E5%83%A7%E5%8F%A8%E5%8F%A8/" />
+<entry>
+<title type="html"><![CDATA[唐僧叨叨，一款开源即时通讯聊天软件]]></title>
+<link rel="alternate" type="text/html" href="https://blog.fuyiran.link/Technology/44.html" />
+<id>https://blog.fuyiran.link/Technology/44.html</id>
+<updated>2023-08-18T08:08:00+08:00</updated>
+<published>2023-08-18T08:08:00+08:00</published>
+<author>
+    <name>傅怡然</name>
+    <uri>https://blog.fuyiran.link</uri>
+</author>
+<summary type="html"><![CDATA[介绍：唐僧叨叨是一款轻量级，高性能，重安全，专注于私有化部署的开源即时通讯系统。特点：🆓 开源免费：服务端源码，APP源码，Web/PC端源码全部开源，Apache2.0开源协议（可商用），没人...]]></summary>
+<content type="html" xml:base="https://blog.fuyiran.link/Technology/44.html" xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>唐僧叨叨是一款轻量级，高性能，重安全，专注于私有化部署的开源即时通讯系统。</p><h2>特点：</h2><ul><li>🆓 开源免费：服务端源码，APP源码，Web/PC端源码全部开源，Apache2.0开源协议（可商用），没人能拿捏你</li><li>🔏 私有化部署：所有程序和数据都在自己的服务器上，不用担心数据泄露，不用担心数据被用于其他用途</li><li>🆚 消息必达：采用 tcp + ack机制，保证消息必达，支持离线消息，支持消息漫游。</li><li>🔐 内容安全：消息传输采用私有二进制加密协议、DH+流式加密，防止消息内容泄露</li><li>💽 消息永久存储：消息支持永久存储，得益于WuKongIM的自研消息db，永久存储不影响性能，只浪费点磁盘空间</li><li>📱 多设备消息同步：支持 1 个移动端、多个 Web/PC 端同时在线，并且支持多端之间的消息实时同步。</li><li>📟 全平台支持：iOS，Android，Windows，MAC，Ubuntu，Web</li></ul><h2>提示：</h2><p>在自部署客户端中，新用户注册必须使用iOS/Android应用，且无法进行密码找回<br>开源版有很多功能无法使用，更推荐使用Tailchat<br>部署教程：<a href="https://blog.fuyiran.link/Technology/13.html">https://blog.fuyiran.link/Technology/13.html</a><br><img src="https://pic.imgdb.cn/item/64df967d661c6c8e54bb738f.jpg" alt="" title=""></p><p class="more"><a href="https://blog.fuyiran.link/Technology/44.html" title="唐僧叨叨，一款开源即时通讯聊天软件">[...]</a></p>
+]]></content>
+<link rel="replies" type="text/html" href="https://blog.fuyiran.link/Technology/44.html#comments" thr:count="0" />
+<link rel="replies" type="application/atom+xml" href="https://blog.fuyiran.link/feed/atom/tag/%E5%94%90%E5%83%A7%E5%8F%A8%E5%8F%A8/" thr:count="0"/>
+</entry>
+</feed>

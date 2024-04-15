@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://blog.fuyiran.link/feed/rss/Technology/30.html">
+<title>傅说 - 手把手教你搭建检测并解锁 Apple ID 的自动化程序，发卡网站引流必备 的评论</title>
+<link>https://blog.fuyiran.link/Technology/30.html</link>
+<description>介绍appleid_auto，一款基于密保问题的自动化 Apple ID 检测&amp;解锁程序。前端用于管理账号，支持添加多个账号，并提供展示账号页面。支持创建包含多个账号的分享页面，并可以为分享页面...</description>
+<items>
+<rdf:Seq>
+</rdf:Seq>
+</items>
+</channel>
+</rdf:RDF>

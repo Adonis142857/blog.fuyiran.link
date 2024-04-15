@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - Nmap</title>
+<link>https://blog.fuyiran.link/tag/Nmap/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/Nmap/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Sat, 29 Jul 2023 08:11:00 +0800</lastBuildDate>
+<pubDate>Sat, 29 Jul 2023 08:11:00 +0800</pubDate>
+<item>
+<title>如何配置 Rainmap Lite — Web 版 Nmap 来进行网络扫描</title>
+<link>https://blog.fuyiran.link/Technology/3.html</link>
+<guid>https://blog.fuyiran.link/Technology/3.html</guid>
+<pubDate>Sat, 29 Jul 2023 08:11:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：Rainmap Lite是一款响应式Web应用，允许用户从移动设备、平板或Web浏览器轻松启动Nmap扫描。与其前身Rainmap不同，Rainmap Lite的部署更为简单，不需要特殊的...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>Rainmap Lite是一款响应式Web应用，允许用户从移动设备、平板或Web浏览器轻松启动Nmap扫描。与其前身Rainmap不同，Rainmap Lite的部署更为简单，不需要特殊的服务（如RabbitMQ, PostgreSQL, Celery, supervisor等）。只需安装Django应用并添加cron轮询任务，即可在任何服务器上轻松设置新的扫描服务器。</p><h2>特点：</h2><ul><li>点击几下即可轻松启动Nmap扫描。</li><li>响应式界面使其在手机/平板上运行流畅。</li><li>以所有格式通过电子邮件发送报告。</li><li>从Web浏览器查看报告。</li><li>安排扫描任务。</li><li>提供数十种扫描配置文件供用户选择。</li><li>安装/设置简单。</li><li>列表项目</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/3.html" title="如何配置 Rainmap Lite — Web 版 Nmap 来进行网络扫描">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/3.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/Nmap/</wfw:commentRss>
+</item>
+</channel>
+</rss>

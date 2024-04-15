@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - RSSHub</title>
+<link>https://blog.fuyiran.link/tag/RSSHub/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/RSSHub/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Tue, 15 Aug 2023 07:53:00 +0800</lastBuildDate>
+<pubDate>Tue, 15 Aug 2023 07:53:00 +0800</pubDate>
+<item>
+<title>RSSHub RSS生成器</title>
+<link>https://blog.fuyiran.link/Technology/38.html</link>
+<guid>https://blog.fuyiran.link/Technology/38.html</guid>
+<pubDate>Tue, 15 Aug 2023 07:53:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：RSSHub 是一个开源、简单易用、易于扩展的 RSS 生成器，可以给任何奇奇怪怪的内容生成 RSS 订阅源。RSSHub 借助于开源社区的力量快速发展中，目前已适配数百家网站的上千项内容...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>RSSHub 是一个开源、简单易用、易于扩展的 RSS 生成器，可以给任何奇奇怪怪的内容生成 RSS 订阅源。RSSHub 借助于开源社区的力量快速发展中，目前已适配数百家网站的上千项内容。</p><p>RSSHub源地址：<a href="https://docs.rsshub.app/routes">https://docs.rsshub.app/routes</a></p><p class="more"><a href="https://blog.fuyiran.link/Technology/38.html" title="RSSHub RSS生成器">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/38.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/RSSHub/</wfw:commentRss>
+</item>
+</channel>
+</rss>

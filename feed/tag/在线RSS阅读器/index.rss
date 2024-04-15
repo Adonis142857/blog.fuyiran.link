@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>傅说 - 在线RSS阅读器</title>
+<link>https://blog.fuyiran.link/tag/%E5%9C%A8%E7%BA%BFRSS%E9%98%85%E8%AF%BB%E5%99%A8/</link>
+<atom:link href="https://blog.fuyiran.link/feed/tag/%E5%9C%A8%E7%BA%BFRSS%E9%98%85%E8%AF%BB%E5%99%A8/" rel="self" type="application/rss+xml" />
+<language>zh-CN</language>
+<description></description>
+<lastBuildDate>Fri, 18 Aug 2023 20:13:00 +0800</lastBuildDate>
+<pubDate>Fri, 18 Aug 2023 20:13:00 +0800</pubDate>
+<item>
+<title>rss-reader 一款关注网站的即时消息的RSS在线浏览工具</title>
+<link>https://blog.fuyiran.link/Technology/45.html</link>
+<guid>https://blog.fuyiran.link/Technology/45.html</guid>
+<pubDate>Fri, 18 Aug 2023 20:13:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：rss-reader，一款关注网站的即时消息的RSS在线浏览工具效果图：]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>rss-reader，一款关注网站的即时消息的RSS在线浏览工具</p><h2>效果图：</h2><p><img src="https://pic.imgdb.cn/item/64df936a661c6c8e54b12663.jpg" alt="" title=""></p><p class="more"><a href="https://blog.fuyiran.link/Technology/45.html" title="rss-reader 一款关注网站的即时消息的RSS在线浏览工具">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/45.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E5%9C%A8%E7%BA%BFRSS%E9%98%85%E8%AF%BB%E5%99%A8/</wfw:commentRss>
+</item>
+<item>
+<title>CommaFeed 在线RSS阅读器</title>
+<link>https://blog.fuyiran.link/Technology/39.html</link>
+<guid>https://blog.fuyiran.link/Technology/39.html</guid>
+<pubDate>Tue, 15 Aug 2023 19:54:00 +0800</pubDate>
+<dc:creator>傅怡然</dc:creator>
+<description><![CDATA[介绍：CommaFeed 是一个受 Google Reader 启发、基于 Dropwizard 和 React/TypeScript 的自托管 RSS 阅读器。特点：有4种不同的布局黑暗模式完...]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<h2>介绍：</h2><p>CommaFeed 是一个受 Google Reader 启发、基于 Dropwizard 和 React/TypeScript 的自托管 RSS 阅读器。</p><h2>特点：</h2><ul><li>有4种不同的布局</li><li>黑暗模式</li><li>完全响应式</li><li>几乎所有操作都有键盘快捷键</li><li>支持从右到左的feeds</li><li>已翻译为25+种语言</li><li>支持数千名用户和数百万feeds</li><li>OPML导入/导出</li><li>REST API</li><li>浏览器扩展</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/39.html" title="CommaFeed 在线RSS阅读器">[...]</a></p>
+]]></content:encoded>
+<slash:comments>0</slash:comments>
+<comments>https://blog.fuyiran.link/Technology/39.html#comments</comments>
+<wfw:commentRss>https://blog.fuyiran.link/feed/tag/%E5%9C%A8%E7%BA%BFRSS%E9%98%85%E8%AF%BB%E5%99%A8/</wfw:commentRss>
+</item>
+</channel>
+</rss>
