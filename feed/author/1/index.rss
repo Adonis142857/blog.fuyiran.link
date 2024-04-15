@@ -23,7 +23,7 @@ xmlns:wfw="http://wellformedweb.org/CommentAPI/">
 <content:encoded xml:lang="zh-CN"><![CDATA[
 <h2>介绍：</h2><p>Flare ，一款在性能、数据安全、美观界面以及用户体验上都经过深思熟虑的书签导航。</p><h2>特点：</h2><ul><li>性能优势：与其前身 Flame 相比，Flare在性能方面有着明显的优势。无论是小到10M的容器镜像体积、还是平时仅消耗30M左右的内存，Flare 均能在 99% 的情况下实现页面秒开，且在极限情况下内存使用仍然保持在 60M。</li><li>数据策略简单透明：Flare 使用文本格式来存储书签数据，保证了数据的持久性和透明性。无论是软件在未来的某一天无法运行，还是用户希望切换到其他工具，数据迁移的成本都很低。</li><li>美观界面：Flare 提供了一致性的书签图标设计，包括简约的天气动画图标和 6000 多个 Material Design Icons，确保了软件界面的美观性。</li><li>懒人工具：Flare 内置了一个图标快速选择工具，以及简单易用的天气展示功能，减少了用户的操作成本。</li><li>在线编辑：为了满足用户随时随地的编辑需求，Flare 在最新版本中添加了在线编辑功能。</li></ul><p class="more"><a href="https://blog.fuyiran.link/Technology/47.html" title="Flare 个人书签导航">[...]</a></p>
 ]]></content:encoded>
-<slash:comments>0</slash:comments>
+<slash:comments>1</slash:comments>
 <comments>https://blog.fuyiran.link/Technology/47.html#comments</comments>
 <wfw:commentRss>https://blog.fuyiran.link/feed/author/1/</wfw:commentRss>
 </item>

@@ -9,7 +9,14 @@ xmlns:dc="http://purl.org/dc/elements/1.1/">
 <description>介绍：Flare ，一款在性能、数据安全、美观界面以及用户体验上都经过深思熟虑的书签导航。特点：性能优势：与其前身 Flame 相比，Flare在性能方面有着明显的优势。无论是小到10M的容器镜...</description>
 <items>
 <rdf:Seq>
+<rdf:li resource="https://blog.fuyiran.link/Technology/47.html#comment-10"/>
 </rdf:Seq>
 </items>
 </channel>
+<item rdf:about="https://blog.fuyiran.link/Technology/47.html#comment-10">
+<title>bitoya</title>
+<link>https://blog.fuyiran.link/Technology/47.html#comment-10</link>
+<dc:date>2024-04-11T19:42:24+08:00</dc:date>
+<description>赞一个，大佬博客很漂亮哦</description>
+</item>
 </rdf:RDF>

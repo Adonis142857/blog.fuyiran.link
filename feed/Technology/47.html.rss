@@ -11,7 +11,19 @@ xmlns:wfw="http://wellformedweb.org/CommentAPI/">
 <atom:link href="https://blog.fuyiran.link/feed/Technology/47.html" rel="self" type="application/rss+xml" />
 <language>zh-CN</language>
 <description>介绍：Flare ，一款在性能、数据安全、美观界面以及用户体验上都经过深思熟虑的书签导航。特点：性能优势：与其前身 Flame 相比，Flare在性能方面有着明显的优势。无论是小到10M的容器镜...</description>
-<lastBuildDate>Thu, 01 Jan 1970 08:00:00 +0800</lastBuildDate>
-<pubDate>Thu, 01 Jan 1970 08:00:00 +0800</pubDate>
+<lastBuildDate>Thu, 11 Apr 2024 19:42:24 +0800</lastBuildDate>
+<pubDate>Thu, 11 Apr 2024 19:42:24 +0800</pubDate>
+<item>
+<title>bitoya</title>
+<link>https://blog.fuyiran.link/Technology/47.html#comment-10</link>
+<guid>https://blog.fuyiran.link/Technology/47.html#comment-10</guid>
+<pubDate>Thu, 11 Apr 2024 19:42:24 +0800</pubDate>
+<dc:creator>bitoya</dc:creator>
+<description><![CDATA[赞一个，大佬博客很漂亮哦]]></description>
+<content:encoded xml:lang="zh-CN"><![CDATA[
+<p>赞一个，大佬博客很漂亮哦</p>
+]]></content:encoded>
+<comments>https://blog.fuyiran.link/Technology/47.html#comment-10#comments</comments>
+</item>
 </channel>
 </rss>
